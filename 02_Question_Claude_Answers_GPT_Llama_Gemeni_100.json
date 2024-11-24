@@ -1,0 +1,902 @@
+[
+    {
+        "subject": "Multivariate statistics and Principal Component Analysis",
+        "Question": "Which of the following is NOT a key assumption or property of Principal Component Analysis?",
+        "Options": "A. The principal components are orthogonal to each other\nB. The first principal component captures the maximum variance in the data\nC. The principal components are linearly dependent on the original variables\nD. The sum of the variances of the principal components equals the total variance of the original variables",
+        "Model_Claude_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Non-parametric methods and Bootstrap methods",
+        "Question": "Which of the following statements best describes the primary advantage of using bootstrap methods in non-parametric settings?",
+        "Options": "A. Bootstrap methods provide a way to estimate the sampling distribution of a statistic without making distributional assumptions.\nB. Bootstrap methods are more computationally efficient than traditional non-parametric methods.\nC. Bootstrap methods always produce more accurate results than parametric methods.\nD. Bootstrap methods eliminate the need for hypothesis testing in non-parametric settings.",
+        "Model_Claude_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Regression analysis and Generalized linear models",
+        "Question": "In the context of insurance claims modeling using generalized linear models, which of the following combinations of model components would be most appropriate for handling the typically skewed and non-negative nature of claim amounts?",
+        "Options": "A. Gaussian distribution with log link function\nB. Poisson distribution with identity link function\nC. Gamma distribution with log link function\nD. Inverse Gaussian distribution with inverse squared link function",
+        "Model_Claude_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Hypothesis testing and Non-parametric tests",
+        "Question": "Which of the following statements best describes the primary advantage of non-parametric tests over parametric tests in hypothesis testing?",
+        "Options": "A. Non-parametric tests are more powerful than parametric tests\nB. Non-parametric tests are more robust to violations of assumptions\nC. Non-parametric tests are easier to compute and interpret\nD. Non-parametric tests are more sensitive to outliers",
+        "Model_Claude_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Survival analysis and Hazard functions",
+        "Question": "Which of the following statements best describes the theoretical implication of a decreasing hazard function in survival analysis?",
+        "Options": "A. The probability of an event occurring increases over time, given that it has not occurred yet.\nB. The risk of an event remains constant throughout the observation period.\nC. The likelihood of an event occurring decreases as the duration of survival increases.\nD. The hazard function provides no information about the underlying survival distribution.",
+        "Model_Claude_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Experimental design and Factorial designs",
+        "Question": "In factorial designs, which principle allows the estimation of main effects independently of other factors, provided the design is balanced and the factors are fixed?",
+        "Options": "A. Principle of Randomization\nB. Principle of Blocking\nC. Principle of Orthogonality\nD. Principle of Replication",
+        "Model_Claude_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Survival analysis and Kaplan-Meier estimator",
+        "Question": "Which of the following statements best describes the fundamental assumption underlying the Kaplan-Meier estimator?",
+        "Options": "A. The censoring mechanism is independent of the survival times\nB. The hazard function remains constant over time\nC. The survival function follows a Weibull distribution\nD. The censoring times are normally distributed",
+        "Model_Claude_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Regression analysis and Heteroscedasticity",
+        "Question": "Which of the following statements best describes the impact of heteroscedasticity on the efficiency of ordinary least squares (OLS) estimators in regression analysis?",
+        "Options": "A. Heteroscedasticity leads to biased and inconsistent OLS estimators.\nB. Heteroscedasticity does not affect the unbiasedness of OLS estimators but results in inefficient estimators.\nC. Heteroscedasticity improves the efficiency of OLS estimators compared to homoscedastic errors.\nD. Heteroscedasticity has no impact on the efficiency of OLS estimators.",
+        "Model_Claude_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B.",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Bayesian inference and Posterior updating",
+        "Question": "In Bayesian inference, posterior updating involves combining prior beliefs with new data to update the probability distribution of a parameter. Which of the following best describes a real-world application of this concept?",
+        "Options": "A. Updating the estimated probability of a patient having a disease based on a positive test result\nB. Calculating the likelihood of a hypothesis given a set of observed data points\nC. Determining the optimal decision based on expected utility and prior probabilities\nD. Estimating the true mean of a population using a sample mean and known population variance",
+        "Model_Claude_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Experimental design and Response surface methodology",
+        "Question": "Which of the following is NOT a key assumption in Response Surface Methodology (RSM) when used for experimental design?",
+        "Options": "A. The response variable is a continuous function of the input factors\nB. The input factors are categorical variables with no specific order\nC. The response surface can be approximated by a low-order polynomial model\nD. The goal is to optimize the response variable within the experimental region",
+        "Model_Claude_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Survival analysis and Hazard functions",
+        "Question": "In the context of survival analysis, which of the following statements best describes the relationship between the hazard function and real-world applications, such as predicting customer churn or analyzing patient survival times?",
+        "Options": "A. The hazard function represents the instantaneous rate of failure at a given time, conditional on survival up to that point, and is useful for identifying critical time periods when interventions may be most effective.\nB. The hazard function is the cumulative probability of failure over time and is used to estimate the overall risk of an event occurring within a specific time frame.\nC. The hazard function is the reciprocal of the survival function and is employed to determine the median survival time of a population.\nD. The hazard function is a measure of central tendency in survival analysis and is used to compare the average survival times between different groups.",
+        "Model_Claude_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Hypothesis testing and Power analysis",
+        "Question": "Which of the following is the primary purpose of conducting a power analysis in the context of hypothesis testing?",
+        "Options": "A. To determine the optimal sample size required to detect a desired effect size with a specified level of significance and power\nB. To calculate the probability of rejecting a true null hypothesis\nC. To estimate the magnitude of the effect size in the population\nD. To assess the robustness of the statistical test to violations of assumptions",
+        "Model_Claude_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Bayesian inference and Conjugate priors",
+        "Question": "Which of the following is NOT a conjugate prior for the given likelihood function?",
+        "Options": "A. Beta distribution for Bernoulli likelihood\nB. Gamma distribution for Poisson likelihood\nC. Dirichlet distribution for Categorical likelihood\nD. Normal distribution for Binomial likelihood",
+        "Model_Claude_Answer": "D",
+        "GPT_answer": "D",
+        "Llama_answer": "D.",
+        "Gemeni_answer": "D"
+    },
+    {
+        "subject": "Experimental design and Blocking and confounding",
+        "Question": "Which of the following statements best describes the relationship between blocking and confounding in experimental design?",
+        "Options": "A. Blocking eliminates confounding by creating homogeneous subgroups, ensuring treatment effects are not influenced by extraneous factors.\nB. Blocking introduces confounding by creating heterogeneous subgroups, making it difficult to distinguish treatment effects from block effects.\nC. Blocking reduces confounding by creating orthogonal subgroups, allowing for independent estimation of treatment and block effects.\nD. Blocking and confounding are unrelated concepts in experimental design, as blocking focuses on precision while confounding focuses on bias.",
+        "Model_Claude_Answer": "C",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Gibbs sampling",
+        "Question": "Which of the following statements best describes the role of Gibbs sampling in overcoming the limitations of the Metropolis-Hastings algorithm for high-dimensional parameter spaces?",
+        "Options": "A. Gibbs sampling eliminates the need for proposal distributions by directly sampling from the full conditional distributions of each parameter.\nB. Gibbs sampling improves the efficiency of the Metropolis-Hastings algorithm by adaptively adjusting the proposal distribution based on the target distribution.\nC. Gibbs sampling overcomes the curse of dimensionality by decomposing the high-dimensional target distribution into a series of lower-dimensional conditional distributions.\nD. Gibbs sampling enhances the convergence rate of the Metropolis-Hastings algorithm by leveraging the geometric ergodicity of the Markov chain.",
+        "Model_Claude_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "A",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Metropolis-Hastings algorithm",
+        "Question": "What is the key difference between the Metropolis-Hastings algorithm and the basic Metropolis algorithm in Markov Chain Monte Carlo methods?",
+        "Options": "A. The Metropolis-Hastings algorithm uses a symmetric proposal distribution, while the Metropolis algorithm allows for asymmetric proposal distributions.\nB. The Metropolis-Hastings algorithm introduces an acceptance ratio that accounts for the asymmetry in the proposal distribution, while the Metropolis algorithm assumes a symmetric proposal distribution.\nC. The Metropolis-Hastings algorithm is only applicable to discrete state spaces, while the Metropolis algorithm can be applied to both discrete and continuous state spaces.\nD. The Metropolis-Hastings algorithm always accepts the proposed move, while the Metropolis algorithm includes an acceptance probability.",
+        "Model_Claude_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Multivariate statistics and Canonical correlations",
+        "Question": "Which of the following is true about canonical correlations in the context of multivariate statistics?",
+        "Options": "A. They measure the degree of association between two sets of variables while accounting for the correlations within each set\nB. They are used to determine the optimal number of clusters in a dataset\nC. They are equivalent to multiple regression coefficients when there is only one dependent variable\nD. They are always positive and range from 0 to 1",
+        "Model_Claude_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Regression analysis and Heteroscedasticity",
+        "Question": "Which of the following statements about heteroscedasticity in regression analysis is true?",
+        "Options": "A. Heteroscedasticity always leads to biased coefficient estimates.\nB. Heteroscedasticity can be detected by examining the residual plots.\nC. Heteroscedasticity does not affect the efficiency of the ordinary least squares (OLS) estimator.\nD. Heteroscedasticity is a desirable property in regression analysis.",
+        "Model_Claude_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Survival analysis and Hazard functions",
+        "Question": "Which of the following statements about hazard functions in survival analysis is true?",
+        "Options": "A. The hazard function represents the instantaneous rate of failure at a specific time point, given survival up to that point.\nB. The hazard function is always constant over time in survival analysis.\nC. The hazard function is the same as the survival function in survival analysis.\nD. The hazard function is the cumulative probability of failure up to a specific time point in survival analysis.",
+        "Model_Claude_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Hypothesis testing and Non-parametric tests",
+        "Question": "Which of the following statements best describes the theoretical implication of using non-parametric tests in hypothesis testing when the underlying population distribution is unknown?",
+        "Options": "A. Non-parametric tests are more powerful than parametric tests in detecting differences between groups.\nB. Non-parametric tests are more robust to violations of assumptions, making them suitable for a wider range of data.\nC. Non-parametric tests are less efficient than parametric tests, requiring larger sample sizes to achieve the same level of statistical power.\nD. Non-parametric tests are only applicable when the data is normally distributed.",
+        "Model_Claude_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Non-parametric methods and Kernel density estimation",
+        "Question": "Which of the following statements about the bandwidth parameter in kernel density estimation is TRUE?",
+        "Options": "A. A larger bandwidth always results in a smoother density estimate.\nB. The optimal bandwidth is always equal to the standard deviation of the data.\nC. The choice of bandwidth does not affect the bias-variance tradeoff in the density estimate.\nD. The optimal bandwidth depends on the sample size and the underlying density being estimated.",
+        "Model_Claude_Answer": "D",
+        "GPT_answer": "D",
+        "Llama_answer": "D",
+        "Gemeni_answer": "D"
+    },
+    {
+        "subject": "Multivariate statistics and Principal Component Analysis",
+        "Question": "In the context of dimensionality reduction and feature extraction, which of the following statements best describes the primary objective of Principal Component Analysis (PCA) when applied to high-dimensional datasets in fields such as image processing, bioinformatics, and finance?",
+        "Options": "A. PCA aims to identify the principal components that maximize the covariance between the original variables while preserving the total variance in the data.\nB. PCA seeks to find a set of orthogonal linear combinations of the original variables that capture the maximum amount of variance in the data.\nC. PCA focuses on identifying the principal components that minimize the reconstruction error when projecting the data onto a lower-dimensional subspace.\nD. PCA aims to discover the principal components that maximize the correlation between the original variables while minimizing the total variance in the data.",
+        "Model_Claude_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Bayesian inference and Conjugate priors",
+        "Question": "Which of the following statements best describes the relationship between a prior distribution and its conjugate prior in Bayesian inference?",
+        "Options": "A. The conjugate prior is always a more informative distribution than the prior distribution.\nB. The posterior distribution obtained by combining the prior distribution with the likelihood function belongs to the same family as the conjugate prior.\nC. The conjugate prior is a distribution that is easier to sample from than the prior distribution.\nD. The choice of the conjugate prior depends on the size of the dataset being analyzed.",
+        "Model_Claude_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Non-parametric methods and Spline regression",
+        "Question": "In the context of non-parametric regression, which property of spline regression allows it to capture complex relationships in real-world applications such as modeling economic trends or analyzing medical data?",
+        "Options": "A. Spline regression's ability to fit a single polynomial function to the entire dataset\nB. The use of a fixed number of knots regardless of the complexity of the data\nC. The piecewise nature of spline functions, which enables local flexibility\nD. Spline regression's reliance on a pre-specified functional form for the relationship between variables",
+        "Model_Claude_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Hypothesis testing and Non-parametric tests",
+        "Question": "Which of the following statements best describes the theoretical implications of using non-parametric tests in hypothesis testing?",
+        "Options": "A. Non-parametric tests are more powerful than parametric tests when the assumptions of the latter are violated\nB. Non-parametric tests are less affected by outliers and are more robust to violations of normality\nC. Non-parametric tests do not rely on the Central Limit Theorem for their validity\nD. Non-parametric tests are more sensitive to the shape of the distribution than to the parameters of the distribution",
+        "Model_Claude_Answer": "D",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Non-parametric methods and Spline regression",
+        "Question": "Which of the following statements about spline regression is true?",
+        "Options": "A. Spline regression fits a single polynomial function to the entire range of data.\nB. Spline regression is a parametric method that assumes a specific functional form.\nC. Spline regression joins piecewise polynomial functions at knots to create a smooth curve.\nD. Spline regression is more prone to overfitting compared to linear regression.",
+        "Model_Claude_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Gibbs sampling",
+        "Question": "Which of the following statements best describes the role of the stationary distribution in Gibbs sampling?",
+        "Options": "A. The stationary distribution is the initial distribution used to start the Gibbs sampling process.\nB. The stationary distribution is the target distribution that Gibbs sampling aims to approximate through iterative sampling.\nC. The stationary distribution is a measure of the convergence speed of the Gibbs sampler.\nD. The stationary distribution is a parameter that controls the step size in the Gibbs sampling algorithm.",
+        "Model_Claude_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Time series analysis and Stationarity",
+        "Question": "Which of the following statements about stationarity in time series analysis is true?",
+        "Options": "A. A stationary time series can have a time-varying mean and variance.\nB. Differencing a non-stationary time series always results in a stationary time series.\nC. A time series with a deterministic trend cannot be stationary.\nD. A stationary time series exhibits constant mean, variance, and autocovariance over time.",
+        "Model_Claude_Answer": "D",
+        "GPT_answer": "D",
+        "Llama_answer": "D",
+        "Gemeni_answer": "D"
+    },
+    {
+        "subject": "Survival analysis and Cox proportional hazards model",
+        "Question": "Which of the following statements best describes the key assumption underlying the Cox proportional hazards model?",
+        "Options": "A. The hazard functions for any two individuals are proportional and constant over time\nB. The survival times follow a Weibull distribution\nC. The covariates have a multiplicative effect on the hazard function\nD. The baseline hazard function is assumed to be constant over time",
+        "Model_Claude_Answer": "A",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Bayesian inference and Posterior updating",
+        "Question": "In Bayesian inference, what does posterior updating achieve as new data is incorporated?",
+        "Options": "A. Increases the variance of the posterior distribution\nB. Shifts the posterior distribution closer to the prior distribution\nC. Reduces the influence of the prior on the posterior distribution over time\nD. Increases the dependence of the posterior on the choice of prior",
+        "Model_Claude_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Experimental design and Randomization techniques",
+        "Question": "In experimental design, what is the primary purpose of randomization techniques such as block randomization or stratified randomization?",
+        "Options": "A. To ensure equal sample sizes across treatment groups\nB. To minimize the overall variability in the response variable\nC. To eliminate potential confounding factors and isolate treatment effects\nD. To guarantee that the experiment can be replicated with identical results",
+        "Model_Claude_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Metropolis-Hastings algorithm",
+        "Question": "Which statement best describes the role of the proposal distribution in the Metropolis-Hastings algorithm?",
+        "Options": "A. It determines the stationary distribution of the Markov chain.\nB. It is used to accept or reject the proposed moves in the Markov chain.\nC. It generates candidate samples for the Markov chain to explore the target distribution.\nD. It defines the convergence rate of the Markov chain to the target distribution.",
+        "Model_Claude_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Experimental design and Randomization techniques",
+        "Question": "Which of the following best describes the primary purpose of randomization in experimental design?",
+        "Options": "A. To ensure that treatment groups are balanced on all potential confounding variables\nB. To eliminate the need for blinding in the experiment\nC. To introduce deliberate bias into the treatment assignment process\nD. To create groups that are as heterogeneous as possible",
+        "Model_Claude_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Regression analysis and Model selection criteria",
+        "Question": "Which of the following statements best describes the role of model selection criteria in regression analysis?",
+        "Options": "A. They are used to assess the goodness-of-fit of a model, with lower values indicating better fit.\nB. They help balance the trade-off between model complexity and explanatory power.\nC. They are used to test the significance of individual predictor variables in the model.\nD. They determine the optimal number of iterations required for convergence in iterative regression techniques.",
+        "Model_Claude_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Time series analysis and Stationarity",
+        "Question": "Which of the following statements best describes the theoretical implications of stationarity in time series analysis?",
+        "Options": "A. Stationarity implies that the mean and variance of a time series are constant over time, enabling reliable forecasting.\nB. Stationarity assumes that the covariance between observations depends only on the time lag between them, simplifying model estimation.\nC. Stationarity requires that the joint probability distribution of the time series remains unchanged when shifted in time, ensuring model stability.\nD. Stationarity necessitates that the autocorrelation function of the time series decays rapidly to zero, indicating short-term memory.",
+        "Model_Claude_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Statistical learning theory and Regularization techniques",
+        "Question": "Which of the following statements best describes the primary goal of regularization techniques in statistical learning theory?",
+        "Options": "A. To reduce the complexity of the model by introducing additional constraints or penalties on the model parameters\nB. To increase the complexity of the model by introducing additional constraints or penalties on the model parameters\nC. To eliminate the bias-variance tradeoff in model selection\nD. To ensure that the model perfectly fits the training data",
+        "Model_Claude_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Survival analysis and Kaplan-Meier estimator",
+        "Question": "Which of the following statements best describes the key assumption underlying the Kaplan-Meier estimator?",
+        "Options": "A. The censoring mechanism is independent of the survival times.\nB. The survival times follow a Weibull distribution.\nC. The hazard function remains constant over time.\nD. The censoring times are fixed and predetermined.",
+        "Model_Claude_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Convergence diagnostics",
+        "Question": "Which of the following is NOT a commonly used convergence diagnostic for assessing the mixing and stationarity of Markov chains in MCMC methods?",
+        "Options": "A. Geweke diagnostic\nB. Gelman-Rubin diagnostic\nC. Heidelberger and Welch diagnostic\nD. Ljung-Box diagnostic",
+        "Model_Claude_Answer": "D",
+        "GPT_answer": "D",
+        "Llama_answer": "D",
+        "Gemeni_answer": "D"
+    },
+    {
+        "subject": "Bayesian inference and Posterior updating",
+        "Question": "When performing Bayesian inference, what is the primary purpose of posterior updating?",
+        "Options": "A. To incorporate new evidence and update prior beliefs about the parameters\nB. To estimate the likelihood function based on the observed data\nC. To calculate the marginal likelihood of the data given the model\nD. To determine the optimal prior distribution for the parameters",
+        "Model_Claude_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Survival analysis and Censoring",
+        "Question": "Which of the following statements accurately describes the impact of censoring on the Kaplan-Meier estimator in survival analysis?",
+        "Options": "A. Censoring leads to an overestimation of the survival function\nB. Censoring leads to an underestimation of the survival function\nC. Censoring has no effect on the estimation of the survival function\nD. The impact of censoring on the survival function estimation depends on the type of censoring",
+        "Model_Claude_Answer": "D",
+        "GPT_answer": "D",
+        "Llama_answer": "D",
+        "Gemeni_answer": "**D**"
+    },
+    {
+        "subject": "Multivariate statistics and Factor analysis",
+        "Question": "In factor analysis, which of the following is true about the communality of a variable?",
+        "Options": "A. It represents the total variance explained by all factors for a variable\nB. It is always greater than the variable's total variance\nC. It equals the sum of the variable's unique variance and error variance\nD. It is the same as the variable's factor loading on a single factor",
+        "Model_Claude_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Statistical learning theory and Overfitting and underfitting",
+        "Question": "Which of the following statements best describes the theoretical implications of overfitting and underfitting in statistical learning theory?",
+        "Options": "A. Overfitting leads to high bias and low variance, while underfitting leads to low bias and high variance.\nB. Overfitting and underfitting have no impact on the bias-variance tradeoff in statistical learning.\nC. Overfitting leads to low bias and high variance, while underfitting leads to high bias and low variance.\nD. Overfitting and underfitting are not related to the concept of bias and variance in statistical learning theory.",
+        "Model_Claude_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Experimental design and Randomization techniques",
+        "Question": "In the context of A/B testing for a new recommendation algorithm on an e-commerce platform, which of the following randomization techniques would be most appropriate to minimize the impact of confounding variables and ensure the validity of the experiment?",
+        "Options": "A. Simple random sampling\nB. Stratified random sampling\nC. Cluster random sampling\nD. Systematic random sampling",
+        "Model_Claude_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Regression analysis and Model selection criteria",
+        "Question": "When selecting the best regression model for predicting housing prices based on various features, which model selection criterion is most appropriate if the goal is to minimize prediction error on new, unseen data?",
+        "Options": "A. Adjusted R-squared\nB. Akaike Information Criterion (AIC)\nC. Bayesian Information Criterion (BIC)\nD. Mallow's Cp",
+        "Model_Claude_Answer": "C",
+        "GPT_answer": "B",
+        "Llama_answer": "A",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Bayesian inference and Bayes factors",
+        "Question": "Which of the following statements best describes the relationship between Bayes factors and the strength of evidence for competing hypotheses in Bayesian inference?",
+        "Options": "A. Bayes factors quantify the relative likelihood of the data under each hypothesis, providing a continuous measure of evidence.\nB. Bayes factors are used to determine the prior probabilities of competing hypotheses before considering the data.\nC. Bayes factors are employed to calculate the posterior probabilities of hypotheses without considering the prior probabilities.\nD. Bayes factors are a measure of the complexity of competing hypotheses, with higher values indicating more parsimonious models.",
+        "Model_Claude_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Bayesian inference and Bayes factors",
+        "Question": "Which of the following is true about the theoretical implications of Bayes factors in Bayesian inference?",
+        "Options": "A. Bayes factors provide a measure of the evidence for one model over another, but cannot be used for model selection.\nB. Bayes factors are sensitive to the choice of prior distributions, which can lead to different conclusions depending on the priors used.\nC. Bayes factors are not affected by the complexity of the models being compared, making them ideal for comparing models with different numbers of parameters.\nD. Bayes factors can be used to quantify the support for the null hypothesis, but they cannot provide evidence against it.",
+        "Model_Claude_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Multivariate statistics and Canonical correlations",
+        "Question": "Which of the following statements best describes the primary objective of canonical correlation analysis?",
+        "Options": "A. To find linear combinations of variables in one set that are maximally correlated with linear combinations of variables in another set\nB. To identify clusters of observations based on their similarities across multiple variables\nC. To determine the optimal number of principal components to retain in a principal component analysis\nD. To assess the goodness-of-fit of a structural equation model with latent variables",
+        "Model_Claude_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Non-parametric methods and Bootstrap methods",
+        "Question": "Which of the following statements best describes the fundamental principle behind bootstrap methods in non-parametric statistics?",
+        "Options": "A. Bootstrap methods rely on the central limit theorem to approximate the sampling distribution of a statistic.\nB. Bootstrap methods assume that the data follows a specific parametric distribution.\nC. Bootstrap methods involve repeatedly resampling the original data with replacement to estimate the variability of a statistic.\nD. Bootstrap methods are used to test hypotheses about population parameters.",
+        "Model_Claude_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Sampling efficiency",
+        "Question": "In the context of Markov Chain Monte Carlo methods, which of the following best describes the concept of sampling efficiency?",
+        "Options": "A. The rate at which the Markov chain converges to the target distribution\nB. The number of iterations required to obtain a sufficient number of independent samples\nC. The ability of the Markov chain to explore the entire parameter space\nD. The proportion of accepted proposals in the Metropolis-Hastings algorithm",
+        "Model_Claude_Answer": "A",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Time series analysis and Seasonality",
+        "Question": "Which of the following statements best describes the concept of seasonality in time series analysis?",
+        "Options": "A. Seasonality refers to the presence of a trend component in a time series\nB. Seasonality is a characteristic of time series where the data experiences regular and predictable changes that recur every calendar year\nC. Seasonality is a random, unpredictable fluctuation in a time series\nD. Seasonality refers to the residuals obtained after removing the trend and cyclical components from a time series",
+        "Model_Claude_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Time series analysis and Spectral analysis",
+        "Question": "Which of the following is not a key assumption of spectral analysis in time series?",
+        "Options": "A. The time series is stationary\nB. The time series has a finite variance\nC. The time series is ergodic\nD. The time series follows a normal distribution",
+        "Model_Claude_Answer": "D",
+        "GPT_answer": "D",
+        "Llama_answer": "D",
+        "Gemeni_answer": "D"
+    },
+    {
+        "subject": "Regression analysis and Model selection criteria",
+        "Question": "Which of the following statements best describes the theoretical implications of using model selection criteria like AIC or BIC in regression analysis?",
+        "Options": "A. Model selection criteria always lead to the most parsimonious model with the highest predictive accuracy.\nB. Model selection criteria balance the trade-off between model complexity and goodness of fit to the data.\nC. Model selection criteria are unbiased estimators of the true underlying model's performance on new data.\nD. Model selection criteria are guaranteed to select the true underlying model given enough data.",
+        "Model_Claude_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Bayesian inference and Prior distributions",
+        "Question": "In Bayesian inference, how does the choice of prior distribution impact the posterior distribution when the sample size is large?",
+        "Options": "A. The posterior is dominated by the prior, regardless of the data\nB. The posterior is influenced equally by the prior and the data\nC. The posterior is dominated by the data, and the impact of the prior diminishes\nD. The posterior is independent of the prior when the sample size is large",
+        "Model_Claude_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Experimental design and Factorial designs",
+        "Question": "In factorial designs, what is the primary advantage of using a higher-order interaction as the error term?",
+        "Options": "A. It increases the power of the main effects tests\nB. It allows for the estimation of more complex treatment structures\nC. It reduces the cost of the experiment by requiring fewer runs\nD. It provides a more precise estimate of the experimental error",
+        "Model_Claude_Answer": "D",
+        "GPT_answer": "D",
+        "Llama_answer": "B",
+        "Gemeni_answer": "D"
+    },
+    {
+        "subject": "Survival analysis and Cox proportional hazards model",
+        "Question": "Which of the following statements best describes the key assumption of the Cox proportional hazards model?",
+        "Options": "A. The hazard functions for any two individuals are proportional and constant over time\nB. The survival functions for any two individuals are proportional and constant over time\nC. The hazard ratio between any two individuals is dependent on time\nD. The baseline hazard function is assumed to follow a specific parametric distribution",
+        "Model_Claude_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Multivariate statistics and Principal Component Analysis",
+        "Question": "Which of the following statements about Principal Component Analysis (PCA) is true in the context of multivariate statistics?",
+        "Options": "A. PCA always reduces the dimensionality of the data while preserving all the original variance.\nB. The principal components are always orthogonal to each other, but they may not capture the maximum variance in the data.\nC. The first principal component captures the maximum variance in the data, and each subsequent component captures the remaining variance in decreasing order.\nD. PCA is an inferential technique used to test hypotheses about the population parameters based on sample data.",
+        "Model_Claude_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Hypothesis testing and Non-parametric tests",
+        "Question": "Which of the following is NOT an assumption required for most non-parametric tests in hypothesis testing?",
+        "Options": "A. The samples are representative of their respective populations\nB. The samples are independent of each other\nC. The data follow a specific probability distribution\nD. The variables under study are measured on at least an ordinal scale",
+        "Model_Claude_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "B",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Survival analysis and Kaplan-Meier estimator",
+        "Question": "Which of the following statements about the Kaplan-Meier estimator is true?",
+        "Options": "A. It assumes that censoring is independent of the event time.\nB. It is a parametric method for estimating survival probabilities.\nC. It can only handle right-censored data.\nD. It is biased when the sample size is large.",
+        "Model_Claude_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Experimental design and Factorial designs",
+        "Question": "In factorial designs, which of the following is true about the main effect of a factor?",
+        "Options": "A. It is the average effect of a factor, averaged over all levels of the other factors\nB. It is the difference in response between the levels of a factor at a fixed level of the other factors\nC. It is the effect of a factor that is independent of the levels of the other factors\nD. It is always larger than any interaction effect involving that factor",
+        "Model_Claude_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Experimental design and Factorial designs",
+        "Question": "In a factorial design, which of the following is true about the interaction effect between factors?",
+        "Options": "A. It represents the average effect of each factor, ignoring the levels of other factors\nB. It is always smaller in magnitude compared to main effects\nC. It can be interpreted as the difference in the effect of one factor at different levels of another factor\nD. It is only present in designs with more than two factors",
+        "Model_Claude_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Experimental design and Response surface methodology",
+        "Question": "Which of the following statements best describes the primary goal of response surface methodology in experimental design?",
+        "Options": "A. To identify the optimal settings of factors that maximize or minimize the response variable\nB. To assess the significance of individual factors on the response variable\nC. To determine the interaction effects between factors on the response variable\nD. To estimate the variability of the response variable across different experimental runs",
+        "Model_Claude_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Experimental design and Blocking and confounding",
+        "Question": "In the context of experimental design, what is the primary purpose of blocking?",
+        "Options": "A. To reduce the effect of confounding variables on the response variable\nB. To increase the variability of the response variable within each treatment group\nC. To eliminate the need for randomization in assigning experimental units to treatments\nD. To ensure that the treatment effects are not influenced by the order of application",
+        "Model_Claude_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Time series analysis and Spectral analysis",
+        "Question": "Which of the following statements best describes the relationship between the spectral density function and the autocovariance function of a stationary time series?",
+        "Options": "A. The spectral density function and the autocovariance function are unrelated.\nB. The spectral density function is the Fourier transform of the autocovariance function.\nC. The autocovariance function is the inverse Fourier transform of the spectral density function.\nD. Both B and C are true.",
+        "Model_Claude_Answer": "D",
+        "GPT_answer": "D",
+        "Llama_answer": "D",
+        "Gemeni_answer": "D"
+    },
+    {
+        "subject": "Multivariate statistics and Principal Component Analysis",
+        "Question": "Which of the following statements best describes the theoretical implication of Principal Component Analysis in the context of multivariate statistics?",
+        "Options": "A. PCA reduces the dimensionality of the data while preserving the maximum amount of variance in the original variables.\nB. PCA identifies the underlying latent variables that explain the covariance structure among the observed variables.\nC. PCA determines the optimal linear combination of variables that minimizes the total variance in the dataset.\nD. PCA creates a set of orthogonal variables that are uncorrelated with each other and explain equal amounts of variance.",
+        "Model_Claude_Answer": "B",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Gemeni_answer": "**A**"
+    },
+    {
+        "subject": "Non-parametric methods and Spline regression",
+        "Question": "Which of the following is NOT an advantage of using spline regression compared to other non-parametric regression methods?",
+        "Options": "A. Spline regression can capture local features of the data without overfitting.\nB. Spline regression is computationally efficient and easy to implement.\nC. Spline regression provides a closed-form solution for the optimal knot locations.\nD. Spline regression can handle both smooth and non-smooth relationships between variables.",
+        "Model_Claude_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Time series analysis and Seasonality",
+        "Question": "Which of the following statements about seasonality in time series analysis is true?",
+        "Options": "A. Seasonality can only be present in quarterly time series data.\nB. Seasonality is always modeled using dummy variables for each season.\nC. Seasonality can be multiplicative or additive depending on the relationship between the seasonal component and the trend.\nD. Seasonality is a non-repeating pattern in a time series.",
+        "Model_Claude_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Sampling efficiency",
+        "Question": "Which of the following is NOT a factor that influences the sampling efficiency of a Markov Chain Monte Carlo algorithm?",
+        "Options": "A. The choice of proposal distribution\nB. The dimensionality of the parameter space\nC. The number of iterations used in the algorithm\nD. The initial values of the Markov chain",
+        "Model_Claude_Answer": "D",
+        "GPT_answer": "C",
+        "Llama_answer": "A",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Bayesian inference and Prior distributions",
+        "Question": "In Bayesian inference for clinical trials, which of the following best describes the role of prior distributions in incorporating external information?",
+        "Options": "A. Priors are used to replace the likelihood function in Bayesian analysis\nB. Priors are used to quantify and incorporate pre-existing knowledge or beliefs\nC. Priors are used to eliminate the need for collecting new data\nD. Priors are used to ensure the posterior distribution is always normally distributed",
+        "Model_Claude_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Multivariate statistics and Factor analysis",
+        "Question": "Which of the following is true about factor analysis in the context of multivariate statistics?",
+        "Options": "A. Factor analysis is used to identify the underlying dimensions that explain the correlations among a set of variables.\nB. Factor analysis is a supervised learning technique that predicts a dependent variable based on independent variables.\nC. Factor analysis is a method for comparing the means of two or more groups on a single dependent variable.\nD. Factor analysis is a technique for visualizing the relationships between variables in a high-dimensional space.",
+        "Model_Claude_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Time series analysis and ARIMA models",
+        "Question": "Which of the following statements best describes the theoretical implication of the invertibility condition in an ARIMA model?",
+        "Options": "A. It ensures that the model can be expressed as a linear combination of past observations and errors.\nB. It guarantees that the model has a unique stationary solution.\nC. It implies that the model can be represented as a finite order moving average (MA) process.\nD. It restricts the parameter space to ensure the existence of a causal representation of the model.",
+        "Model_Claude_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "D",
+        "Gemeni_answer": "D"
+    },
+    {
+        "subject": "Time series analysis and Stationarity",
+        "Question": "Which of the following is NOT a requirement for a time series to be considered stationary?",
+        "Options": "A. The mean of the series remains constant over time.\nB. The variance of the series remains constant over time.\nC. The covariance between any two observations depends only on the time lag between them.\nD. The series exhibits a clear trend or seasonality.",
+        "Model_Claude_Answer": "D",
+        "GPT_answer": "D",
+        "Llama_answer": "D",
+        "Gemeni_answer": "D"
+    },
+    {
+        "subject": "Experimental design and Blocking and confounding",
+        "Question": "Which of the following statements best describes the relationship between blocking and confounding in experimental design?",
+        "Options": "A. Blocking always eliminates confounding by balancing out the effects of nuisance factors.\nB. Blocking can introduce confounding if the blocking factor interacts with the treatment factor.\nC. Blocking and confounding are independent concepts that do not influence each other.\nD. Blocking is a technique used to deliberately introduce confounding in an experiment.",
+        "Model_Claude_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Multivariate statistics and Multivariate normal distribution",
+        "Question": "Which of the following statements about the multivariate normal distribution is true?",
+        "Options": "A. The marginal distributions of a multivariate normal distribution are always univariate normal.\nB. The conditional distributions of a multivariate normal distribution are always univariate normal.\nC. The multivariate normal distribution is fully characterized by its mean vector and covariance matrix.\nD. The multivariate normal distribution assumes independence among the random variables.",
+        "Model_Claude_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Bayesian inference and Prior distributions",
+        "Question": "In Bayesian inference for clinical trials, which of the following is a key advantage of using informative prior distributions based on historical data or expert knowledge?",
+        "Options": "A. Improved computational efficiency due to reduced sample size requirements\nB. Increased robustness to model misspecification and outliers in the data\nC. Enhanced ability to incorporate and leverage relevant external information\nD. Guaranteed unbiased estimates of treatment effects and other parameters",
+        "Model_Claude_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Regression analysis and Generalized linear models",
+        "Question": "In the context of insurance claims modeling using generalized linear models, which of the following distributions is most appropriate for the response variable representing the number of claims per policyholder?",
+        "Options": "A. Normal distribution\nB. Gamma distribution\nC. Poisson distribution\nD. Inverse Gaussian distribution",
+        "Model_Claude_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Experimental design and Factorial designs",
+        "Question": "Which of the following is true about factorial designs in experimental design?",
+        "Options": "A. Factorial designs allow testing of main effects only, not interactions\nB. Factorial designs require fewer runs than one-factor-at-a-time experiments\nC. Factorial designs cannot handle more than two factors simultaneously\nD. Factorial designs are less efficient than one-factor-at-a-time experiments",
+        "Model_Claude_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Bayesian inference and Posterior updating",
+        "Question": "Which of the following statements best describes the role of posterior updating in Bayesian inference?",
+        "Options": "A. Posterior updating combines the prior distribution with the likelihood function to obtain the posterior distribution, which represents the updated beliefs about the parameters after observing the data.\nB. Posterior updating involves using the posterior distribution from a previous analysis as the prior distribution for a new analysis, disregarding the likelihood function of the new data.\nC. Posterior updating is a process of iteratively updating the prior distribution without considering the observed data until convergence is reached.\nD. Posterior updating is a technique used to optimize the likelihood function by adjusting the prior distribution until the best fit to the data is obtained.",
+        "Model_Claude_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A.",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Hypothesis testing and Power analysis",
+        "Question": "Which of the following is true about the relationship between power and sample size in hypothesis testing?",
+        "Options": "A. Power is independent of sample size\nB. Increasing sample size always decreases power\nC. Larger sample sizes are associated with higher power\nD. Sample size has no impact on power",
+        "Model_Claude_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Bayesian inference and Posterior updating",
+        "Question": "In Bayesian inference, what is the primary purpose of posterior updating?",
+        "Options": "A. To calculate the likelihood of the observed data given the prior distribution\nB. To incorporate new evidence and update beliefs about the parameters of interest\nC. To determine the marginal likelihood of the model over all possible parameter values\nD. To compare the fit of different models using Bayes factors",
+        "Model_Claude_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Experimental design and Randomization techniques",
+        "Question": "In the context of experimental design, which of the following best describes the primary purpose of randomization techniques such as block randomization or stratified randomization?",
+        "Options": "A. To ensure that the treatment groups are balanced with respect to known prognostic factors\nB. To minimize the overall variability in the response variable across all treatment groups\nC. To eliminate potential confounding factors by randomly assigning them to treatment groups\nD. To increase the power of the statistical tests used to compare treatment groups",
+        "Model_Claude_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Regression analysis and Model selection criteria",
+        "Question": "When comparing regression models using different model selection criteria, which statement is most accurate?",
+        "Options": "A. AIC and BIC always select the same model for a given dataset\nB. AIC tends to favor more complex models compared to BIC\nC. BIC tends to favor more complex models compared to AIC\nD. AIC and BIC are not affected by the number of parameters in the model",
+        "Model_Claude_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Hypothesis testing and Non-parametric tests",
+        "Question": "Which of the following statements best describes the role of rank-based tests in non-parametric hypothesis testing?",
+        "Options": "A. Rank-based tests are used to compare the means of two or more populations when the data is not normally distributed.\nB. Rank-based tests are used to assess the goodness-of-fit of a hypothesized distribution to the observed data.\nC. Rank-based tests are used to determine the strength and direction of the association between two variables.\nD. Rank-based tests are used to test the equality of variances between two or more populations.",
+        "Model_Claude_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Hypothesis testing and Type I and Type II errors",
+        "Question": "Which of the following statements is true regarding Type I and Type II errors in hypothesis testing?",
+        "Options": "A. Type I error occurs when a true null hypothesis is rejected, while Type II error occurs when a false null hypothesis is not rejected.\nB. Type I error is denoted by \u03b1 (alpha) and Type II error is denoted by \u03b2 (beta), where \u03b1 + \u03b2 = 1.\nC. Decreasing the significance level (\u03b1) will increase the probability of a Type II error (\u03b2), holding other factors constant.\nD. Type II error is considered to be more serious than Type I error in all hypothesis testing scenarios.",
+        "Model_Claude_Answer": "A",
+        "GPT_answer": "C",
+        "Llama_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Regression analysis and Heteroscedasticity",
+        "Question": "In the context of regression analysis, which of the following best describes the impact of heteroscedasticity on the ordinary least squares (OLS) estimator?",
+        "Options": "A. Heteroscedasticity leads to biased and inconsistent OLS estimates.\nB. Heteroscedasticity results in unbiased but inefficient OLS estimates.\nC. Heteroscedasticity causes the OLS estimates to be both unbiased and efficient.\nD. Heteroscedasticity has no effect on the properties of the OLS estimator.",
+        "Model_Claude_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Hypothesis testing and Power analysis",
+        "Question": "In the context of hypothesis testing, what does power analysis primarily aim to determine?",
+        "Options": "A. The probability of rejecting a false null hypothesis\nB. The probability of failing to reject a true null hypothesis\nC. The minimum sample size required to detect an effect of a given size with a specified probability\nD. The significance level (\u03b1) for rejecting the null hypothesis",
+        "Model_Claude_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "A",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Regression analysis and Generalized linear models",
+        "Question": "In generalized linear models, what is the primary role of the link function?",
+        "Options": "A. To transform the response variable to achieve linearity with the predictors\nB. To model the relationship between the mean of the response variable and a linear combination of the predictors\nC. To ensure that the response variable follows a normal distribution\nD. To estimate the coefficients of the predictor variables",
+        "Model_Claude_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Time series analysis and Seasonality",
+        "Question": "Which of the following best describes the concept of seasonality in time series analysis?",
+        "Options": "A. Seasonality refers to the presence of a trend component in the time series data\nB. Seasonality is a characteristic of time series data where the mean is non-constant over time\nC. Seasonality is a pattern of periodic fluctuations in time series data related to calendar or temporal factors\nD. Seasonality occurs when the variance of the time series data changes over time",
+        "Model_Claude_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Hypothesis testing and Power analysis",
+        "Question": "In the context of clinical trials, how does power analysis inform the design and interpretation of hypothesis tests?",
+        "Options": "A. Power analysis determines the minimum sample size required to detect a clinically meaningful effect with a specified level of confidence.\nB. Power analysis calculates the probability of correctly rejecting the null hypothesis when it is actually false.\nC. Power analysis estimates the magnitude of the treatment effect that can be detected given a fixed sample size and significance level.\nD. All of the above.",
+        "Model_Claude_Answer": "D",
+        "GPT_answer": "D",
+        "Llama_answer": "D",
+        "Gemeni_answer": "D"
+    },
+    {
+        "subject": "Time series analysis and Spectral analysis",
+        "Question": "In spectral analysis of time series, which of the following statements is true about the relationship between the autocovariance function and the spectral density function?",
+        "Options": "A. The spectral density function is the Fourier transform of the autocovariance function.\nB. The autocovariance function is the inverse Fourier transform of the spectral density function.\nC. The spectral density function and the autocovariance function are not related through Fourier transforms.\nD. The spectral density function is the square of the Fourier transform of the autocovariance function.",
+        "Model_Claude_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Survival analysis and Cox proportional hazards model",
+        "Question": "Which of the following statements about the Cox proportional hazards model is true?",
+        "Options": "A. It assumes that the hazard ratio between two groups remains constant over time.\nB. It directly estimates the survival function for each group.\nC. It requires the assumption of normally distributed survival times.\nD. It cannot handle time-varying covariates.",
+        "Model_Claude_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Statistical learning theory and Regularization techniques",
+        "Question": "Which of the following regularization techniques is commonly used in statistical learning theory to prevent overfitting and improve model generalization in applications such as image recognition and natural language processing?",
+        "Options": "A. L1 regularization (Lasso)\nB. L2 regularization (Ridge)\nC. Elastic Net regularization\nD. All of the above",
+        "Model_Claude_Answer": "D",
+        "GPT_answer": "D",
+        "Llama_answer": "D",
+        "Gemeni_answer": "D"
+    },
+    {
+        "subject": "Non-parametric methods and Bootstrap methods",
+        "Question": "Which of the following statements best describes a key advantage of bootstrap methods compared to parametric methods when making inferences about a population parameter?",
+        "Options": "A. Bootstrap methods rely on the central limit theorem to ensure the sampling distribution is normally distributed.\nB. Bootstrap methods require a larger sample size to achieve the same level of accuracy as parametric methods.\nC. Bootstrap methods are more robust to violations of distributional assumptions than parametric methods.\nD. Bootstrap methods provide narrower confidence intervals than parametric methods when the sample size is small.",
+        "Model_Claude_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Convergence diagnostics",
+        "Question": "Which of the following is NOT a commonly used convergence diagnostic for assessing the mixing and stationarity of Markov chains in MCMC methods?",
+        "Options": "A. Geweke diagnostic\nB. Gelman-Rubin diagnostic\nC. Heidelberger and Welch diagnostic\nD. Shapiro-Wilk normality test",
+        "Model_Claude_Answer": "D",
+        "GPT_answer": "D",
+        "Llama_answer": "D",
+        "Gemeni_answer": "D"
+    },
+    {
+        "subject": "Regression analysis and Heteroscedasticity",
+        "Question": "In regression analysis of stock market returns, which of the following is most likely to exhibit heteroscedasticity?",
+        "Options": "A. The variance of the error term is constant across all levels of the independent variable\nB. The variance of the error term increases as the level of the independent variable increases\nC. The variance of the error term decreases as the level of the independent variable increases\nD. The variance of the error term is uncorrelated with the level of the independent variable",
+        "Model_Claude_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Multivariate statistics and Factor analysis",
+        "Question": "Which of the following statements best describes the primary purpose of factor analysis in multivariate statistics?",
+        "Options": "A. To identify and remove multicollinearity among predictor variables in regression models\nB. To reduce a large set of correlated variables into a smaller set of uncorrelated factors while retaining most of the original variability\nC. To determine the optimal number of clusters in a dataset based on the similarity of observations\nD. To assess the goodness-of-fit of a hypothesized model to the observed data in structural equation modeling",
+        "Model_Claude_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Gibbs sampling",
+        "Question": "Which of the following statements best describes the role of Gibbs sampling in Markov Chain Monte Carlo methods for real-world applications such as image processing, natural language processing, and bioinformatics?",
+        "Options": "A. Gibbs sampling is used to directly approximate the joint posterior distribution of the model parameters.\nB. Gibbs sampling is employed to sequentially sample from the full conditional distributions of the model parameters.\nC. Gibbs sampling is utilized to estimate the marginal likelihood of the observed data.\nD. Gibbs sampling is applied to optimize the model parameters using gradient-based techniques.",
+        "Model_Claude_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Multivariate statistics and Principal Component Analysis",
+        "Question": "Which of the following statements best describes the primary objective of Principal Component Analysis (PCA) when applied to a multivariate dataset?",
+        "Options": "A. To identify the variables that contribute the most to the overall variability in the data\nB. To find a new set of uncorrelated variables that capture the maximum amount of variance in the original data\nC. To determine the optimal number of clusters present in the data\nD. To identify outliers and remove them from the dataset",
+        "Model_Claude_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Regression analysis and Collinearity",
+        "Question": "Which of the following statements about collinearity in regression analysis is true?",
+        "Options": "A. Collinearity only affects the interpretation of the model, not its predictive power.\nB. Collinearity can be detected by examining the correlation matrix of the predictor variables.\nC. Collinearity always leads to biased coefficient estimates in the regression model.\nD. Collinearity can be eliminated by increasing the sample size of the dataset.",
+        "Model_Claude_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Non-parametric methods and Spline regression",
+        "Question": "Which of the following is a key theoretical advantage of using spline regression compared to parametric regression methods?",
+        "Options": "A. Spline regression always produces more accurate predictions than parametric methods.\nB. Spline regression requires fewer assumptions about the functional form of the relationship between the predictor and response variables.\nC. Spline regression is computationally faster than parametric methods for large datasets.\nD. Spline regression is more robust to outliers than parametric methods.",
+        "Model_Claude_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Sampling efficiency",
+        "Question": "Which of the following is NOT a factor that influences the sampling efficiency of Markov Chain Monte Carlo methods?",
+        "Options": "A. The choice of proposal distribution\nB. The dimensionality of the parameter space\nC. The number of iterations used in the algorithm\nD. The choice of programming language for implementation",
+        "Model_Claude_Answer": "D",
+        "GPT_answer": "D",
+        "Llama_answer": "D",
+        "Gemeni_answer": "D"
+    }
+]

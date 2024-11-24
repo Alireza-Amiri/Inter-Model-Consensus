@@ -1,0 +1,902 @@
+[
+    {
+        "subject": "Markov Chain Monte Carlo methods and Convergence diagnostics",
+        "Question": "Which convergence diagnostic is specifically designed to assess the convergence of the variance of the posterior distribution in Markov Chain Monte Carlo simulations?",
+        "Options": "A. Gelman-Rubin statistic\nB. Geweke diagnostic\nC. Raftery-Lewis diagnostic\nD. Effective sample size",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "B",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Regression analysis and Model selection criteria",
+        "Question": "Consider two competing regression models, Model 1 and Model 2, with the same response variable but different predictor variables. Model 1 has a higher adjusted R-squared value than Model 2, but a lower AIC value. Which model is preferred based on these criteria alone?",
+        "Options": "A. Model 1\nB. Model 2\nC. Both models are equally preferred\nD. Neither model is preferred based on these criteria alone",
+        "Model_Gemeni_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "A",
+        "Claude_answer": "D"
+    },
+    {
+        "subject": "Non-parametric methods and Bootstrap methods",
+        "Question": "Which of the following statements is **TRUE** regarding the application of bootstrap methods within non-parametric inference?",
+        "Options": "A. The bootstrap provides an asymptotically exact approximation of the sampling distribution, regardless of the underlying data distribution.\nB. Bootstrap methods are particularly effective when the underlying data distribution is known and well-defined.\nC. Bootstrap methods can be used to estimate the variance of a statistic without requiring assumptions about the underlying data distribution.\nD. The bootstrap is most suitable for constructing confidence intervals for parameters of parametric models.",
+        "Model_Gemeni_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Experimental design and Blocking and confounding",
+        "Question": "In a two-factor experiment with factors A and B, both with two levels, what is the minimum number of blocks required to ensure that the main effect of A is orthogonal to the interaction effect of A and B, assuming a randomized complete block design?",
+        "Options": "A. 1\nB. 2\nC. 3\nD. 4",
+        "Model_Gemeni_Answer": "B",
+        "GPT_answer": "D",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Bayesian inference and Prior distributions",
+        "Question": "Which of the following statements best describes the role of a prior distribution in Bayesian inference when dealing with a complex model with many parameters?",
+        "Options": "A. The prior distribution serves as a regularizer, preventing overfitting by favoring simpler models.\nB. The prior distribution allows for the incorporation of subjective beliefs about the parameters before observing any data.\nC. The prior distribution provides a starting point for the Markov Chain Monte Carlo (MCMC) algorithm to explore the parameter space.\nD. The prior distribution determines the likelihood function, which is used to update the beliefs about the parameters after observing data.",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Regression analysis and Collinearity",
+        "Question": "In a multiple regression model with high collinearity, which of the following is NOT a direct consequence?",
+        "Options": "A. Increased variance of regression coefficients.\nB. Reduced statistical power to detect significant effects.\nC. Biased estimates of regression coefficients.\nD. Difficulty in interpreting the individual contributions of independent variables.",
+        "Model_Gemeni_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Non-parametric methods and Kernel density estimation",
+        "Question": "Which of the following statements is **TRUE** regarding the bias-variance trade-off in Kernel density estimation?",
+        "Options": "A. Increasing the bandwidth parameter leads to higher bias and lower variance.\nB. Decreasing the bandwidth parameter leads to lower bias and higher variance.\nC. The optimal bandwidth parameter minimizes both bias and variance.\nD. The bias and variance are independent of the bandwidth parameter.",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "B",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Hypothesis testing and Multiple comparisons correction",
+        "Question": "Which of the following multiple comparisons correction methods is most suitable when comparing multiple treatment groups to a control group, with the primary interest being in detecting any significant difference between any of the treatments and the control?",
+        "Options": "A. Dunnett's test\nB. Bonferroni correction\nC. Holm-Bonferroni method\nD. Tukey's HSD test",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Regression analysis and Model selection criteria",
+        "Question": "Which of the following model selection criteria is most sensitive to the number of predictors in the model, making it particularly suitable for selecting models with parsimony?",
+        "Options": "A. Adjusted R-squared\nB. Akaike Information Criterion (AIC)\nC. Bayesian Information Criterion (BIC)\nD. Mallows' Cp statistic",
+        "Model_Gemeni_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Non-parametric methods and Kernel density estimation",
+        "Question": "Which of the following statements is **true** regarding the bias-variance trade-off in kernel density estimation?",
+        "Options": "A. Increasing the bandwidth of the kernel generally reduces bias and increases variance.\nB. Increasing the bandwidth of the kernel generally increases bias and reduces variance.\nC. Decreasing the bandwidth of the kernel generally reduces bias and increases variance.\nD. Decreasing the bandwidth of the kernel generally increases bias and reduces variance.",
+        "Model_Gemeni_Answer": "B",
+        "GPT_answer": "C",
+        "Llama_answer": "B",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Hypothesis testing and Type I and Type II errors",
+        "Question": "A researcher is conducting a hypothesis test with a significance level of \u03b1 = 0.05. They reject the null hypothesis.  Which of the following statements is **always** true about the probability of making a Type II error?",
+        "Options": "A. The probability of a Type II error is less than 0.05.\nB. The probability of a Type II error is greater than 0.05.\nC. The probability of a Type II error is equal to 0.05.\nD. The probability of a Type II error cannot be determined without further information.",
+        "Model_Gemeni_Answer": "D",
+        "GPT_answer": "D",
+        "Llama_answer": "D",
+        "Claude_answer": "D"
+    },
+    {
+        "subject": "Statistical learning theory and Bias-variance tradeoff",
+        "Question": "Which of the following scenarios BEST exemplifies the principle of bias-variance tradeoff, where an increase in model complexity leads to a reduction in bias but an increase in variance?",
+        "Options": "A. A linear regression model with a high number of features, resulting in a lower training error but a higher testing error.\nB. A decision tree model pruned to a smaller size, leading to a lower training error and a lower testing error.\nC. A k-nearest neighbors model with a high value of k, resulting in a higher training error but a lower testing error.\nD. A naive Bayes model with a small number of features, leading to a higher training error but a lower testing error.",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Non-parametric methods and Bootstrap methods",
+        "Question": "Which of the following statements is **NOT** true about the use of Bootstrap methods within Non-parametric statistical inference?",
+        "Options": "A. Bootstrap methods can be used to estimate the sampling distribution of a statistic without assuming a parametric form for the underlying population distribution.\nB. The Bootstrap technique can be applied to estimate confidence intervals for parameters of interest.\nC. Bootstrap methods are particularly useful when dealing with complex data structures and non-standard statistical models.\nD. Bootstrap methods are always more efficient than parametric methods when estimating the sampling distribution of a statistic.",
+        "Model_Gemeni_Answer": "D",
+        "GPT_answer": "D",
+        "Llama_answer": "D",
+        "Claude_answer": "D"
+    },
+    {
+        "subject": "Hypothesis testing and Type I and Type II errors",
+        "Question": "In a hypothesis test, increasing the significance level (\u03b1) will:",
+        "Options": "A. Increase the probability of a Type I error and decrease the probability of a Type II error.\nB. Decrease the probability of a Type I error and increase the probability of a Type II error.\nC. Decrease the probability of both Type I and Type II errors.\nD. Increase the probability of both Type I and Type II errors.",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Hypothesis testing and Power analysis",
+        "Question": "In a hypothesis test with a fixed alpha level, increasing the effect size will generally lead to:",
+        "Options": "A. Increased power.\nB. Decreased power.\nC. No change in power.\nD. Increased Type I error rate.",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Regression analysis and Collinearity",
+        "Question": "In a multiple regression model with high collinearity, which of the following is **NOT** a consequence?",
+        "Options": "A. Increased variance of the regression coefficients.\nB. Difficulty in interpreting the individual effects of predictors.\nC. Reduced R-squared value.\nD. Increased sensitivity of the model to small changes in the data.",
+        "Model_Gemeni_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Multivariate statistics and Canonical correlations",
+        "Question": "Which of the following statements accurately describes the relationship between canonical correlations and the eigenvalues of the cross-covariance matrix between two sets of variables?",
+        "Options": "A. The squared canonical correlations are equal to the eigenvalues of the cross-covariance matrix.\nB. The canonical correlations are the square roots of the eigenvalues of the cross-covariance matrix.\nC. The canonical correlations are the reciprocals of the eigenvalues of the cross-covariance matrix.\nD. The canonical correlations are equal to the eigenvalues of the cross-covariance matrix.",
+        "Model_Gemeni_Answer": "B",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Non-parametric methods and Spline regression",
+        "Question": "Which of the following is NOT a characteristic of a natural cubic spline?",
+        "Options": "A. It is a piecewise cubic polynomial function.\nB. It has continuous first and second derivatives at the knots.\nC. It minimizes the integrated squared second derivative of the function.\nD. It is linear outside the range of the data points.",
+        "Model_Gemeni_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "D",
+        "Claude_answer": "D"
+    },
+    {
+        "subject": "Time series analysis and Stationarity",
+        "Question": "Which of the following is NOT a characteristic of a strictly stationary time series?",
+        "Options": "A. The mean function is constant over time.\nB. The autocovariance function depends only on the time lag.\nC. The marginal distribution of the time series is time-invariant.\nD. The joint distribution of any set of observations is time-invariant.",
+        "Model_Gemeni_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "A",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Statistical learning theory and Cross-validation",
+        "Question": "Which of the following statements is TRUE about the relationship between the leave-one-out cross-validation (LOOCV) error estimate and the bias-variance trade-off in statistical learning?",
+        "Options": "A. LOOCV consistently provides a lower bias estimate compared to k-fold cross-validation, resulting in a potentially higher variance.\nB. LOOCV is less susceptible to the bias-variance trade-off as it utilizes all data points for training, leading to a more accurate estimate of model performance.\nC. LOOCV is more computationally expensive than k-fold cross-validation, but it offers a more robust estimate of the model's variance.\nD. LOOCV provides an unbiased estimate of the model's expected error, regardless of the chosen model complexity.",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "D",
+        "Claude_answer": "D"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Convergence diagnostics",
+        "Question": "Which of the following convergence diagnostics for Markov Chain Monte Carlo (MCMC) methods is most sensitive to the presence of multiple, well-separated modes in the target distribution?",
+        "Options": "A. Gelman-Rubin diagnostic\nB. Geweke diagnostic\nC. Raftery-Lewis diagnostic\nD. Effective sample size",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A.",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Hypothesis testing and Power analysis",
+        "Question": "In a power analysis for a two-tailed hypothesis test, increasing the effect size while keeping all other parameters constant will:",
+        "Options": "A. Increase the power of the test.\nB. Decrease the power of the test.\nC. Have no effect on the power of the test.\nD. Increase the probability of a Type II error.",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Experimental design and Response surface methodology",
+        "Question": "Which of the following is NOT a valid assumption for the application of a central composite design (CCD) in Response Surface Methodology (RSM)?",
+        "Options": "A. The response variable is continuous.\nB. The relationship between the response variable and the factors is linear.\nC. The variance of the response variable is constant across the experimental region.\nD. The factors are independent and their interactions are negligible.",
+        "Model_Gemeni_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Time series analysis and Stationarity",
+        "Question": "Which of the following properties is NOT a necessary condition for a time series to be strictly stationary?",
+        "Options": "A. The mean of the time series is constant over time.\nB. The autocovariance function depends only on the time lag.\nC. The distribution of the time series is identical for all time points.\nD. The variance of the time series is constant over time.",
+        "Model_Gemeni_Answer": "D",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Sampling efficiency",
+        "Question": "Which of the following statements accurately describes the concept of sampling efficiency in the context of Markov Chain Monte Carlo (MCMC) methods?",
+        "Options": "A. The rate at which the Markov chain converges to the target distribution, measured by the autocorrelation time.\nB. The ability of the MCMC algorithm to explore the entire target distribution without getting stuck in local optima.\nC. The number of samples required to achieve a desired level of accuracy in estimating a parameter of interest.\nD. The computational cost of generating a single sample from the target distribution.",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "C",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Time series analysis and ARIMA models",
+        "Question": "Consider an ARIMA(p, d, q) model where p, d, and q are the orders of the autoregressive, integrated, and moving average components, respectively. Which of the following statements is **TRUE** regarding the impact of increasing the value of 'd' on the model's ability to capture long-term trends?",
+        "Options": "A. Increasing 'd' enhances the model's ability to capture long-term trends by introducing more differencing, which removes the trend component.\nB. Increasing 'd' reduces the model's ability to capture long-term trends because it removes more of the time series data.\nC. Increasing 'd' has no significant impact on the model's ability to capture long-term trends as it only affects the stationarity of the data.\nD. Increasing 'd' increases the model's ability to capture long-term trends by making the model more flexible and adaptable to complex patterns.",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Sampling efficiency",
+        "Question": "Which of the following scenarios would generally result in the **lowest** sampling efficiency in a Markov Chain Monte Carlo (MCMC) simulation?",
+        "Options": "A. A target distribution with highly correlated parameters.\nB. A target distribution with a large number of parameters.\nC. A target distribution with a high acceptance rate in the Metropolis-Hastings algorithm.\nD. A target distribution with a well-chosen proposal distribution.",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Multivariate statistics and Factor analysis",
+        "Question": "Which of the following is NOT a fundamental assumption of exploratory factor analysis?",
+        "Options": "A. Linearity of relationships between observed variables and factors.\nB. Absence of multicollinearity among observed variables.\nC. Normality of the distribution of observed variables.\nD. Equal variances for all observed variables.",
+        "Model_Gemeni_Answer": "D",
+        "GPT_answer": "D",
+        "Llama_answer": "B",
+        "Claude_answer": "D"
+    },
+    {
+        "subject": "Survival analysis and Cox proportional hazards model",
+        "Question": "In a Cox proportional hazards model, which of the following assumptions is NOT required for the model to be valid?",
+        "Options": "A. The hazard ratios for different covariate levels are constant over time.\nB. The baseline hazard function is constant over time.\nC. The effects of covariates are additive on the log hazard scale.\nD. The data is independent and identically distributed.",
+        "Model_Gemeni_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Regression analysis and Heteroscedasticity",
+        "Question": "Which of the following is NOT a consequence of heteroscedasticity in a linear regression model?",
+        "Options": "A. Increased variance of the estimated regression coefficients.\nB. Biased estimates of the regression coefficients.\nC. Inaccurate p-values for hypothesis tests.\nD. Reduced power of hypothesis tests.",
+        "Model_Gemeni_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Multivariate statistics and Canonical correlations",
+        "Question": "What is the primary advantage of using Canonical Correlation Analysis (CCA) compared to other multivariate techniques like Principal Components Analysis (PCA) or Linear Discriminant Analysis (LDA)?",
+        "Options": "A. CCA allows for the simultaneous examination of relationships between two sets of variables, while PCA and LDA focus on a single set.\nB. CCA provides a more robust solution to outliers in the data compared to PCA and LDA.\nC. CCA offers a more interpretable solution by identifying specific linear combinations of variables that maximize the correlation between sets.\nD. CCA is computationally less demanding than PCA and LDA, making it suitable for larger datasets.",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Hypothesis testing and Multiple comparisons correction",
+        "Question": "Which of the following statements accurately describes the relationship between the number of comparisons made in a hypothesis testing framework and the Type I error rate?",
+        "Options": "A. As the number of comparisons increases, the Type I error rate for the family of tests also increases.\nB. The number of comparisons has no effect on the Type I error rate for the family of tests.\nC. The Type I error rate decreases proportionally with the number of comparisons made.\nD. The Type I error rate remains constant regardless of the number of comparisons.",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Sampling efficiency",
+        "Question": "Which of the following statements is TRUE regarding the impact of autocorrelation on the sampling efficiency of a Markov Chain Monte Carlo (MCMC) method?",
+        "Options": "A. High autocorrelation in the MCMC chain leads to lower sampling efficiency, requiring a larger number of samples to achieve the same level of precision.\nB. Autocorrelation has no significant impact on sampling efficiency as long as the chain has reached its stationary distribution.\nC. High autocorrelation in the MCMC chain improves sampling efficiency by reducing the variance of the estimates.\nD. Autocorrelation only affects the convergence rate of the MCMC algorithm, not its efficiency in terms of sample size.",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Statistical learning theory and Overfitting and underfitting",
+        "Question": "Which of the following is a potential consequence of **underfitting** in a statistical learning model?",
+        "Options": "A. High variance and poor generalization performance.\nB. Low bias and good generalization performance.\nC. High bias and poor generalization performance.\nD. Low variance and good generalization performance.",
+        "Model_Gemeni_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Experimental design and Randomization techniques",
+        "Question": "Which of the following randomization techniques is most effective in controlling for confounding variables in a factorial experiment with a large number of factors and levels?",
+        "Options": "A. Complete Randomization\nB. Random Block Design\nC. Latin Square Design\nD. Fractional Factorial Design",
+        "Model_Gemeni_Answer": "D",
+        "GPT_answer": "D",
+        "Llama_answer": "D",
+        "Claude_answer": "D"
+    },
+    {
+        "subject": "Experimental design and Factorial designs",
+        "Question": "In a 2x2x3 factorial design, what is the total number of treatment combinations?",
+        "Options": "A. 12\nB. 6\nC. 8\nD. 18",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Survival analysis and Cox proportional hazards model",
+        "Question": "In a Cox proportional hazards model, which of the following assumptions is **not** required for the validity of the estimated hazard ratios?",
+        "Options": "A. The baseline hazard function must be constant across all covariate levels.\nB. The proportional hazards assumption must hold.\nC. The covariates must be linearly related to the log hazard.\nD. The data must be independent.",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Hypothesis testing and Non-parametric tests",
+        "Question": "Which of the following is **NOT** a characteristic that makes non-parametric tests suitable for analyzing data that violates assumptions of parametric tests?",
+        "Options": "A. They are less powerful than parametric tests when assumptions are met.\nB. They can handle ordinal data.\nC. They are robust to outliers.\nD. They require large sample sizes for reliable results.",
+        "Model_Gemeni_Answer": "D",
+        "GPT_answer": "D",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Bayesian inference and Posterior updating",
+        "Question": "Consider two independent Bayesian models, Model 1 and Model 2, with prior distributions P1 and P2, respectively. Both models are updated with the same data, resulting in posterior distributions Q1 and Q2. Which of the following statements is TRUE regarding the relationship between the posterior distributions?",
+        "Options": "A. Q1 and Q2 will always be identical if P1 and P2 are identical.\nB. Q1 and Q2 will always be different, even if P1 and P2 are identical.\nC. Q1 and Q2 will be identical only if the models have the same likelihood function.\nD. Q1 and Q2 will be different only if the models have different likelihood functions.",
+        "Model_Gemeni_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "A",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Regression analysis and Generalized linear models",
+        "Question": "In a generalized linear model (GLM), which of the following components directly determines the relationship between the linear predictor and the expected value of the response variable?",
+        "Options": "A. Link function\nB. Error distribution\nC. Design matrix\nD. Regression coefficients",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Experimental design and Randomization techniques",
+        "Question": "Which randomization technique is specifically designed to balance treatment groups on known covariates while maintaining the randomness of treatment assignment?",
+        "Options": "A.  Stratified Randomization\nB.  Complete Randomization\nC.  Block Randomization\nD.  Adaptive Randomization",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Bayesian inference and Bayes factors",
+        "Question": "A researcher is comparing two competing models, M1 and M2, for explaining a set of data.  The Bayes factor in favor of M1 is 10.  Which of the following statements is TRUE?",
+        "Options": "A. The posterior probability of M1 is 10 times higher than the posterior probability of M2.\nB. The prior probability of M1 is 10 times higher than the prior probability of M2.\nC. The likelihood of the data under M1 is 10 times higher than the likelihood of the data under M2.\nD. The marginal likelihood of M1 is 10 times higher than the marginal likelihood of M2.",
+        "Model_Gemeni_Answer": "D",
+        "GPT_answer": "D",
+        "Llama_answer": "D",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Multivariate statistics and Factor analysis",
+        "Question": "Which of the following is NOT a limitation of Exploratory Factor Analysis (EFA)?",
+        "Options": "A. EFA can be sensitive to outliers in the data.\nB. EFA requires a large sample size to obtain reliable results.\nC. EFA can be used to test specific hypotheses about the underlying factors.\nD. EFA is susceptible to the problem of communality, where variables share too much variance.",
+        "Model_Gemeni_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Experimental design and Response surface methodology",
+        "Question": "Which of the following statements accurately describes the role of central composite designs (CCD) in response surface methodology (RSM)?",
+        "Options": "A. CCDs are optimal for exploring the entire design space and identifying the optimal response, even in the presence of significant interactions between factors.\nB. CCDs primarily focus on estimating the main effects of factors and are not effective for investigating interactions.\nC. CCDs are best suited for experiments with a small number of factors, typically two or three, due to their limited ability to handle higher dimensions.\nD. CCDs are primarily used for verifying the adequacy of a fitted response surface model, rather than for initial exploration of the design space.",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Survival analysis and Kaplan-Meier estimator",
+        "Question": "Consider a survival function estimated using the Kaplan-Meier method. Which of the following statements is **TRUE** about the estimated survival function?",
+        "Options": "A. It is a step function that is non-increasing and right-continuous.\nB. It is a continuous function that is strictly decreasing.\nC. It is a piecewise linear function with a decreasing slope.\nD. It is a non-parametric function that can be any shape.",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Statistical learning theory and Regularization techniques",
+        "Question": "Which of the following regularization techniques is most effective in preventing overfitting when dealing with a high-dimensional dataset with a large number of irrelevant features?",
+        "Options": "A. Ridge Regression\nB. Lasso Regression\nC. Elastic Net Regression\nD. Principal Component Analysis (PCA)",
+        "Model_Gemeni_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Experimental design and Blocking and confounding",
+        "Question": "A researcher is investigating the effect of two different fertilizers (A and B) on crop yield. They have 10 plots of land, each with a unique soil type. Which of the following blocking strategies would most effectively isolate the effect of fertilizer while controlling for the confounding effect of soil type?",
+        "Options": "A. Randomly assign fertilizer A or B to each plot.\nB. Assign fertilizer A to plots 1-5 and fertilizer B to plots 6-10.\nC. Group the plots based on soil type and randomly assign fertilizer A or B within each group.\nD. Use a Latin Square design, assigning fertilizers to plots in a specific order across rows and columns.",
+        "Model_Gemeni_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Hypothesis testing and Power analysis",
+        "Question": "A researcher is designing a study to investigate the effectiveness of a new therapy for anxiety. They want to achieve a power of 0.80 to detect a medium effect size. Which of the following scenarios would result in the **smallest** required sample size?",
+        "Options": "A. A two-tailed test with a significance level of 0.01.\nB. A two-tailed test with a significance level of 0.05.\nC. A one-tailed test with a significance level of 0.01.\nD. A one-tailed test with a significance level of 0.05.",
+        "Model_Gemeni_Answer": "D",
+        "GPT_answer": "D",
+        "Llama_answer": "B",
+        "Claude_answer": "D"
+    },
+    {
+        "subject": "Statistical learning theory and Regularization techniques",
+        "Question": "Which regularization technique is most effective at shrinking coefficients towards zero in a linear model when the number of features greatly exceeds the number of observations, and there is a high degree of multicollinearity among the predictors?",
+        "Options": "A. L1 regularization (Lasso)\nB. L2 regularization (Ridge)\nC. Elastic Net regularization\nD. Principal Component Analysis (PCA)",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "C",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Statistical learning theory and Overfitting and underfitting",
+        "Question": "In the context of statistical learning theory, which of the following is **not** a characteristic of an underfitting model?",
+        "Options": "A. High bias and low variance.\nB. Poor performance on both training and test data.\nC. Inability to capture complex relationships in the data.\nD. High sensitivity to small changes in the training data.",
+        "Model_Gemeni_Answer": "D",
+        "GPT_answer": "D",
+        "Llama_answer": "D",
+        "Claude_answer": "D"
+    },
+    {
+        "subject": "Hypothesis testing and Type I and Type II errors",
+        "Question": "A researcher conducts a hypothesis test with a significance level of \u03b1 = 0.05.  The power of the test is 0.80.  Which of the following statements is TRUE regarding the probability of making a Type I error and a Type II error?",
+        "Options": "A. The probability of making a Type I error is 0.05, and the probability of making a Type II error is 0.20.\nB. The probability of making a Type I error is 0.20, and the probability of making a Type II error is 0.05.\nC. The probability of making a Type I error is 0.05, and the probability of making a Type II error is 0.80.\nD. The probability of making a Type I error is 0.80, and the probability of making a Type II error is 0.05.",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Gibbs sampling",
+        "Question": "In Gibbs sampling, what is the primary mechanism by which the Markov chain converges to the target distribution?",
+        "Options": "A. The successive draws from the conditional distributions of each variable, given the current values of the other variables.\nB. The acceptance-rejection method used to determine whether a proposed sample is accepted or rejected.\nC. The introduction of a Metropolis-Hastings step to improve the convergence rate.\nD. The use of a burn-in period to discard initial samples that are not representative of the target distribution.",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Sampling efficiency",
+        "Question": "Which of the following statements about sampling efficiency in Markov Chain Monte Carlo (MCMC) methods is **TRUE**?",
+        "Options": "A. Increasing the autocorrelation between samples generally improves sampling efficiency.\nB. Reducing the acceptance rate in Metropolis-Hastings algorithms always enhances sampling efficiency.\nC. Using a proposal distribution that closely resembles the target distribution often leads to higher sampling efficiency.\nD. Sampling efficiency is independent of the choice of MCMC algorithm.",
+        "Model_Gemeni_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Statistical learning theory and Cross-validation",
+        "Question": "Which of the following is NOT a potential drawback of using k-fold cross-validation for model selection in high-dimensional settings?",
+        "Options": "A. Increased computational cost compared to other methods.\nB. Potential for overfitting if k is too small.\nC. Difficulty in estimating the variance of the estimated model performance.\nD. Increased bias in the estimated model performance due to data leakage.",
+        "Model_Gemeni_Answer": "D",
+        "GPT_answer": "D",
+        "Llama_answer": "A",
+        "Claude_answer": "D"
+    },
+    {
+        "subject": "Bayesian inference and Prior distributions",
+        "Question": "Which of the following statements regarding prior distributions in Bayesian inference is **FALSE**?",
+        "Options": "A. Prior distributions can be elicited from expert opinion.\nB. A non-informative prior reflects a lack of prior knowledge.\nC. Prior distributions always have a direct impact on the posterior distribution.\nD. The choice of prior distribution can significantly influence the results of Bayesian analysis.",
+        "Model_Gemeni_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Statistical learning theory and Cross-validation",
+        "Question": "Which of the following cross-validation methods is most suitable for evaluating the performance of a statistical learning model with high computational complexity and a large dataset?",
+        "Options": "A. Leave-one-out cross-validation\nB. k-fold cross-validation\nC. Monte Carlo cross-validation\nD. Repeated k-fold cross-validation",
+        "Model_Gemeni_Answer": "C",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Non-parametric methods and Kernel density estimation",
+        "Question": "Which of the following statements is **TRUE** about the bias-variance trade-off in kernel density estimation?",
+        "Options": "A. Increasing the bandwidth of the kernel leads to higher bias and lower variance.\nB. Decreasing the bandwidth of the kernel leads to higher bias and lower variance.\nC. Increasing the bandwidth of the kernel leads to lower bias and higher variance.\nD. Decreasing the bandwidth of the kernel leads to lower bias and higher variance.",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Bayesian inference and Conjugate priors",
+        "Question": "Which of the following statements accurately describes the key advantage of using a conjugate prior in Bayesian inference?",
+        "Options": "A. Conjugate priors guarantee that the posterior distribution will always be tractable, regardless of the likelihood function.\nB. Using conjugate priors simplifies the process of calculating the posterior distribution by ensuring that the prior and posterior distributions belong to the same family.\nC. Conjugate priors enable the use of Markov Chain Monte Carlo (MCMC) methods for posterior inference, even for complex models.\nD. Conjugate priors are essential for ensuring the convergence of the Bayesian estimator.",
+        "Model_Gemeni_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Convergence diagnostics",
+        "Question": "Which of the following convergence diagnostics is primarily focused on assessing the stability of the Markov chain across different starting points?",
+        "Options": "A. Gelman-Rubin statistic\nB. Geweke diagnostic\nC. Raftery-Lewis diagnostic\nD. Effective sample size",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Time series analysis and ARIMA models",
+        "Question": "Consider an ARIMA(p, d, q) model where 'd' represents the order of differencing. Which of the following statements is **TRUE** regarding the impact of differencing on the time series?",
+        "Options": "A. Differencing reduces the autocorrelation of the time series, regardless of the underlying trend.\nB. Differencing only removes a deterministic trend from the time series.\nC. Differencing transforms the time series to stationarity by removing the autoregressive component.\nD. Differencing introduces new parameters to the model, increasing model complexity.",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Non-parametric methods and Kernel density estimation",
+        "Question": "Which of the following statements is **TRUE** regarding the effect of bandwidth on the bias and variance of a Kernel density estimator?",
+        "Options": "A. Increasing the bandwidth generally leads to decreased bias and increased variance.\nB. Decreasing the bandwidth generally leads to increased bias and decreased variance.\nC. Increasing the bandwidth generally leads to increased bias and decreased variance.\nD. Decreasing the bandwidth generally leads to decreased bias and increased variance.",
+        "Model_Gemeni_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "D"
+    },
+    {
+        "subject": "Hypothesis testing and Type I and Type II errors",
+        "Question": "Which of the following scenarios accurately describes a situation where the probability of a Type II error is likely to be higher?",
+        "Options": "A. A large sample size is used to test a hypothesis with a very small effect size.\nB. A small sample size is used to test a hypothesis with a very large effect size.\nC. A low significance level (alpha) is used to test a hypothesis with a large effect size.\nD. A high significance level (alpha) is used to test a hypothesis with a small effect size.",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "D"
+    },
+    {
+        "subject": "Bayesian inference and Prior distributions",
+        "Question": "Which of the following is **NOT** a characteristic of a weakly informative prior distribution in Bayesian inference?",
+        "Options": "A. It is based on prior knowledge or beliefs about the parameter.\nB. It provides a moderate level of influence on the posterior distribution.\nC. It is typically centered around a plausible value for the parameter.\nD. It has a wide spread, allowing for a large range of possible values for the parameter.",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "D"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Sampling efficiency",
+        "Question": "Which of the following scenarios would **most likely** result in a significant increase in the sampling efficiency of a Metropolis-Hastings algorithm for estimating the posterior distribution of a complex Bayesian model?",
+        "Options": "A.  Increasing the target acceptance rate of the proposal distribution from 20% to 50%.\nB.  Switching from a random walk proposal to a more informative proposal distribution tailored to the target distribution.\nC.  Decreasing the number of iterations of the Markov chain.\nD.  Introducing a burn-in period of 1000 iterations before collecting samples.",
+        "Model_Gemeni_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Convergence diagnostics",
+        "Question": "Which of the following convergence diagnostics is specifically designed to assess the convergence of multiple chains in a parallel MCMC implementation?",
+        "Options": "A. Gelman-Rubin statistic\nB. Geweke diagnostic\nC. Raftery-Lewis diagnostic\nD. Effective sample size",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Non-parametric methods and Bootstrap methods",
+        "Question": "Which of the following statements is TRUE regarding the use of bootstrap methods in constructing confidence intervals for non-parametric estimators?",
+        "Options": "A. Bootstrap methods are particularly well-suited for estimating the variance of non-parametric estimators, even when the underlying distribution is unknown.\nB. The bootstrap distribution is always centered around the original estimator, regardless of the resampling method used.\nC. Bootstrap confidence intervals are always symmetric about the original estimator, even when the underlying distribution is skewed.\nD. Bootstrap methods are most effective when the sample size is small, as they can provide more accurate estimates than parametric methods in such cases.",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Bayesian inference and Posterior updating",
+        "Question": "Consider a Bayesian model with a prior distribution for a parameter \u03b8 and a likelihood function based on observed data. Which of the following statements is **NOT** true about posterior updating?",
+        "Options": "A. The posterior distribution is always more informative than the prior distribution.\nB. The posterior distribution incorporates information from both the prior and the likelihood.\nC. The posterior distribution can be updated with new data to obtain a more precise estimate of \u03b8.\nD. The posterior distribution is always a symmetric distribution regardless of the prior and likelihood.",
+        "Model_Gemeni_Answer": "D",
+        "GPT_answer": "D",
+        "Llama_answer": "D",
+        "Claude_answer": "D"
+    },
+    {
+        "subject": "Regression analysis and Generalized linear models",
+        "Question": "Which of the following is NOT a key assumption of generalized linear models (GLMs)?",
+        "Options": "A. The response variable follows a distribution from the exponential family.\nB. The linear predictor is a linear combination of the explanatory variables.\nC. The variance of the response variable is constant across all values of the explanatory variables.\nD. The relationship between the mean of the response variable and the linear predictor is specified by a link function.",
+        "Model_Gemeni_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Regression analysis and Generalized linear models",
+        "Question": "Which of the following is NOT a key assumption of generalized linear models (GLMs)?",
+        "Options": "A. The response variable follows a distribution from the exponential family.\nB. The linear predictor is a linear combination of the predictor variables.\nC. The variance of the response variable is constant across all values of the predictor variables.\nD. The relationship between the expected value of the response variable and the linear predictor is specified by a link function.",
+        "Model_Gemeni_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Non-parametric methods and Bootstrap methods",
+        "Question": "Which of the following statements accurately describes the fundamental principle behind the bootstrap method for constructing confidence intervals in non-parametric settings?",
+        "Options": "A. The bootstrap method leverages resampling from the original dataset to approximate the sampling distribution of a statistic, thus enabling the construction of confidence intervals without relying on parametric assumptions.\nB. The bootstrap method relies on the assumption of a known parametric distribution for the underlying data, allowing for the estimation of confidence intervals based on theoretical distributions.\nC. The bootstrap method uses Monte Carlo simulations to generate a large number of random samples from the population, resulting in an accurate estimate of the confidence interval for the statistic.\nD. The bootstrap method involves partitioning the original data into smaller subsets and then calculating the statistic of interest for each subset, allowing for the construction of a confidence interval based on the variability across subsets.",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A.",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Survival analysis and Hazard functions",
+        "Question": "Which of the following statements is **TRUE** about the relationship between a hazard function and the corresponding survival function?",
+        "Options": "A. A constant hazard function implies a constant survival function.\nB. A decreasing hazard function always implies a decreasing survival function.\nC. An increasing hazard function always implies a decreasing survival function.\nD. A non-monotonic hazard function implies a non-monotonic survival function.",
+        "Model_Gemeni_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Non-parametric methods and Kernel density estimation",
+        "Question": "Which of the following is NOT a property that contributes to the bias-variance trade-off in kernel density estimation?",
+        "Options": "A. Bandwidth selection\nB. Kernel function choice\nC. Sample size\nD. Dimensionality of the data",
+        "Model_Gemeni_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "D",
+        "Claude_answer": "D"
+    },
+    {
+        "subject": "Multivariate statistics and Principal Component Analysis",
+        "Question": "In Principal Component Analysis (PCA), which of the following statements is **not** true regarding the relationship between the original variables and the principal components?",
+        "Options": "A. The principal components are linear combinations of the original variables.\nB. The first principal component captures the maximum variance in the data.\nC. The principal components are always uncorrelated with each other.\nD. The number of principal components is always equal to the number of original variables.",
+        "Model_Gemeni_Answer": "D",
+        "GPT_answer": "D",
+        "Llama_answer": "D",
+        "Claude_answer": "D"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Convergence diagnostics",
+        "Question": "Which of the following Convergence diagnostics is primarily concerned with assessing the stability of the Markov chain across multiple chains initialized at different starting points?",
+        "Options": "A. Gelman-Rubin statistic\nB. Effective Sample Size\nC. Autocorrelation Function\nD. Trace Plots",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Gibbs sampling",
+        "Question": "In Gibbs sampling, which of the following conditions is **not** necessary for the chain to converge to the target distribution?",
+        "Options": "A. The target distribution must be strictly positive on its support.\nB. The conditional distributions of each variable given the others must be known.\nC. The Markov chain must be irreducible.\nD. The Markov chain must be aperiodic.",
+        "Model_Gemeni_Answer": "D",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Experimental design and Factorial designs",
+        "Question": "In a 2^4 factorial design, which of the following is TRUE regarding the number of interactions that can be estimated?",
+        "Options": "A. 15\nB. 10\nC. 5\nD. 4",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Hypothesis testing and Power analysis",
+        "Question": "In a hypothesis test with a fixed significance level, increasing the sample size will generally:",
+        "Options": "A. Increase the power of the test.\nB. Decrease the power of the test.\nC. Have no effect on the power of the test.\nD. Increase the probability of a Type II error.",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Non-parametric methods and Kernel density estimation",
+        "Question": "Which of the following statements accurately describes the relationship between the bandwidth parameter (h) in Kernel density estimation and the smoothness of the resulting density estimate?",
+        "Options": "A. As h increases, the density estimate becomes smoother.\nB. As h decreases, the density estimate becomes smoother.\nC. The bandwidth parameter has no effect on the smoothness of the density estimate.\nD. The relationship between h and smoothness is non-linear and complex, with no simple rule.",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Regression analysis and Heteroscedasticity",
+        "Question": "Which of the following statements is **FALSE** regarding heteroscedasticity in a linear regression model?",
+        "Options": "A. Heteroscedasticity violates the assumption of constant variance of the error term.\nB. The presence of heteroscedasticity can lead to biased coefficient estimates.\nC. Heteroscedasticity can be detected by examining the residuals of the model.\nD. Heteroscedasticity can be corrected using robust standard errors.",
+        "Model_Gemeni_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Non-parametric methods and Kernel density estimation",
+        "Question": "Which of the following statements is **TRUE** regarding the bias-variance trade-off in Kernel Density Estimation (KDE)?",
+        "Options": "A. Increasing the bandwidth of the kernel generally leads to higher bias and lower variance.\nB. Decreasing the bandwidth of the kernel generally leads to higher bias and lower variance.\nC. The choice of kernel function significantly impacts the bias but not the variance.\nD. The bias-variance trade-off in KDE is independent of the sample size.",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Statistical learning theory and Regularization techniques",
+        "Question": "Which regularization technique explicitly encourages sparsity in the estimated model parameters, leading to a subset of features being selected?",
+        "Options": "A. L1 regularization (Lasso)\nB. L2 regularization (Ridge)\nC. Elastic Net regularization\nD. Bayesian regularization",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Survival analysis and Hazard functions",
+        "Question": "Which of the following statements accurately describes the relationship between the hazard function and the survival function in survival analysis?",
+        "Options": "A. The hazard function is the negative derivative of the survival function.\nB. The survival function is the cumulative sum of the hazard function.\nC. The hazard function is the reciprocal of the survival function.\nD. The survival function is the exponential of the negative hazard function.",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "D"
+    },
+    {
+        "subject": "Experimental design and Randomization techniques",
+        "Question": "In a randomized block design, which of the following randomization techniques is most effective in minimizing the impact of block effects on treatment comparisons?",
+        "Options": "A. Complete randomization within each block.\nB. Randomization with restricted randomization within each block.\nC. Latin square randomization.\nD. Randomization with a balanced incomplete block design.",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Multivariate statistics and Factor analysis",
+        "Question": "In Factor Analysis, what is the primary goal of Varimax rotation?",
+        "Options": "A. To maximize the variance explained by each factor.\nB. To simplify the factor loadings by making them as close to zero or one as possible.\nC. To minimize the number of factors required to explain the variance in the data.\nD. To ensure the factors are orthogonal to each other.",
+        "Model_Gemeni_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Survival analysis and Hazard functions",
+        "Question": "In a survival analysis model with a hazard function that is non-monotonic, what does this indicate about the relationship between time and the risk of the event of interest?",
+        "Options": "A. The risk of the event increases monotonically over time.\nB. The risk of the event decreases monotonically over time.\nC. The risk of the event initially increases, then decreases, or vice versa.\nD. The risk of the event remains constant over time.",
+        "Model_Gemeni_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Bayesian inference and Bayes factors",
+        "Question": "A researcher is comparing two competing models, M1 and M2, for explaining a dataset. Model M1 has a higher posterior probability than Model M2, but a lower prior probability. Which of the following statements is TRUE regarding the Bayes factor for this scenario?",
+        "Options": "A. The Bayes factor will be greater than 1, indicating evidence in favor of Model M1.\nB. The Bayes factor will be less than 1, indicating evidence in favor of Model M2.\nC. The Bayes factor will be equal to 1, indicating no evidence in favor of either model.\nD. The Bayes factor cannot be determined from the information provided.",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "D",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Multivariate statistics and Factor analysis",
+        "Question": "Which of the following statements is TRUE regarding the relationship between factor analysis and principal component analysis (PCA)?",
+        "Options": "A. Factor analysis aims to explain the observed variance in variables, while PCA aims to find a smaller set of uncorrelated variables that capture the most variance.\nB. Factor analysis assumes that the underlying factors are unobserved, while PCA assumes that the principal components are observable.\nC. Factor analysis relies on the assumption of normality of the observed variables, while PCA does not have this requirement.\nD. Factor analysis is a purely descriptive technique, while PCA can be used for both descriptive and inferential purposes.",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Statistical learning theory and Regularization techniques",
+        "Question": "Which regularization technique is most effective in mitigating the impact of highly correlated predictor variables in a high-dimensional linear regression model, while simultaneously promoting sparsity in the solution?",
+        "Options": "A. Elastic Net\nB. Ridge Regression\nC. Lasso Regression\nD. Principal Component Regression",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Survival analysis and Censoring",
+        "Question": "In a survival analysis study investigating the time to recurrence of a disease, some patients are lost to follow-up before experiencing the event. Which type of censoring is this?",
+        "Options": "A. Right Censoring\nB. Left Censoring\nC. Interval Censoring\nD. Informative Censoring",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Regression analysis and Generalized linear models",
+        "Question": "Which of the following statements accurately describes the relationship between Generalized Linear Models (GLMs) and traditional linear regression models?",
+        "Options": "A. GLMs generalize linear regression by allowing for non-linear relationships between the response variable and the predictor variables.\nB. GLMs extend linear regression by accommodating response variables that follow distributions other than the normal distribution.\nC. GLMs are a special case of linear regression where the response variable is always categorical.\nD. GLMs are primarily used for time series analysis, while traditional linear regression models are used for cross-sectional data.",
+        "Model_Gemeni_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Sampling efficiency",
+        "Question": "Consider two Metropolis-Hastings algorithms, M1 and M2, targeting the same distribution. M1 uses a proposal distribution with higher variance than M2. Which of the following statements is most likely to be true about the sampling efficiency of the two algorithms?",
+        "Options": "A. M1 will have higher sampling efficiency than M2.\nB. M2 will have higher sampling efficiency than M1.\nC. Both algorithms will have similar sampling efficiency.\nD. The relative efficiency of the two algorithms cannot be determined without further information.",
+        "Model_Gemeni_Answer": "D",
+        "GPT_answer": "D",
+        "Llama_answer": "B",
+        "Claude_answer": "D"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Convergence diagnostics",
+        "Question": "Which convergence diagnostic for MCMC methods is most sensitive to the choice of starting values and is known to potentially indicate convergence even when the chain has not fully explored the target distribution?",
+        "Options": "A. Gelman-Rubin statistic\nB. Geweke diagnostic\nC. Raftery-Lewis diagnostic\nD. Heidelberger-Welch diagnostic",
+        "Model_Gemeni_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "A",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Regression analysis and Collinearity",
+        "Question": "In a multiple regression model with high collinearity, which of the following is **least** likely to be affected?",
+        "Options": "A. The significance of individual predictor variables.\nB. The overall model fit (R-squared).\nC. The prediction accuracy of the model for new data.\nD. The interpretation of the regression coefficients.",
+        "Model_Gemeni_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Multivariate statistics and Factor analysis",
+        "Question": "Which of the following statements is TRUE regarding the relationship between factor analysis and principal component analysis (PCA)?",
+        "Options": "A. Factor analysis assumes the underlying factors are uncorrelated, while PCA does not.\nB. PCA is a special case of factor analysis where the communalities are assumed to be 1.\nC. Factor analysis aims to explain the variance of observed variables, while PCA aims to reduce the dimensionality of the data.\nD. Both factor analysis and PCA are solely concerned with the variance-covariance structure of the data.",
+        "Model_Gemeni_Answer": "B",
+        "GPT_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Survival analysis and Hazard functions",
+        "Question": "Which of the following statements accurately describes the relationship between the hazard function and the survival function in survival analysis?",
+        "Options": "A. The hazard function is the negative derivative of the survival function.\nB. The hazard function is the logarithm of the survival function.\nC. The survival function is the integral of the hazard function.\nD. The hazard function is the reciprocal of the survival function.",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Hypothesis testing and Power analysis",
+        "Question": "In a power analysis for a two-tailed hypothesis test, increasing the alpha level from 0.05 to 0.10 will:",
+        "Options": "A. Increase the power of the test.\nB. Decrease the power of the test.\nC. Have no effect on the power of the test.\nD. Increase the probability of a Type II error.",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Experimental design and Blocking and confounding",
+        "Question": "In a factorial experiment, the interaction effect between two factors is confounded with the block effect. Which of the following is a potential consequence of this confounding?",
+        "Options": "A. It becomes impossible to estimate the main effects of the factors.\nB. The interaction effect can be accurately estimated, but the main effects cannot.\nC. The interaction effect and main effects can be estimated, but with reduced precision.\nD. The interaction effect and main effects can be estimated without any loss of precision.",
+        "Model_Gemeni_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Time series analysis and Spectral analysis",
+        "Question": "Which of the following spectral analysis techniques is specifically designed to handle non-stationary time series with time-varying spectral characteristics?",
+        "Options": "A. Wavelet analysis\nB. Autoregressive (AR) modeling\nC. Fourier transform\nD. Moving average (MA) modeling",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Regression analysis and Heteroscedasticity",
+        "Question": "Which of the following is NOT a consequence of heteroscedasticity in regression analysis?",
+        "Options": "A. Biased parameter estimates\nB. Inefficient parameter estimates\nC. Inflated Type I error rate\nD. Reduced power of hypothesis tests",
+        "Model_Gemeni_Answer": "A",
+        "GPT_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Experimental design and Blocking and confounding",
+        "Question": "In a randomized block design, which of the following is **NOT** a valid strategy for minimizing confounding between the treatment effect and the block effect?",
+        "Options": "A. Randomly assigning treatments within each block.\nB. Using a large number of blocks.\nC. Ensuring that the block effect is statistically significant.\nD. Choosing blocks that are homogeneous with respect to the blocking factor.",
+        "Model_Gemeni_Answer": "C",
+        "GPT_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    }
+]

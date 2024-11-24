@@ -1,0 +1,902 @@
+[
+    {
+        "subject": "Hypothesis testing and Multiple comparisons correction",
+        "Question": "In the context of multiple hypothesis testing, when comparing the Family-Wise Error Rate (FWER) control provided by the Bonferroni correction to the False Discovery Rate (FDR) control provided by the Benjamini-Hochberg (BH) procedure, which of the following statements is true?",
+        "Options": "A. The Bonferroni correction is less conservative and leads to a higher power than the BH procedure.\nB. The BH procedure controls the FWER under any dependency structure of the test statistics.\nC. The Bonferroni correction ensures that the probability of making at least one Type I error does not exceed the nominal alpha level for any number of comparisons.\nD. The BH procedure guarantees that no Type I errors will be made.",
+        "Model_GPT_Answer": "C",
+        "Gemeni_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Time series analysis and Spectral analysis",
+        "Question": "In the context of spectral analysis for time series data, which of the following statements best describes the primary purpose of estimating the spectral density function?",
+        "Options": "A. To identify the periodic components that are not observable in the time domain.\nB. To calculate the exact future values of the time series.\nC. To transform the time series data into a frequency domain without loss of information.\nD. To estimate the mean and variance of the time series for normalization purposes.",
+        "Model_GPT_Answer": "A",
+        "Gemeni_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Statistical learning theory and Cross-validation",
+        "Question": "In the context of statistical learning theory, how does the principle of cross-validation relate to the trade-off between model complexity and the risk of overfitting, particularly when considering the asymptotic behavior of the generalization error?",
+        "Options": "A. Cross-validation optimally balances model complexity and overfitting risk by minimizing the empirical risk only.\nB. Cross-validation inherently increases the risk of overfitting by always selecting the model with the lowest training error.\nC. Cross-validation can lead to the selection of a more complex model than necessary if the validation set size is not adequately chosen.\nD. Cross-validation directly minimizes the asymptotic generalization error by ensuring that the model complexity is inversely proportional to the size of the training set.",
+        "Model_GPT_Answer": "C",
+        "Gemeni_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Time series analysis and Seasonality",
+        "Question": "In the context of time series analysis, which of the following best describes the methodological approach to accurately account for seasonality in a dataset characterized by strong cyclical patterns that do not correspond to the calendar seasons but are instead driven by industry-specific cycles?",
+        "Options": "A. Applying a Box-Jenkins ARIMA model without seasonal differencing\nB. Utilizing a Fourier series to model cycles of non-standard frequencies\nC. Implementing a simple moving average with a fixed seasonal window\nD. Adjusting the series using calendar-based seasonal decomposition methods",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Hypothesis testing and Non-parametric tests",
+        "Question": "In the context of non-parametric tests, which of the following statements accurately describes a scenario where the Wilcoxon Signed-Rank Test is preferred over the Mann-Whitney U Test?",
+        "Options": "A. When comparing the means of two independent samples.\nB. When the sample sizes are large and the data are normally distributed.\nC. When assessing the consistency of responses before and after an intervention in paired or matched samples.\nD. When the data are ordinal but not paired.",
+        "Model_GPT_Answer": "C",
+        "Gemeni_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Bayesian inference and Prior distributions",
+        "Question": "In the context of Bayesian inference, when selecting a prior distribution for a parameter \u03b8, which of the following considerations is crucial to ensure that the posterior distribution is properly updated as new data is observed?",
+        "Options": "A. The prior distribution must have the same support as the likelihood function.\nB. The prior distribution must be uniform.\nC. The prior distribution must have a larger variance than the likelihood function.\nD. The prior distribution must be based solely on historical data.",
+        "Model_GPT_Answer": "A",
+        "Gemeni_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Non-parametric methods and Kernel density estimation",
+        "Question": "In the context of Kernel density estimation (KDE) as a non-parametric method for estimating the probability density function of a random variable, which of the following statements accurately describes the impact of the bandwidth parameter on the resulting estimate?",
+        "Options": "A. A larger bandwidth always results in a more accurate estimate of the underlying density function.\nB. A smaller bandwidth systematically eliminates the noise in the data, leading to a smoother density estimate.\nC. A larger bandwidth can lead to an oversmoothed estimate that may obscure important features of the data distribution.\nD. The bandwidth parameter has no significant effect on the shape of the estimated density curve.",
+        "Model_GPT_Answer": "C",
+        "Gemeni_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Time series analysis and Spectral analysis",
+        "Question": "In the context of spectral analysis for time series analysis, when applying the Fourier transform to a non-stationary time series data originating from financial markets, which of the following techniques is most appropriate to address the non-stationarity before performing spectral analysis?",
+        "Options": "A. Detrending the data using a moving average filter\nB. Applying a high-pass filter to remove low-frequency components\nC. Segmenting the time series into stationary subseries\nD. Increasing the sampling rate of the time series data",
+        "Model_GPT_Answer": "A",
+        "Gemeni_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Statistical learning theory and Cross-validation",
+        "Question": "In the context of statistical learning theory, which of the following best describes the primary purpose of using cross-validation techniques?",
+        "Options": "A. To estimate the parameters of the underlying distribution of the data.\nB. To assess the model's ability to generalize to an independent dataset.\nC. To maximize the likelihood function for non-parametric models.\nD. To reduce the computational complexity of the learning algorithm.",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Bayesian inference and Prior distributions",
+        "Question": "In the context of Bayesian inference, when selecting a prior distribution for a parameter, which of the following statements is true regarding the impact of the choice of prior on the posterior distribution, especially when the sample size is small?",
+        "Options": "A. A non-informative prior always leads to a posterior distribution that is less influenced by the prior than by the data.\nB. A conjugate prior is necessary to ensure that the posterior distribution can be determined analytically.\nC. The choice of prior can substantially affect the posterior distribution, potentially leading to different inferential conclusions.\nD. The influence of the prior on the posterior distribution diminishes as the sample size increases, regardless of the choice of prior.",
+        "Model_GPT_Answer": "C",
+        "Gemeni_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Experimental design and Blocking and confounding",
+        "Question": "In the context of experimental design, when a researcher intentionally groups subjects together based on a specific characteristic that is expected to affect the outcome, in order to isolate the effect of the treatment variable, this process is known as:",
+        "Options": "A. Randomization\nB. Stratification\nC. Blocking\nD. Confounding",
+        "Model_GPT_Answer": "C",
+        "Gemeni_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Time series analysis and Stationarity",
+        "Question": "In the context of time series analysis, which of the following best describes the property of strict stationarity?",
+        "Options": "A. The joint distribution of any subset of the time series does not change when shifted in time, provided the mean and variance are constant.\nB. The mean and variance of the time series are constant over time, but higher moments can change.\nC. The joint distribution of any subset of the time series does not change when shifted in time, regardless of moments.\nD. The autocorrelation function of the time series remains constant over time, assuming homoscedasticity.",
+        "Model_GPT_Answer": "C",
+        "Gemeni_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Experimental design and Randomization techniques",
+        "Question": "In the context of experimental design, particularly within the realm of clinical trials for new pharmaceuticals, which randomization technique best addresses both the reduction of selection bias and the achievement of balance across treatment groups, while also facilitating complex statistical analysis that accounts for potential covariates?",
+        "Options": "A. Simple randomization\nB. Stratified randomization\nC. Block randomization\nD. Minimization",
+        "Model_GPT_Answer": "D",
+        "Gemeni_answer": "D",
+        "Llama_answer": "D",
+        "Claude_answer": "D"
+    },
+    {
+        "subject": "Survival analysis and Hazard functions",
+        "Question": "In the context of survival analysis, when comparing two hazard functions over time, if the hazard ratio (HR) between two groups remains constant over the study period, which of the following best describes the proportional hazards assumption?",
+        "Options": "A. The assumption is violated because the hazard rates are not proportional.\nB. The assumption is upheld, indicating that the effect of covariates on the hazard is multiplicative over time.\nC. The assumption is irrelevant as long as the hazard rates for both groups change over time.\nD. The assumption only holds if the hazard rates for both groups decrease over time.",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Experimental design and Randomization techniques",
+        "Question": "In the context of experimental design, which of the following randomization techniques is most effective in ensuring that treatment groups are comparable on both observed and unobserved covariates in a clinical trial?",
+        "Options": "A. Simple randomization\nB. Stratified randomization\nC. Block randomization\nD. Minimization",
+        "Model_GPT_Answer": "D",
+        "Gemeni_answer": "D",
+        "Llama_answer": "D",
+        "Claude_answer": "D"
+    },
+    {
+        "subject": "Multivariate statistics and Canonical correlations",
+        "Question": "In the context of canonical correlation analysis (CCA) within multivariate statistics, which of the following best describes the theoretical implication of the canonical correlations themselves?",
+        "Options": "A. The canonical correlations represent the maximum possible correlations between any linear combination of variables from two sets.\nB. The canonical correlations are equivalent to the Pearson correlation coefficients between the original variables of the two sets.\nC. The canonical correlations indicate the proportion of variance shared by the first set of variables that can be explained by the second set of variables.\nD. The canonical correlations measure the degree of linear dependence between the mean vectors of the two sets of variables.",
+        "Model_GPT_Answer": "A",
+        "Gemeni_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Survival analysis and Hazard functions",
+        "Question": "In the context of survival analysis, when comparing the hazard functions of two treatments in a clinical trial for a chronic disease, which of the following statistical methods is most appropriate for testing the null hypothesis that there is no difference in the hazard rates over time between the two treatments, while accounting for potential covariates that could affect survival?",
+        "Options": "A. Kaplan-Meier estimator\nB. Log-rank test\nC. Cox proportional hazards model\nD. Fisher's exact test",
+        "Model_GPT_Answer": "C",
+        "Gemeni_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Statistical learning theory and Bias-variance tradeoff",
+        "Question": "In the context of statistical learning theory, when applying the bias-variance tradeoff to the development of predictive models for real-world applications such as financial market forecasting, which of the following statements best describes the impact of choosing a model with too much complexity?",
+        "Options": "A. It increases both bias and variance, leading to underfitting and poor generalization to new data.\nB. It decreases bias but significantly increases variance, potentially leading to overfitting and poor predictions on new data.\nC. It decreases variance but significantly increases bias, leading to models that are too simple to capture the underlying patterns.\nD. It has no significant impact on bias or variance but increases computational cost and model interpretability.",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Bayesian inference and Posterior updating",
+        "Question": "In the context of Bayesian inference, when updating the posterior distribution of a model's parameters after observing new data, which of the following real-world applications correctly illustrates the principle of posterior updating?",
+        "Options": "A. Adjusting the predicted path of a hurricane in real-time as new weather data becomes available.\nB. Calculating the mean height of a population once and never revising it, regardless of new sample data.\nC. Using a fixed algorithm to predict stock prices without incorporating new market information.\nD. Determining the initial probability of having a disease without updating it after new symptoms are observed.",
+        "Model_GPT_Answer": "A",
+        "Gemeni_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Statistical learning theory and Bias-variance tradeoff",
+        "Question": "In the context of statistical learning theory, how does the bias-variance tradeoff influence the choice of model complexity?",
+        "Options": "A. Increasing model complexity will indefinitely decrease both bias and variance.\nB. Increasing model complexity generally decreases bias up to a point, beyond which variance starts to significantly increase.\nC. Decreasing model complexity always leads to a decrease in variance without affecting bias.\nD. Increasing model complexity decreases variance while increasing bias linearly.",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Sampling efficiency",
+        "Question": "In the context of Markov Chain Monte Carlo (MCMC) methods, which of the following strategies is most effective in improving sampling efficiency when estimating parameters in complex Bayesian models, such as those used in climate change projections?",
+        "Options": "A. Increasing the number of chains while keeping the total number of samples constant\nB. Decreasing the autocorrelation of the chain through algorithmic adjustments like the Hamiltonian Monte Carlo method\nC. Reducing the variance of the prior distributions\nD. Utilizing a higher burn-in period for each chain",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Experimental design and Factorial designs",
+        "Question": "In the context of factorial designs in experimental design, which of the following best describes the primary advantage of using a 2x2 factorial design over two separate experiments to investigate the effects of two binary factors on a response variable?",
+        "Options": "A. It requires a larger sample size to achieve the same statistical power.\nB. It allows for the investigation of the interaction effect between the two factors.\nC. It simplifies the analysis by reducing the complexity of the experimental design.\nD. It eliminates the need for randomization in assigning experimental units to treatment conditions.",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Bayesian inference and Posterior updating",
+        "Question": "In the context of Bayesian inference, when updating the posterior distribution with new data, which of the following statements accurately reflects the impact of the prior distribution as the sample size increases?",
+        "Options": "A. The influence of the prior distribution diminishes, and the posterior distribution increasingly reflects the likelihood function.\nB. The influence of the prior distribution increases, overshadowing the impact of the likelihood function.\nC. The influence of the prior distribution remains constant, regardless of the sample size.\nD. The influence of the prior distribution and the likelihood function both diminish, making the posterior distribution increasingly uniform.",
+        "Model_GPT_Answer": "A",
+        "Gemeni_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Bayesian inference and Posterior updating",
+        "Question": "In the context of Bayesian inference, when performing posterior updating with a conjugate prior, which of the following statements accurately describes the impact of observing a large amount of data that is significantly different from the prior belief?",
+        "Options": "A. The posterior distribution becomes more similar to the prior distribution.\nB. The posterior distribution shifts significantly towards the observed data, diminishing the influence of the prior.\nC. The variance of the posterior distribution increases substantially compared to the prior.\nD. The shape of the posterior distribution becomes multimodal, reflecting the conflict between the data and the prior.",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B.",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Experimental design and Factorial designs",
+        "Question": "In the context of factorial designs in experimental design, which of the following best describes the theoretical implication of interaction effects between two factors on the interpretation of main effects?",
+        "Options": "A. Interaction effects suggest that the main effects of each factor are independent of each other, allowing for straightforward interpretation of each factor's effect.\nB. Interaction effects indicate that the effect of one factor depends on the level of the other factor, complicating the interpretation of main effects.\nC. Interaction effects imply that main effects can be ignored if they are statistically insignificant, focusing analysis solely on the interaction terms.\nD. Interaction effects demonstrate that factorial designs are unsuitable for experiments where factors are expected to influence each other.",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Gibbs sampling",
+        "Question": "In the context of Gibbs sampling, which of the following statements best describes the condition under which the Markov chain is guaranteed to converge to its stationary distribution?",
+        "Options": "A. The Markov chain must be periodic.\nB. The target distribution must be uniform.\nC. The Markov chain must be irreducible and aperiodic.\nD. Each variable must be updated in a random order at each iteration.",
+        "Model_GPT_Answer": "C",
+        "Gemeni_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Survival analysis and Censoring",
+        "Question": "In the context of survival analysis, which of the following best describes the scenario where the event of interest (e.g., death, failure) has occurred for some subjects, but the exact time of the event cannot be determined due to the data collection process ending before the event is observed?",
+        "Options": "A. Left censoring\nB. Right censoring\nC. Interval censoring\nD. Non-informative censoring",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "**A**",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Survival analysis and Kaplan-Meier estimator",
+        "Question": "In the context of the Kaplan-Meier estimator, which of the following statements accurately describes the impact of right-censored data on the estimation of survival probabilities?",
+        "Options": "A. Right-censored data lead to an overestimation of survival probabilities because the actual event times for these observations are unknown.\nB. Right-censored data have no impact on the estimation of survival probabilities as the Kaplan-Meier estimator does not account for censored observations.\nC. Right-censored data result in an underestimation of survival probabilities because they are treated as if the event occurred at the time of censoring.\nD. Right-censored data are accounted for by reducing the risk set size in time intervals following the censoring, without assuming the event occurred at censoring.",
+        "Model_GPT_Answer": "D",
+        "Gemeni_answer": "D",
+        "Llama_answer": "D",
+        "Claude_answer": "D"
+    },
+    {
+        "subject": "Time series analysis and Stationarity",
+        "Question": "In the context of applying time series analysis to financial market data, which of the following statements best describes the concept of stationarity and its significance for predictive modeling?",
+        "Options": "A. Stationarity implies that the predictive models based on financial time series data can only be applied to stationary processes, as non-stationary data indicate that the mean and variance are constant over time.\nB. Stationarity in financial time series is irrelevant for predictive modeling since financial markets are efficient and all information is already reflected in current prices.\nC. A financial time series must be transformed into a stationary process through differencing or detrending before applying ARIMA models, as stationarity is a prerequisite for the consistent estimation of model parameters.\nD. Non-stationary financial time series data can be directly used in all forms of predictive modeling without any transformations, as modern machine learning algorithms automatically adjust for any non-stationarity in the data.",
+        "Model_GPT_Answer": "C",
+        "Gemeni_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Hypothesis testing and Power analysis",
+        "Question": "In the context of designing a study for hypothesis testing, which of the following factors does not directly influence the power of a statistical test?",
+        "Options": "A. The significance level (alpha)\nB. The sample size\nC. The effect size\nD. The choice of statistical software used for analysis",
+        "Model_GPT_Answer": "D",
+        "Gemeni_answer": "D",
+        "Llama_answer": "D",
+        "Claude_answer": "D"
+    },
+    {
+        "subject": "Statistical learning theory and Bias-variance tradeoff",
+        "Question": "In the context of the bias-variance tradeoff within Statistical Learning Theory, which of the following best describes the effect of increasing model complexity on the expected test error?",
+        "Options": "A. Increases both bias and variance, leading to higher expected test error.\nB. Decreases bias, but increases variance after a certain point, potentially increasing or decreasing expected test error depending on the balance.\nC. Decreases variance, but increases bias after a certain point, leading to higher expected test error.\nD. Decreases both bias and variance, leading to lower expected test error indefinitely as complexity increases.",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Hypothesis testing and Power analysis",
+        "Question": "In the context of hypothesis testing, which of the following statements accurately reflects a common misconception about power analysis?",
+        "Options": "A. Power analysis is only necessary when the sample size is small.\nB. Increasing the significance level (alpha) decreases the power of a test.\nC. Power analysis can only be conducted after the data has been collected and analyzed.\nD. Power is the probability of correctly failing to reject the null hypothesis when it is true.",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "C",
+        "Llama_answer": "B",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Statistical learning theory and Bias-variance tradeoff",
+        "Question": "In the context of statistical learning theory, the bias-variance tradeoff implies a fundamental relationship between the complexity of a model and its generalization error on unseen data. Considering this principle, which of the following statements best encapsulates the theoretical implications of employing a highly complex model to minimize training error?",
+        "Options": "A. A highly complex model will have low bias and low variance, leading to optimal generalization error.\nB. A highly complex model will have low bias but high variance, potentially increasing the generalization error.\nC. A highly complex model will have high bias and low variance, leading to suboptimal generalization error.\nD. A highly complex model will have high bias and high variance, resulting in the highest possible generalization error.",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Experimental design and Randomization techniques",
+        "Question": "In the context of experimental design, which of the following randomization techniques is most effective in ensuring that treatment groups are comparable on both observed and unobserved covariates in large samples?",
+        "Options": "A. Simple randomization\nB. Stratified randomization\nC. Block randomization\nD. Minimization",
+        "Model_GPT_Answer": "D",
+        "Gemeni_answer": "D",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Regression analysis and Heteroscedasticity",
+        "Question": "In the context of regression analysis, which of the following best describes the impact of heteroscedasticity on the Ordinary Least Squares (OLS) estimator?",
+        "Options": "A. It causes the OLS estimator to become biased and inconsistent.\nB. It leads to an increase in the variance of the OLS estimator, making it less efficient.\nC. It results in the underestimation of the standard errors, leading to overly optimistic significance levels.\nD. It violates the assumption of linearity in the regression model.",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Statistical learning theory and Regularization techniques",
+        "Question": "In the context of statistical learning theory, when applying regularization techniques to prevent overfitting in predictive modeling, which of the following real-world applications would most benefit from L1 regularization (Lasso) instead of L2 regularization (Ridge) due to its ability to produce a sparse model by shrinking some coefficients to zero?",
+        "Options": "A. Predicting stock prices using thousands of economic indicators, where only a few indicators are actually predictive.\nB. Estimating the effect of various drugs on blood pressure where all drugs are expected to have some effect.\nC. Forecasting weather conditions using a wide range of atmospheric data, where all variables contribute to the model.\nD. Modeling the relationship between genetic markers and height, where all markers are believed to contribute to height variation.",
+        "Model_GPT_Answer": "A",
+        "Gemeni_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Non-parametric methods and Kernel density estimation",
+        "Question": "In the context of Kernel density estimation (KDE) as a non-parametric method for estimating the probability density function of a random variable, which of the following statements is true regarding the choice of bandwidth (h) and its impact on the estimator?",
+        "Options": "A. A larger bandwidth always leads to a more accurate estimation of the underlying density function, as it incorporates more data points.\nB. A smaller bandwidth always results in a smoother density estimate, reducing the variance of the estimator.\nC. The choice of bandwidth has no significant effect on the bias of the KDE, only on its variance.\nD. An optimally chosen bandwidth balances the trade-off between the bias and the variance of the estimator.",
+        "Model_GPT_Answer": "D",
+        "Gemeni_answer": "D",
+        "Llama_answer": "D",
+        "Claude_answer": "D"
+    },
+    {
+        "subject": "Bayesian inference and Prior distributions",
+        "Question": "In the context of Bayesian inference, which of the following best describes the role of a non-informative prior distribution?",
+        "Options": "A. To express a strong belief in the likelihood of certain parameter values based on previous studies.\nB. To minimize the influence of prior knowledge on the posterior distribution, aiming for the data to primarily shape the inference.\nC. To maximize the computational efficiency of Bayesian estimation by simplifying the prior.\nD. To provide a subjective probability distribution that reflects personal belief rather than empirical data.",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Multivariate statistics and Principal Component Analysis",
+        "Question": "In the context of Principal Component Analysis (PCA) applied to a dataset with a large number of variables, what is the primary reason for the orthogonality of the principal components?",
+        "Options": "A. To ensure that the principal components capture the maximum variance in the order of extraction.\nB. To minimize the computational complexity of the PCA algorithm.\nC. To facilitate easier interpretation of the principal components by making them independent predictors.\nD. To allow for the reconstruction of the original variables from the principal components without loss of information.",
+        "Model_GPT_Answer": "A",
+        "Gemeni_answer": "C",
+        "Llama_answer": "A",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Statistical learning theory and Overfitting and underfitting",
+        "Question": "In the context of statistical learning theory, when developing a predictive model for forecasting stock market trends, which of the following scenarios most accurately describes the consequence of underfitting the model?",
+        "Options": "A. The model captures the underlying trend of the stock market but fails to make accurate predictions due to high bias and low variance.\nB. The model accurately predicts short-term fluctuations but fails to capture the overall trend of the stock market.\nC. The model performs exceptionally well on training data but poorly on unseen data due to high variance and low bias.\nD. The model requires an excessive amount of data to make accurate predictions, leading to computational inefficiency.",
+        "Model_GPT_Answer": "A",
+        "Gemeni_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Experimental design and Factorial designs",
+        "Question": "In the context of factorial designs, when analyzing the interaction effect between two factors (Factor A and Factor B), which of the following statements is true regarding the interpretation of main effects?",
+        "Options": "A. The main effects of Factor A and Factor B can be interpreted without considering the interaction effect if the interaction is statistically significant.\nB. The main effects of Factor A and Factor B should not be interpreted without considering the interaction effect if the interaction is statistically significant.\nC. The interaction effect is always independent of the main effects, allowing for separate interpretations.\nD. The main effects and interaction effects are only relevant in within-subjects designs, not in factorial designs.",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Regression analysis and Collinearity",
+        "Question": "In the context of regression analysis, how does collinearity affect the interpretation and reliability of coefficient estimates in real-world applications such as economic forecasting, where multiple economic indicators are used as predictors?",
+        "Options": "A. It enhances the precision of the coefficient estimates, making economic forecasts more reliable.\nB. It has no significant effect on the coefficient estimates or the reliability of economic forecasts.\nC. It inflates the standard errors of the coefficient estimates, making it difficult to determine the individual effect of each economic indicator.\nD. It decreases the overall model fit, leading to poorer economic forecasts.",
+        "Model_GPT_Answer": "C",
+        "Gemeni_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Non-parametric methods and Bootstrap methods",
+        "Question": "In the context of applying bootstrap methods for estimating the accuracy of a predictive model in financial market analysis, which of the following statements best describes the primary advantage of using the bootstrap approach over traditional parametric methods?",
+        "Options": "A. Bootstrap methods require the assumption of normality in the distribution of the model's errors.\nB. Bootstrap methods can provide more accurate confidence intervals for the model's predictions without relying on large sample sizes.\nC. Bootstrap methods enhance the computational efficiency of model estimation by reducing the need for iterative resampling.\nD. Bootstrap methods primarily improve the predictive model's accuracy by incorporating external economic indicators into the resampling process.",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Gibbs sampling",
+        "Question": "In the context of Gibbs sampling, which of the following statements best describes the condition under which the Markov chain is guaranteed to converge to its stationary distribution, assuming all other regularity conditions are met?",
+        "Options": "A. The target distribution must be continuous and have a finite mean.\nB. The Markov chain must be irreducible and aperiodic.\nC. Each conditional distribution used in the sampling process must be unimodal.\nD. The sampling process must include a burn-in period of fixed length.",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Hypothesis testing and Multiple comparisons correction",
+        "Question": "In the context of multiple comparisons correction, when conducting a large number of hypothesis tests simultaneously, which of the following methods adjusts the p-values to control the False Discovery Rate (FDR) rather than simply controlling the family-wise error rate (FWER)?",
+        "Options": "A. Bonferroni Correction\nB. Holm-Bonferroni Method\nC. Benjamini-Hochberg Procedure\nD. Tukey's Honestly Significant Difference (HSD)",
+        "Model_GPT_Answer": "C",
+        "Gemeni_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Bayesian inference and Conjugate priors",
+        "Question": "In the context of Bayesian inference, when considering the estimation of a binomial proportion (p) using a Beta distribution as the prior, which of the following distributions is the conjugate prior of the likelihood function p^x(1-p)^(n-x), where x is the number of successes in n Bernoulli trials?",
+        "Options": "A. Normal distribution\nB. Poisson distribution\nC. Beta distribution\nD. Gamma distribution",
+        "Model_GPT_Answer": "C",
+        "Gemeni_answer": "C",
+        "Llama_answer": "C.",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Gibbs sampling",
+        "Question": "In the context of Gibbs sampling, a component of Markov Chain Monte Carlo methods, which of the following statements accurately describes the condition under which the Gibbs sampler is guaranteed to converge to the correct posterior distribution?",
+        "Options": "A. The target distribution must be continuous and differentiable everywhere.\nB. The conditional distributions from which samples are drawn must be unimodal.\nC. The Markov chain must be irreducible and aperiodic.\nD. Each variable must be independent of all other variables given the current state of the Markov chain.",
+        "Model_GPT_Answer": "C",
+        "Gemeni_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Bayesian inference and Prior distributions",
+        "Question": "In the context of Bayesian inference, when selecting a prior distribution for a parameter, which of the following statements is true regarding the influence of the prior on the posterior distribution in the case of having a large amount of data?",
+        "Options": "A. The choice of prior becomes irrelevant as the amount of data increases.\nB. A non-informative prior always leads to a posterior distribution that is less influenced by the data compared to an informative prior.\nC. The influence of the prior distribution on the posterior increases proportionally with the amount of data.\nD. The prior distribution always dominates the posterior distribution regardless of the amount of data.",
+        "Model_GPT_Answer": "A",
+        "Gemeni_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Time series analysis and Spectral analysis",
+        "Question": "In the context of spectral analysis for time series analysis, which of the following statements is true regarding the use of the periodogram for estimating the spectral density of a stationary time series?",
+        "Options": "A. The periodogram is an unbiased estimator of the spectral density.\nB. The periodogram smoothed over a fixed bandwidth converges to the true spectral density as the sample size increases.\nC. The variance of the periodogram decreases as the sample size increases, making it a consistent estimator of the spectral density.\nD. The periodogram inherently provides a consistent estimate of the spectral density without any smoothing or averaging techniques applied.",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Time series analysis and Stationarity",
+        "Question": "In the context of time series analysis, which of the following tests is NOT primarily used for testing the stationarity of a time series?",
+        "Options": "A. Augmented Dickey-Fuller (ADF) Test\nB. Kwiatkowski-Phillips-Schmidt-Shin (KPSS) Test\nC. Phillips-Perron (PP) Test\nD. Jarque-Bera Test",
+        "Model_GPT_Answer": "D",
+        "Gemeni_answer": "D",
+        "Llama_answer": "D",
+        "Claude_answer": "D"
+    },
+    {
+        "subject": "Experimental design and Blocking and confounding",
+        "Question": "In the context of experimental design, when a researcher mistakenly allows a variable, which is not the primary factor under investigation, to vary systematically along with the primary factor, thus potentially influencing the outcome, this scenario is best described as:",
+        "Options": "A. Randomization\nB. Confounding\nC. Blocking\nD. Stratification",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Regression analysis and Heteroscedasticity",
+        "Question": "In the context of regression analysis, which of the following statements accurately describes the relationship between heteroscedasticity and the validity of standard errors in Ordinary Least Squares (OLS) regression models?",
+        "Options": "A. Heteroscedasticity does not affect the validity of standard errors, as OLS standard errors are robust to violations of homoscedasticity.\nB. Heteroscedasticity leads to smaller standard errors, systematically overestimating the precision of the estimated coefficients.\nC. Heteroscedasticity has no impact on the standard errors, but it affects the efficiency of the OLS estimators, making them less reliable.\nD. Heteroscedasticity inflates standard errors, making them unreliable and potentially leading to incorrect inferences about the significance of predictors.",
+        "Model_GPT_Answer": "D",
+        "Gemeni_answer": "D",
+        "Llama_answer": "B",
+        "Claude_answer": "D"
+    },
+    {
+        "subject": "Statistical learning theory and Regularization techniques",
+        "Question": "In the context of statistical learning theory, which of the following regularization techniques directly aims to enhance model interpretability by potentially reducing the number of variables to zero, thus performing variable selection?",
+        "Options": "A. Ridge Regression\nB. Lasso Regression\nC. Elastic Net\nD. Principal Component Regression",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Regression analysis and Generalized linear models",
+        "Question": "In the context of Generalized Linear Models (GLM) used for regression analysis, when analyzing count data from traffic flow studies to predict the number of accidents at a particular intersection based on traffic volume, weather conditions, and time of day, which distribution and link function combination is most appropriate?",
+        "Options": "A. Gaussian distribution with identity link\nB. Poisson distribution with log link\nC. Binomial distribution with probit link\nD. Gamma distribution with inverse link",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Multivariate statistics and Multivariate normal distribution",
+        "Question": "In the context of the Multivariate Normal Distribution, which of the following statements is true regarding the conditional distribution of one subset of variables given another?",
+        "Options": "A. The conditional distribution is always univariate normal, regardless of the conditioning variables.\nB. The conditional distribution is not normal if the variables are not jointly normally distributed.\nC. The conditional distribution of one subset of variables given another is itself a multivariate normal distribution.\nD. The conditional distributions can only be determined if the covariance matrix is diagonal.",
+        "Model_GPT_Answer": "C",
+        "Gemeni_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Metropolis-Hastings algorithm",
+        "Question": "In the context of the Metropolis-Hastings algorithm within Markov Chain Monte Carlo methods, which of the following statements best describes the role of the proposal distribution?",
+        "Options": "A. It determines the next state to which the algorithm might move, regardless of the acceptance probability.\nB. It is used to compute the acceptance probability for moving to a new state in the Markov chain.\nC. It serves as the equilibrium distribution that the Markov chain attempts to approximate.\nD. It represents the actual distribution of the data being modeled.",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Time series analysis and Seasonality",
+        "Question": "In the context of time series analysis, when applying Fourier analysis to detect seasonality in a dataset representing the monthly sales of a retail company, which of the following statements is true regarding the interpretation of the Fourier coefficients?",
+        "Options": "A. The magnitude of the coefficients indicates the strength of the seasonal patterns at different frequencies, but not the timing of these patterns.\nB. The coefficients can be used directly to forecast future sales without further analysis.\nC. The phase of the coefficients is irrelevant to understanding the seasonality in the dataset.\nD. The sign of the coefficients determines whether the seasonality is additive or multiplicative.",
+        "Model_GPT_Answer": "A",
+        "Gemeni_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Multivariate statistics and Principal Component Analysis",
+        "Question": "In the context of Principal Component Analysis (PCA) within Multivariate Statistics, which of the following statements accurately describes the relationship between the original variables and the principal components?",
+        "Options": "A. Principal components are linear combinations of the original variables, where each component is orthogonal to the others and captures a maximum amount of variance.\nB. Principal components are the eigenvalues of the covariance matrix of the original variables, directly representing the variance captured by each component.\nC. Principal components are a set of values that represent the correlation coefficients between the original variables and the components themselves.\nD. Principal components are the original variables scaled by their respective eigenvalues, ensuring dimensionality reduction while preserving the total variance.",
+        "Model_GPT_Answer": "A",
+        "Gemeni_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Time series analysis and Spectral analysis",
+        "Question": "In the context of spectral analysis for time series analysis, when examining the power spectrum of a signal derived from financial market data, what does a peak at a low frequency (long period) most likely indicate?",
+        "Options": "A. High volatility in short-term market movements\nB. A seasonal pattern in trading volumes\nC. A long-term trend in market prices\nD. Random noise in the market data",
+        "Model_GPT_Answer": "C",
+        "Gemeni_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Time series analysis and ARIMA models",
+        "Question": "In the context of ARIMA models for time series analysis, which of the following statements accurately describes the theoretical implication of the \"Integrated\" (I) component?",
+        "Options": "A. It represents the number of differences required to make the time series stationary.\nB. It indicates the number of autoregressive terms needed to forecast the future values.\nC. It signifies the number of lagged forecast errors in the prediction equation.\nD. It denotes the periodicity of the seasonal component in the time series.",
+        "Model_GPT_Answer": "A",
+        "Gemeni_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Regression analysis and Model selection criteria",
+        "Question": "In the context of regression analysis, when comparing models using the Akaike Information Criterion (AIC) and the Bayesian Information Criterion (BIC), under what condition might these criteria lead to the selection of different models?",
+        "Options": "A. When the sample size is large and the number of predictors is small.\nB. When the sample size is small and the number of predictors is large.\nC. When the models being compared have identical likelihood functions.\nD. When the models being compared include both linear and non-linear terms.",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Experimental design and Response surface methodology",
+        "Question": "In the context of Response Surface Methodology (RSM) within Experimental Design, when applying a Central Composite Design (CCD) for exploring a quadratic response surface, what is the primary theoretical implication of augmenting a factorial or fractional factorial design with axial points?",
+        "Options": "A. It allows for the estimation of linear effects only.\nB. It enables the estimation of curvature in the response surface, facilitating the modeling of quadratic effects.\nC. It decreases the precision of the experiment by introducing unnecessary complexity.\nD. It primarily serves to reduce the overall cost of the experiment by minimizing the number of required runs.",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Survival analysis and Censoring",
+        "Question": "In the context of survival analysis, which of the following best describes the impact of non-informative censoring on the estimation of survival functions?",
+        "Options": "A. It leads to an overestimation of the survival function, as it assumes that censored individuals have a higher survival probability than they actually do.\nB. It does not bias the estimation of the survival function, assuming the censoring mechanism is independent of the survival times.\nC. It results in an underestimation of the survival function, as it incorrectly treats censored observations as events.\nD. It biases the estimation of the survival function towards the median survival time, regardless of the censoring mechanism.",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Experimental design and Blocking and confounding",
+        "Question": "In the context of experimental design, when a researcher uses blocking to control for a variable that is believed to influence the response variable, but inadvertently groups subjects in a way that introduces a new source of variation that is systematically different across blocks, this scenario is best described as:",
+        "Options": "A. A successful implementation of randomization.\nB. An instance of confounding due to improper blocking.\nC. A reduction in experimental error due to effective blocking.\nD. An example of stratification effectively isolating variability.",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Time series analysis and Spectral analysis",
+        "Question": "In the context of spectral analysis for time series analysis, which of the following statements accurately describes the relationship between the autocovariance function of a stationary time series and its spectral density function?",
+        "Options": "A. The spectral density function is the Fourier transform of the autocovariance function.\nB. The autocovariance function is the inverse Laplace transform of the spectral density function.\nC. The spectral density function can be obtained by applying the z-transform to the autocovariance function.\nD. The autocovariance function is the derivative of the spectral density function with respect to frequency.",
+        "Model_GPT_Answer": "A",
+        "Gemeni_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Statistical learning theory and Overfitting and underfitting",
+        "Question": "In the context of statistical learning theory, when developing a predictive model for forecasting stock market trends, which of the following scenarios best exemplifies the concept of overfitting?",
+        "Options": "A. The model accurately predicts past and future stock market trends using a large number of predictors, including both macroeconomic indicators and company-specific financial metrics.\nB. The model, based on a few key economic indicators, shows moderate accuracy in predicting future stock market trends but fails to capture complex market dynamics.\nC. The model performs exceptionally well on the training data, capturing minute fluctuations in stock prices, but its performance significantly deteriorates on new, unseen data.\nD. The model simplifies the prediction by averaging out the stock market trends over the past decade, ignoring short-term fluctuations and anomalies.",
+        "Model_GPT_Answer": "C",
+        "Gemeni_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Bayesian inference and Posterior updating",
+        "Question": "In the context of Bayesian inference, when updating the posterior distribution with new data, which of the following statements is true regarding the impact of the prior distribution as the sample size increases?",
+        "Options": "A. The influence of the prior distribution diminishes, and the posterior distribution increasingly reflects the likelihood function based on the new data.\nB. The influence of the prior distribution increases, overshadowing the likelihood function based on the new data.\nC. The influence of the prior distribution remains constant regardless of the sample size.\nD. The influence of the prior distribution diminishes, but the posterior distribution becomes uniform.",
+        "Model_GPT_Answer": "A",
+        "Gemeni_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Regression analysis and Generalized linear models",
+        "Question": "In the context of Generalized Linear Models (GLMs), which of the following link functions is most appropriate for a count data regression model where the response variable follows a Poisson distribution?",
+        "Options": "A. Identity link\nB. Log link\nC. Probit link\nD. Inverse link",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Regression analysis and Generalized linear models",
+        "Question": "In the context of Generalized Linear Models (GLMs), which of the following statements best describes the role of the link function?",
+        "Options": "A. It transforms the predictors into a scale where linear regression can be applied.\nB. It specifies the distribution of the response variable.\nC. It transforms the expected value of the response variable to the linear predictor scale.\nD. It estimates the variance of the residuals.",
+        "Model_GPT_Answer": "C",
+        "Gemeni_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Metropolis-Hastings algorithm",
+        "Question": "In the context of applying the Metropolis-Hastings algorithm within Markov Chain Monte Carlo methods for Bayesian data analysis, which of the following statements best describes the role of the proposal distribution in determining the efficiency of the algorithm in exploring the parameter space, especially in high-dimensional models such as those used in climate modeling?",
+        "Options": "A. The choice of proposal distribution does not significantly affect the efficiency of the algorithm as long as it is symmetric.\nB. A well-chosen proposal distribution can significantly reduce the correlation between successive samples, thereby improving the efficiency of the algorithm.\nC. The proposal distribution primarily affects the initial convergence to the target distribution but has minimal impact on the exploration of the parameter space.\nD. The efficiency of the algorithm is solely determined by the acceptance rate, independent of the choice of proposal distribution.",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Multivariate statistics and Factor analysis",
+        "Question": "In the context of exploratory factor analysis (EFA), when determining the number of factors to retain, which of the following criteria directly evaluates the proportion of variance explained by each factor, thereby assisting in the decision-making process?",
+        "Options": "A. Kaiser-Meyer-Olkin (KMO) Measure\nB. Bartlett's Test of Sphericity\nC. Eigenvalues greater than 1 rule\nD. Scree plot test",
+        "Model_GPT_Answer": "C",
+        "Gemeni_answer": "**D**",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Non-parametric methods and Kernel density estimation",
+        "Question": "In the context of Kernel density estimation (KDE) as a non-parametric method for estimating the probability density function of a random variable, consider its application in financial markets for estimating the distribution of stock returns. Which of the following statements best describes a critical consideration when applying KDE for this purpose?",
+        "Options": "A. The choice of kernel function is largely irrelevant as long as the bandwidth is appropriately selected.\nB. KDE can only be applied to stock returns data that follows a normal distribution.\nC. The bandwidth parameter must be carefully chosen to balance the trade-off between bias and variance in the estimate.\nD. KDE is inherently unsuitable for financial data due to the discrete nature of stock prices.",
+        "Model_GPT_Answer": "C",
+        "Gemeni_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Experimental design and Randomization techniques",
+        "Question": "In the context of experimental design, which of the following randomization techniques is most effective in ensuring that treatment groups are comparable on both observed and unobserved covariates in a clinical trial?",
+        "Options": "A. Simple randomization\nB. Stratified randomization\nC. Block randomization\nD. Minimization",
+        "Model_GPT_Answer": "D",
+        "Gemeni_answer": "D",
+        "Llama_answer": "D",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Multivariate statistics and Canonical correlations",
+        "Question": "In the context of Canonical Correlation Analysis (CCA), when analyzing the relationship between two sets of variables, what theoretical implication does the singularity of the within-set covariance matrices have on the interpretability of the canonical variates?",
+        "Options": "A. It implies that the canonical variates may not be uniquely determined, affecting their interpretability.\nB. It suggests an overfitting problem, but does not affect the interpretability of the canonical variates.\nC. It indicates that the canonical correlations will be artificially inflated, thus misrepresenting the true relationship.\nD. It implies that all canonical correlations will be zero, indicating no relationship between the sets of variables.",
+        "Model_GPT_Answer": "A",
+        "Gemeni_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Regression analysis and Collinearity",
+        "Question": "In the context of regression analysis, when examining the impact of advertising spend on sales across multiple media channels (TV, radio, online), you suspect high collinearity between the independent variables. Which method is most appropriate for assessing the severity of collinearity and potentially rectifying its effects without losing significant information?",
+        "Options": "A. Principal Component Analysis (PCA) to reduce dimensionality while retaining variance.\nB. Increase the sample size to mitigate the effects of collinearity.\nC. Remove one of the highly correlated variables arbitrarily.\nD. Use simple linear regression models for each predictor separately.",
+        "Model_GPT_Answer": "A",
+        "Gemeni_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Non-parametric methods and Spline regression",
+        "Question": "In the context of spline regression within non-parametric methods, which of the following best describes the role of knot placement in the model's predictive performance?",
+        "Options": "A. Uniformly spaced knots ensure the highest degree of model flexibility across the entire range of the predictor variable.\nB. The placement of more knots in regions of high variability of the predictor variable can reduce bias at the expense of increased variance.\nC. Knots should only be placed at the quantiles of the predictor variable to minimize the computational complexity of the model.\nD. The number of knots and their placement have no significant effect on the model's predictive performance; only the spline order matters.",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Survival analysis and Censoring",
+        "Question": "In the context of survival analysis, when analyzing the time until the occurrence of a particular event in clinical trials, which type of censoring is most appropriately applied to patients who are lost to follow-up before the study ends, assuming no further information about the patient's status is available after their departure?",
+        "Options": "A. Left censoring\nB. Right censoring\nC. Interval censoring\nD. Non-informative censoring",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Survival analysis and Cox proportional hazards model",
+        "Question": "In the context of the Cox proportional hazards model, which assumption is crucial for the validity of the model's inference regarding the effect of covariates on the hazard function?",
+        "Options": "A. The hazard functions of different individuals must cross at least once.\nB. The hazard ratio for two individuals must remain constant over time.\nC. The distribution of the survival times must follow a normal distribution.\nD. The covariates must have a linear relationship with the survival time.",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Non-parametric methods and Bootstrap methods",
+        "Question": "In the context of non-parametric bootstrap methods, which of the following statements is true regarding the bias-corrected and accelerated (BCa) bootstrap confidence interval?",
+        "Options": "A. It requires the assumption of normality in the bootstrap distribution.\nB. It adjusts for both skewness in the bootstrap distribution and bias in the bootstrap estimate.\nC. It is less accurate than the percentile method for asymmetric distributions.\nD. It can only be applied when the sample size is greater than 30.",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Bayesian inference and Bayes factors",
+        "Question": "In the context of Bayesian inference, when comparing two models using Bayes factors, what theoretical implication does a Bayes factor value greater than 10 have on the models under consideration?",
+        "Options": "A. The evidence against the model with the lower likelihood is substantial, favoring the alternative model.\nB. The prior distributions of the models have a significant impact on the posterior probabilities, rendering the Bayes factor unreliable.\nC. The data used in the analysis is insufficient to draw any meaningful conclusions about the models.\nD. Both models are equally supported by the data, indicating a need for further data collection.",
+        "Model_GPT_Answer": "A",
+        "Gemeni_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Survival analysis and Censoring",
+        "Question": "In the context of survival analysis, which of the following best describes the phenomenon of \"left censoring\"?",
+        "Options": "A. The event of interest has occurred before the study began, and thus the exact time of occurrence is unknown.\nB. The event of interest occurs after the study ends, making it impossible to observe the exact time of occurrence.\nC. The data regarding the event of interest is missing randomly, unrelated to the study design or the event timing.\nD. The event of interest is observed for all subjects, but the cause of the event is unknown.",
+        "Model_GPT_Answer": "A",
+        "Gemeni_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Metropolis-Hastings algorithm",
+        "Question": "In the context of applying the Metropolis-Hastings algorithm within Markov Chain Monte Carlo methods for Bayesian data analysis, which of the following statements best describes the role of the proposal distribution in determining the efficiency of the algorithm in exploring the parameter space, especially in high-dimensional applications such as neural network parameter estimation?",
+        "Options": "A. The choice of proposal distribution has no significant impact on the efficiency of the algorithm as long as it is symmetric.\nB. A well-chosen proposal distribution can significantly reduce the correlation between successive samples, thereby improving the efficiency of the algorithm.\nC. The proposal distribution primarily affects the initial convergence to the target distribution but has minimal impact on the exploration of the parameter space.\nD. The efficiency of the algorithm is solely determined by the target distribution, and the choice of proposal distribution only affects the computational complexity per iteration.",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Experimental design and Factorial designs",
+        "Question": "In the context of factorial designs in experimental design, which of the following best describes the theoretical implication of interaction effects that are significantly stronger than main effects?",
+        "Options": "A. The experiment lacks internal validity due to confounding variables.\nB. The variables in the experiment are independent and do not influence each other's effects.\nC. The outcome is significantly influenced by the combined effects of the variables rather than their individual effects.\nD. The factorial design was improperly constructed, leading to incorrect conclusions.",
+        "Model_GPT_Answer": "C",
+        "Gemeni_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Bayesian inference and Prior distributions",
+        "Question": "In the context of Bayesian inference, when selecting a prior distribution for a parameter of interest, which of the following considerations is crucial for ensuring that the posterior distribution reflects both the data and prior information without the prior dominating the posterior as the sample size becomes large?",
+        "Options": "A. The prior distribution must be uniform.\nB. The prior distribution must have a larger variance than the likelihood function.\nC. The prior distribution must be conjugate to the likelihood function.\nD. The prior distribution must be proper but not necessarily informative.",
+        "Model_GPT_Answer": "D",
+        "Gemeni_answer": "D",
+        "Llama_answer": "D",
+        "Claude_answer": "D"
+    },
+    {
+        "subject": "Hypothesis testing and Multiple comparisons correction",
+        "Question": "In the context of multiple comparisons correction, which of the following statements accurately reflects a common misconception about the Family-Wise Error Rate (FWER) and the False Discovery Rate (FDR)?",
+        "Options": "A. FWER is always more conservative than FDR, leading to fewer type I errors but potentially more type II errors.\nB. FDR is a less stringent control method than FWER because it controls for the expected proportion of false discoveries among the rejected hypotheses, not the probability of making one or more type I errors.\nC. FWER and FDR are effectively the same because both aim to reduce the probability of making type I errors in hypothesis testing.\nD. Increasing the alpha level for FWER adjustments will necessarily decrease the power of the test more significantly than doing so for FDR adjustments.",
+        "Model_GPT_Answer": "C",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Non-parametric methods and Bootstrap methods",
+        "Question": "In the context of bootstrap methods, which of the following statements is true regarding the estimation of the variance of a sample mean?",
+        "Options": "A. The bootstrap variance estimate is always unbiased.\nB. Increasing the number of bootstrap samples always decreases the variance of the bootstrap variance estimate.\nC. The bootstrap method can accurately estimate the variance of the sample mean even when the original sample is highly skewed.\nD. The bootstrap method assumes that the sample comes from a normal distribution.",
+        "Model_GPT_Answer": "C",
+        "Gemeni_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Sampling efficiency",
+        "Question": "In the context of Markov Chain Monte Carlo (MCMC) methods, which of the following factors is most crucial for determining the sampling efficiency of an algorithm?",
+        "Options": "A. The dimensionality of the parameter space\nB. The choice of prior distributions\nC. The computational power available\nD. The color of the histograms produced",
+        "Model_GPT_Answer": "A",
+        "Gemeni_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Survival analysis and Cox proportional hazards model",
+        "Question": "In the context of the Cox proportional hazards model, which of the following statements accurately reflects the theoretical implications of the assumption of proportional hazards?",
+        "Options": "A. The hazard functions of different strata must cross at least once.\nB. The ratio of the hazard functions for any two individuals is constant over time.\nC. The hazard functions for different groups must converge as time approaches infinity.\nD. The cumulative hazard functions for any two individuals must be proportional.",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Multivariate statistics and Factor analysis",
+        "Question": "In the context of exploratory factor analysis (EFA), when determining the number of factors to retain, which of the following criteria directly assesses the model fit by comparing the observed covariance matrix with the predicted covariance matrix generated by the factor model?",
+        "Options": "A. Kaiser's criterion\nB. Scree test\nC. Parallel analysis\nD. Minimum Average Partial (MAP) test",
+        "Model_GPT_Answer": "C",
+        "Gemeni_answer": "C",
+        "Llama_answer": "C",
+        "Claude_answer": "D"
+    },
+    {
+        "subject": "Hypothesis testing and Multiple comparisons correction",
+        "Question": "In the context of multiple comparisons correction, which of the following statements accurately reflects a common misconception about the Family-Wise Error Rate (FWER) and the False Discovery Rate (FDR)?",
+        "Options": "A. FWER is always more conservative than FDR, leading to fewer type I errors but potentially more type II errors.\nB. FDR is a less stringent control method than FWER because it controls for the expected proportion of false discoveries among the rejected hypotheses, not the probability of making one or more type I errors.\nC. FWER adjustments, such as the Bonferroni correction, are only necessary when the number of hypotheses exceeds 20.\nD. FDR and FWER are effectively the same in terms of statistical power when the number of comparisons is small.",
+        "Model_GPT_Answer": "C",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Bayesian inference and Prior distributions",
+        "Question": "In the context of Bayesian inference, when applying the principle of maximum entropy to select a prior distribution for a parameter that is bounded between 0 and 1 (e.g., a probability), which of the following distributions is most appropriate according to this principle?",
+        "Options": "A. Normal distribution\nB. Beta distribution\nC. Uniform distribution\nD. Exponential distribution",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Bayesian inference and Conjugate priors",
+        "Question": "In the context of Bayesian inference, when modeling the number of successes in a series of Bernoulli trials with a Beta prior, which of the following conjugate prior and likelihood combinations is correctly applied in a real-world scenario where a medical researcher is estimating the effectiveness of a new vaccine?",
+        "Options": "A. Beta prior and Binomial likelihood\nB. Gaussian prior and Poisson likelihood\nC. Gamma prior and Exponential likelihood\nD. Poisson prior and Gaussian likelihood",
+        "Model_GPT_Answer": "A",
+        "Gemeni_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Bayesian inference and Conjugate priors",
+        "Question": "In the context of Bayesian inference, which of the following statements accurately describes the relationship between conjugate priors and the likelihood function?",
+        "Options": "A. Conjugate priors are chosen to simplify the computation of the posterior distribution, regardless of the form of the likelihood function.\nB. The choice of a conjugate prior is primarily based on the computational convenience it offers for non-parametric models.\nC. A conjugate prior must always be in the same probability distribution family as the posterior distribution, but not necessarily the likelihood function.\nD. The form of the conjugate prior is determined by the researcher's subjective belief about the parameter, independent of the likelihood function.",
+        "Model_GPT_Answer": "A",
+        "Gemeni_answer": "**A**",
+        "Llama_answer": "A",
+        "Claude_answer": "C"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Gibbs sampling",
+        "Question": "In the context of Markov Chain Monte Carlo methods, specifically Gibbs sampling, which of the following statements best describes its application in the real world, particularly in the field of computational biology?",
+        "Options": "A. Gibbs sampling is primarily used for optimizing the parameters of support vector machines in the classification of biological sequences.\nB. Gibbs sampling is predominantly applied in the estimation of population genetics parameters from sequence data.\nC. Gibbs sampling is mainly utilized for real-time analysis of gene expression data in high-throughput sequencing technologies.\nD. Gibbs sampling is chiefly employed for the deterministic simulation of protein folding dynamics.",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Statistical learning theory and Cross-validation",
+        "Question": "In the context of statistical learning theory, which of the following best describes the theoretical implication of using k-fold cross-validation as opposed to a single validation set for estimating model performance?",
+        "Options": "A. It significantly increases the bias of the model performance estimate.\nB. It reduces the variance of the model performance estimate.\nC. It guarantees the identification of the optimal hyperparameters for any given model.\nD. It eliminates the need for a separate test set to assess model generalizability.",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Hypothesis testing and Type I and Type II errors",
+        "Question": "In the context of hypothesis testing, which of the following statements accurately reflects a common misconception about Type I and Type II errors?",
+        "Options": "A. Increasing the sample size will reduce both Type I and Type II errors simultaneously.\nB. A Type I error is more serious than a Type II error in all testing scenarios.\nC. Type I error refers to rejecting a true null hypothesis, while Type II error involves failing to reject a false null hypothesis.\nD. Type I and Type II errors are dependent on the chosen significance level but not on the power of the test.",
+        "Model_GPT_Answer": "A",
+        "Gemeni_answer": "**D**",
+        "Llama_answer": "B",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Bayesian inference and Bayes factors",
+        "Question": "In the context of Bayesian inference, when comparing two models (Model 1 and Model 2) using Bayes factors, what does a Bayes factor value greater than 10 typically indicate?",
+        "Options": "A. Strong evidence in favor of Model 1, assuming Model 1 is the numerator.\nB. Strong evidence in favor of Model 2, regardless of its position as numerator or denominator.\nC. The data is 10 times more likely under Model 1 than Model 2.\nD. The prior probabilities of Model 1 and Model 2 are equal.",
+        "Model_GPT_Answer": "A",
+        "Gemeni_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Statistical learning theory and Regularization techniques",
+        "Question": "In the context of statistical learning theory, which of the following regularization techniques directly targets the reduction of variance in a model without necessarily increasing bias, by constraining the coefficient estimates towards zero but allowing for the retention of all predictors in the model?",
+        "Options": "A. Lasso (L1 regularization)\nB. Ridge Regression (L2 regularization)\nC. Elastic Net\nD. Principal Component Regression (PCR)",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "B",
+        "Claude_answer": "B"
+    },
+    {
+        "subject": "Bayesian inference and Bayes factors",
+        "Question": "In the context of Bayesian inference, when comparing two models (Model 1 and Model 2) using Bayes factors, if the Bayes factor (BF) is calculated to be BF = P(Data|Model 1) / P(Data|Model 2) = 10, how should this value be interpreted?",
+        "Options": "A. The evidence against Model 2 is substantial, and Model 1 is ten times more likely to be correct given the data.\nB. Model 2 is ten times more likely to be correct given the data, providing substantial evidence against Model 1.\nC. The data is ten times more likely under Model 1 than under the prior distribution of the models.\nD. The likelihood of the data under both models is equal, indicating no preference between Model 1 and Model 2.",
+        "Model_GPT_Answer": "A",
+        "Gemeni_answer": "A",
+        "Llama_answer": "A",
+        "Claude_answer": "A"
+    },
+    {
+        "subject": "Regression analysis and Heteroscedasticity",
+        "Question": "In the context of regression analysis, which of the following best describes the impact of heteroscedasticity on the Ordinary Least Squares (OLS) estimator?",
+        "Options": "A. It causes the OLS estimator to become biased and inconsistent.\nB. It leads to an increase in the variance of the OLS estimator, making it less efficient.\nC. It results in the underestimation of the standard errors, leading to overly optimistic significance levels.\nD. It violates the assumption of linearity in the regression model.",
+        "Model_GPT_Answer": "B",
+        "Gemeni_answer": "B",
+        "Llama_answer": "C",
+        "Claude_answer": "C"
+    }
+]

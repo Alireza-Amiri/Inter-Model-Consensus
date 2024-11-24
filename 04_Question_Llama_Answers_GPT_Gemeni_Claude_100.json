@@ -1,0 +1,902 @@
+[
+    {
+        "subject": "Regression analysis and Generalized linear models",
+        "Question": "In generalized linear models, if a linear predictor is identical for two different observations, which of the following statements is always true regarding their expected responses, assuming a log-link function and a Poisson distribution for the response variable?",
+        "Options": "A. Their variances are equal and depend only on the linear predictor\nB. Their expected responses are equal but their variances may differ\nC. Their expected responses are equal and their variances are equal\nD. Their expected responses are equal, and both are equal to the linear predictor",
+        "Model_Llama_Answer": "C",
+        "GPT_answer": "C",
+        "Claude_answer": "C",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Multivariate statistics and Canonical correlations",
+        "Question": "Given two multivariate datasets, X (p variables) and Y (q variables) with p > q, what is the maximum number of canonical correlations that can be calculated between X and Y?",
+        "Options": "A. p\nB. q\nC. p + q\nD. Minimum(p, q)",
+        "Model_Llama_Answer": "B",
+        "GPT_answer": "D",
+        "Claude_answer": "B",
+        "Gemeni_answer": "D"
+    },
+    {
+        "subject": "Survival analysis and Cox proportional hazards model",
+        "Question": "In a Cox proportional hazards model, the assumption of proportional hazards is violated when the interaction term between a predictor and the logarithm of time is statistically significant. Which of the following strategies is the most appropriate remedy?",
+        "Options": "A. Include the interaction term between the predictor and the logarithm of time in the model and interpret the results with caution.\nB. Remove the predictor that violates the proportional hazards assumption from the model and proceed with the remaining predictors.\nC. Use a stratified Cox model where the predictor that violates the proportional hazards assumption is used as a stratification factor.\nD. Extend the Cox model to a time-dependent Cox model where the predictor that violates the proportional hazards assumption is allowed to have a changing hazard ratio over time.",
+        "Model_Llama_Answer": "D",
+        "GPT_answer": "D",
+        "Claude_answer": "D",
+        "Gemeni_answer": "D"
+    },
+    {
+        "subject": "Multivariate statistics and Canonical correlations",
+        "Question": "Suppose two sets of variables, X (p-dimensional) and Y (q-dimensional), are related by a canonical correlation analysis, yielding r canonical correlations. If p = 5, q = 3, and r = 3, then the canonical correlations are obtained from the eigenvalues of which of the following matrices?",
+        "Options": "A. (X'X)^-1 * (X'Y) * (Y'Y)^-1 * (Y'X)\n B. (X'X)^-1 * (X'Y) * (Y'X) * (X'X)^-1 * (X'Y) * (Y'Y)^-1\n C. (Y'Y)^-1 * (Y'X) * (X'X)^-1 * (X'Y)\n D. (X'X)^-1 * (X'Y) * (Y'Y)^-1",
+        "Model_Llama_Answer": "A",
+        "GPT_answer": "A",
+        "Claude_answer": "C",
+        "Gemeni_answer": "D"
+    },
+    {
+        "subject": "Experimental design and Factorial designs",
+        "Question": "In a manufacturing process for producing a new material, a researcher wants to investigate the effects of four factors: temperature (A), pressure (B), time (C), and catalyst (D) on the yield. If the researcher uses a 2^4 full factorial design with 2 levels for each factor, assuming no aliasing, and observes a statistically significant interaction between factors A and B, what does this imply in the context of the manufacturing process?",
+        "Options": "A. The effect of each factor on the yield can be independently evaluated and estimated.\nB. The effect of factor A on the yield depends on the level of factor C.\nC. The effect of factor A on the yield is the same at both levels of factor B.\nD. The effect of factor A on the yield depends on the level of factor B.",
+        "Model_Llama_Answer": "D",
+        "GPT_answer": "D",
+        "Claude_answer": "D",
+        "Gemeni_answer": "D"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Gibbs sampling",
+        "Question": "In a Bayesian analysis of marketing data using Gibbs sampling, which of the following is a necessary condition for convergence when the full conditionals involve truncated normal distributions with custom-shaped truncation regions, and the researcher wants to fit a model to the sales data of a new product, controlling for the effects of price and seasonality?",
+        "Options": "A. Ensuring irreducibility of the custom-shaped truncation regions in the higher-dimensional state space\nB. Properly tuning the number of burn-in iterations and the thinning interval using diagnostic plots\nC. Confirming that all the full conditionals are log-concave in the parameters\nD. ascertaining that all Markov chain iterations start near the modal region of each full conditional",
+        "Model_Llama_Answer": "A",
+        "GPT_answer": "A",
+        "Claude_answer": "A",
+        "Gemeni_answer": "A."
+    },
+    {
+        "subject": "Statistical learning theory and Bias-variance tradeoff",
+        "Question": "In the context of regression analysis using a suite of models with varying levels of complexity, a statistical modeler observes an optimal point where test error is minimized, representing a balance between the fitting error and the generalization error; beyond this point, the increase in model complexity results in both the squared bias term and the variance term of the bias-variance decomposition increasing simultaneously. What is the nature of the model at the optimal point where the test error was initially minimized?",
+        "Options": "A. The model is overfitting the training data.\nB. The model is underfitting the training data.\nC. The model is optimally regularized to balance the bias-variance tradeoff.\nD. The model has begun to incur irreducible error.",
+        "Model_Llama_Answer": "C",
+        "GPT_answer": "C",
+        "Claude_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Multivariate statistics and Multivariate normal distribution",
+        "Question": "In the context of portfolio optimization, a financial analyst is modeling the daily returns of a 3-stock portfolio using a multivariate normal distribution. The analyst assumes that the mean vector represents the expected daily returns, while the covariance matrix represents the variance and covariance of the returns. However, the analyst accidentally uses a covariance matrix that is not positive semi-definite (PSD). What would be a consequence of using this non-PSD covariance matrix?",
+        "Options": "A. The multivariate normal distribution cannot be defined.\nB. The multivariate normal distribution will have heavier tails than expected.\nC. The variance of the portfolio returns will always be underestimated.\nD. The expected daily returns will always be overestimated.",
+        "Model_Llama_Answer": "A",
+        "GPT_answer": "A",
+        "Claude_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Regression analysis and Heteroscedasticity",
+        "Question": "In a linear regression model exhibiting heteroscedasticity, which of the following statements is correct when considering the ordinary least squares estimator?",
+        "Options": "A. The OLS estimator will be biased and inefficient.\nB. The OLS estimator will be unbiased but inefficient.\nC. The OLS estimator will be biased but efficient.\nD. The OLS estimator will be both unbiased and efficient.",
+        "Model_Llama_Answer": "B",
+        "GPT_answer": "B",
+        "Claude_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Survival analysis and Censoring",
+        "Question": "In a survival analysis study involving time-to-event data with right censoring, a researcher aims to compare the survival distributions of two treatment groups using the log-rank test. Which of the following conditions is most critical for ensuring the validity of the test results?",
+        "Options": "A. Proportional hazards assumption\nB. Equal variance across treatment groups\nC. Random and independent censoring\nD. Normality of the survival times",
+        "Model_Llama_Answer": "C",
+        "GPT_answer": "A",
+        "Claude_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Bayesian inference and Posterior updating",
+        "Question": "When using Bayesian inference to update a posterior distribution with new data, and the prior distribution and the likelihood of the data are not conjugate, then the posterior distribution will:",
+        "Options": "A. always be a mixture distribution\n    B. always be multivariate normal\n    C. always have the same number of modes as the prior distribution\n    D. often not have a closed-form expression",
+        "Model_Llama_Answer": "D",
+        "GPT_answer": "D",
+        "Claude_answer": "D",
+        "Gemeni_answer": "D"
+    },
+    {
+        "subject": "Hypothesis testing and Non-parametric tests",
+        "Question": "A distribution-free test of the equality of k medians of independent samples is achieved by the Kruskall-Wallis H test. Which of the following is an assumption for this test?",
+        "Options": "A. The observations are randomly sampled from k populations each of which has a continuous distribution with median m.\nB. The observations are randomly sampled from k populations each of which has a normal distribution.\nC. The observations are randomly sampled from k populations each of which has the same distributional shape and differ only by a shift in location.\nD. The observations are randomly sampled from k independent and identically distributed random variables.",
+        "Model_Llama_Answer": "C",
+        "GPT_answer": "C",
+        "Claude_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Bayesian inference and Bayes factors",
+        "Question": "A researcher is conducting a Bayesian analysis to compare two models, M1 and M2, of a complex cognitive process, where M1 represents a null hypothesis of no difference, and M2 represents an alternative hypothesis of a difference in latent factors. The researcher calculates a Bayes factor (BF10) of 5.0. If they replicate the analysis with a larger sample size of 500 participants and obtain a BF10 of 6.0 in favor of the same model, what can be inferred about the strength of evidence from the original sample size of 100 participants?",
+        "Options": "A. The Bayes factor was artificially inflated due to the small sample size.\nB. The strength of evidence provided by the original sample size is weaker than the original BF10 value suggests.\nC. The strength of evidence from the original sample size is likely to be similar to the original BF10 value.\nD. The model comparison remains inconclusive due to the lack of difference in BF10 values between the two sample sizes.",
+        "Model_Llama_Answer": "C",
+        "GPT_answer": "C",
+        "Claude_answer": "C",
+        "Gemeni_answer": "**B**"
+    },
+    {
+        "subject": "Multivariate statistics and Factor analysis",
+        "Question": "In factor analysis, a researcher obtains a communalities table with the squared multiple correlation coefficient (SMC) for each variable, which represents the proportion of variance in that variable explained by the common factors. When interpreting the SMC values, which of the following statements is NOT accurate?",
+        "Options": "A. A high SMC value indicates that the variable is well-represented by the extracted factor(s).\nB. An SMC value close to zero indicates that little to no variance in the variable is explained by the factor(s).\nC. SMC values can be equivalent to the eigenvalue(s) of the factor(s) for a given variable.\nD. Low SMC values suggest that the variable is likely to be a poor fit for the factor model.",
+        "Model_Llama_Answer": "C",
+        "GPT_answer": "C",
+        "Claude_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Bayesian inference and Posterior updating",
+        "Question": "A Bayesian researcher is updating the posterior distribution of a parameter with an improper prior, using a sequence of observational data that satisfy the regularity conditions. However, after several updates, the posterior distribution seems to converge but remains improper. What inference should the researcher make about this posterior distribution?",
+        "Options": "A. The improper posterior indicates model misspecification.\nB. The posterior should be considered as an invalid inference about the parameter.\nC. The improper posterior can still yield a proper predictive distribution for future observations.\nD. The convergence of the posterior implies propriety.",
+        "Model_Llama_Answer": "C",
+        "GPT_answer": "C",
+        "Claude_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Multivariate statistics and Factor analysis",
+        "Question": "When conducting an exploratory factor analysis with orthogonal rotation, which of the following statements is true regarding the interpretation of factor loadings:",
+        "Options": "A. The pattern factor loadings must be squared to represent the proportion of variance in a variable explained by a factor.\nB. Factor loadings represent correlations between variables in the reduced space, but are not constrained to be equal to or less than one.\nC. The proportion of variance in a variable explained by all factors is represented by the squared multiple correlations.\nD. A high factor loading on a factor indicates that the variable is orthogonal to that factor.",
+        "Model_Llama_Answer": "C",
+        "GPT_answer": "C",
+        "Claude_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Multivariate statistics and Canonical correlations",
+        "Question": "Consider two sets of variables, X (p-dimensional) and Y (q-dimensional), where p > q. Let R denote the sample correlation matrix of X and S denote the sample covariance matrix between X and Y. If the rank of S is equal to the number of variables in Y, what is the necessary condition for the canonical correlations calculated from R and S to be equal to the canonical correlations calculated from S and the inverse of the sample covariance matrix of X.",
+        "Options": "A. R must be an identity matrix\nB. The sample covariance matrix of X is singular\nC. The spectral decomposition of R and S have the same number of non-zero eigenvalues\nD. The number of canonical correlations is less than or equal to the number of variables in Y",
+        "Model_Llama_Answer": "D",
+        "GPT_answer": "D",
+        "Claude_answer": "A",
+        "Gemeni_answer": "D"
+    },
+    {
+        "subject": "Non-parametric methods and Spline regression",
+        "Question": "In the context of spline regression, the knots of a cubic spline can be viewed as ( ),",
+        "Options": "A. A set of discrete random variables used as predictors in a linear model.\nB. Points in the predictor space that determine the degree of smoothing.\nC. Points where the third derivative of the spline function has a discontinuity.\nD. The distinct observed values of the predictor variable.",
+        "Model_Llama_Answer": "C",
+        "GPT_answer": "C",
+        "Claude_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Hypothesis testing and Multiple comparisons correction",
+        "Question": "A researcher conducts a large-scale genome-wide association study involving 100,000 genetic variants, with the aim of identifying genetic variants associated with a particular disease. The study uses a Bonferroni correction to account for multiple comparisons. If a null hypothesis is rejected at a significance level of 0.05, what is the actual Type I error rate per comparison after applying the Bonferroni correction?",
+        "Options": "A. alpha/100,000\nB. 1 - (1 - 0.05)^100,000\nC. 0.05/100,000\nD. 1 - (1 - 0.05/100,000)^100,000",
+        "Model_Llama_Answer": "A",
+        "GPT_answer": "C",
+        "Claude_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Survival analysis and Censoring",
+        "Question": "In a survival analysis study, 200 patients are followed for up to 5 years after treatment, but 50 patients are lost to follow-up before experiencing the event of interest, and their last known follow-up times are recorded. This type of censoring is best described as:",
+        "Options": "A. Right-censored type 1, since follow-up was truncated after 5 years\nB. Right-censored type 2, since patients were lost to follow-up at various times\nC. Interval-censored, since patients' exact event times are unknown\nD. Randomly right-censored, since the probability of dropout depends on time",
+        "Model_Llama_Answer": "D",
+        "GPT_answer": "B",
+        "Claude_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Hypothesis testing and Type I and Type II errors",
+        "Question": "In a hypothesis test, a researcher rejects a true null hypothesis at a significance level of 0.05, after collecting an unrepresentative sample. This error is most likely to occur when the sample size is small, because smaller sample sizes typically lead to p-values that are more susceptible to the effects of this type of error, rather than the other type of error that exaggerates the differences between the sample and the null hypothesis.",
+        "Options": "A. Type I error and this statement is correct.\n    B. Type II error and this statement is correct.\n    C. Type I error, but this statement is incorrect.\n    D. Type II error, but this statement is incorrect.",
+        "Model_Llama_Answer": "A",
+        "GPT_answer": "A",
+        "Claude_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Gibbs sampling",
+        "Question": "In a Bayesian inference context, consider a multivariate probability distribution with two variables A and B exhibiting conditional dependence. When implementing Gibbs sampling to estimate the joint posterior distribution of a two-parameter model in a real-world application of species distribution modeling where the goal is to quantify the relationship between species abundance and environmental predictors A and B, what is the effect of the chain length required to achieve convergence (i.e., stationarity) on the optimal sampling strategy for variables A and B.",
+        "Options": "A. The optimal Gibbs sampling strategy involves alternating between variables A and B in each iteration, regardless of the chain length.\nB. Increasing the chain length to a minimum threshold will allow for simultaneous sampling of both variables, improving convergence efficiency.\nC. Longer chain lengths will exacerbate the effects of conditional dependence, necessitating the sampling of only a single variable A in each iteration to ensure stationarity.\nD. Decreasing the chain length while maintaining the same number of samples for each variable can expedite convergence by allowing both variables to be sampled in each iteration simultaneously.",
+        "Model_Llama_Answer": "A",
+        "GPT_answer": "A",
+        "Claude_answer": "A",
+        "Gemeni_answer": "A."
+    },
+    {
+        "subject": "Multivariate statistics and Factor analysis",
+        "Question": "When performing an exploratory factor analysis on a set of multivariate data with 15 variables, the Kaiser criterion is used to determine the number of factors to retain, and it results in 3 factors being retained. If a researcher decides to retain 5 factors instead of the recommended 3 based on a visual inspection of the scree plot, which of the following is likely to occur?",
+        "Options": "A. The retained factors will be more heavily influenced by sampling error.\nB. The analysis will produce more reliable estimates of the population factors.\nC. The expected mean squares of the factor loadings will be decreased.\nD. The correlation between the unique factors will be decreased.",
+        "Model_Llama_Answer": "A",
+        "GPT_answer": "A",
+        "Claude_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Metropolis-Hastings algorithm",
+        "Question": "For a Metropolis-Hastings algorithm with a target distribution \u03c0 and proposal distribution q, if the acceptance probability \u03b1 is always equal to 1, what property can be inferred about the relationship between \u03c0 and q.",
+        "Options": "A. \u03c0 and q are identical distributions.\nB. q dominates \u03c0, meaning q(x) \u2265 \u03c0(x) for all x.\nC. The support of q is a subset of the support of \u03c0.\nD. The proposal distribution q is a symmetric random walk.",
+        "Model_Llama_Answer": "A",
+        "GPT_answer": "D",
+        "Claude_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Statistical learning theory and Bias-variance tradeoff",
+        "Question": "In the context of statistical learning theory, an estimator with low bias and high variance is most likely to suffer from which of the following issues:",
+        "Options": "A. Overfitting under additional training data.\nB. Underfitting in scenarios with non-parametric noise.\nC. Optimal generalization performance with regularized objectives.\nD. Improved prediction consistency under repeated sampling.",
+        "Model_Llama_Answer": "A",
+        "GPT_answer": "A",
+        "Claude_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Experimental design and Factorial designs",
+        "Question": "In a 3k factorial design where k is the number of factors, which of the following statements holds true regarding the number of unique combinations of factor settings?",
+        "Options": "A. Total combinations = (3^k) - k\nB. Total combinations = (3^k) * k\nC. Total combinations = 3^k\nD. Total combinations = (3^k) / k",
+        "Model_Llama_Answer": "C",
+        "GPT_answer": "C",
+        "Claude_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Bayesian inference and Bayes factors",
+        "Question": "Consider two alternative Bayesian models, M1 and M2, where model M1 includes a random intercept for subjects in a clinical trial, and model M2 does not. The Bayes factor in favor of model M1 is approximately equal to 10, given the observed data. In the context of Bayesian model selection, this Bayes factor implies which of the following relationships between the posterior and prior odds of model M1 and M2?",
+        "Options": "A. The posterior odds of model M1 being true are 10 times greater than the prior odds.\nB. The posterior odds of model M1 being true are the square root of 10 times greater than the prior odds.\nC. The posterior odds of model M1 being true are 10 times greater than the prior odds of model M2 being true.\nD. The posterior log-odds of model M1 are 10 times greater than the prior log-odds.",
+        "Model_Llama_Answer": "A",
+        "GPT_answer": "A",
+        "Claude_answer": "A",
+        "Gemeni_answer": "**A**"
+    },
+    {
+        "subject": "Experimental design and Response surface methodology",
+        "Question": "In response surface methodology, if the experimenter initially assumes a first-order polynomial model, but the lack-of-fit test detects significant non-linear effects, which of the following models should be used for subsequent analysis in an effort to better approximate the true response surface?",
+        "Options": "A. Special-4th-order polynomial\nB. Reduced quadratic model with backward elimination\nC. Full quadratic polynomial model\nD. Special-3rd-order polynomial",
+        "Model_Llama_Answer": "C",
+        "GPT_answer": "C",
+        "Claude_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Non-parametric methods and Kernel density estimation",
+        "Question": "When using a Gaussian kernel density estimate with a large bandwidth for a set of discrete data, what is the primary consequence on the resulting density estimate.",
+        "Options": "A. Oversmoothing of the data.\nB. Introduction of spurious peaks.\nC. Approximation of the data as continuous.\nD. Underestimation of local features.",
+        "Model_Llama_Answer": "A",
+        "GPT_answer": "A",
+        "Claude_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Metropolis-Hastings algorithm",
+        "Question": "For a symmetric proposal distribution in the Metropolis-Hastings algorithm, the acceptance probability does not depend on the chosen proposal distribution's variance when the target distribution is",
+        "Options": "A. a univariate normal distribution\nB. a multivariate normal distribution with a known covariance matrix\nC. a log-concave distribution\nD. a distribution with a finite support",
+        "Model_Llama_Answer": "A",
+        "GPT_answer": "A",
+        "Claude_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Time series analysis and ARIMA models",
+        "Question": "What is the condition required for an ARIMA model to be weakly stationary, specifically for an autoregressive term in the presence of differencing?",
+        "Options": "A. The autoregressive parameter must be zero.\n    B. The absolute value of the autoregressive parameter is less than one.\n    C. The differencing parameter must be equal to the autoregressive order.\n    D. The absolute value of the autoregressive parameter equals exactly one.",
+        "Model_Llama_Answer": "B",
+        "GPT_answer": "B",
+        "Claude_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Regression analysis and Collinearity",
+        "Question": "In a multiple linear regression model with two explanatory variables, X1 and X2, where X1 and X2 are highly collinear, the effect of collinearity on the variance of the regression coefficient estimators is best described by which of the following statements?",
+        "Options": "A. The variance of the regression coefficient estimators for both X1 and X2 decreases.\nB. The variance of the regression coefficient estimators for both X1 and X2 increases.\nC. The variance of the regression coefficient estimator for X1 decreases, while the variance of the regression coefficient estimator for X2 increases.\nD. The variance of the regression coefficient estimator for X1 increases, while the variance of the regression coefficient estimator for X2 decreases.",
+        "Model_Llama_Answer": "B",
+        "GPT_answer": "B",
+        "Claude_answer": "B",
+        "Gemeni_answer": "**B**"
+    },
+    {
+        "subject": "Regression analysis and Model selection criteria",
+        "Question": "In a regression analysis with multiple models fitted to the same data, which of the following model selection criteria is most susceptible to favoring models with inflated parameter counts due to Lindley's paradox?",
+        "Options": "A. Akaike Information Criterion (AIC)\nB. Bayesian Information Criterion (BIC)\nC. Cross-Validation Mean Squared Error (CV-MSE)\nD. Leave-One-Out Cross-Validation (LOOCV)",
+        "Model_Llama_Answer": "B",
+        "GPT_answer": "A",
+        "Claude_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Survival analysis and Kaplan-Meier estimator",
+        "Question": "If there are tied event times in a survival analysis dataset, the Kaplan-Meier estimator can be modified to handle ties by using Breslow's approximation, but this modification results in:",
+        "Options": "A. A conservative estimate of the variance of the Kaplan-Meier estimator.\nB. An overestimation of the survival probabilities.\nC. An underestimation of the survival probabilities.\nD. No change in the estimation of the survival probabilities.",
+        "Model_Llama_Answer": "C",
+        "GPT_answer": "A",
+        "Claude_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Non-parametric methods and Spline regression",
+        "Question": "In a cubic spline regression, what is the degree of the polynomial within each knot interval, assuming a continuous second derivative at the knots?",
+        "Options": "A. Quadratic\nB. Linear\nC. Cubic\nD. Piecewise constant",
+        "Model_Llama_Answer": "C",
+        "GPT_answer": "C",
+        "Claude_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Experimental design and Blocking and confounding",
+        "Question": "A researcher is designing an experiment to study the effect of a new fertilizer on crop yield, and wants to control for the variation in soil type. The research site has three distinct types of soil, and the researcher can only conduct 24 trials due to resource constraints. Which of the following blocking strategies would allow for the estimation of the main effect of fertilizer while controlling for the variation in soil type?",
+        "Options": "A. Randomize the fertilizer treatments completely across the 24 trials without regard to soil type.\nB. Divide the research site into three blocks of eight trials each, with each block containing only one type of soil, and then randomize the fertilizer treatments within each block.\nC. Conduct eight trials of each fertilizer treatment across the entire research site without regard to soil type.\nD. Divide the research site into 24 blocks, each with one trial of the new fertilizer and one trial of the standard fertilizer, ignoring the variation in soil type.",
+        "Model_Llama_Answer": "B",
+        "GPT_answer": "B",
+        "Claude_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Regression analysis and Model selection criteria",
+        "Question": "In the context of regression analysis, when comparing two non-nested models of different dimensions using model selection criteria, the Akaike Information Criterion (AIC) is more suitable when the primary goal is to identify the model that is closest to the true data-generating process in terms of Kullback-Leibler divergence, but the Bayesian Information Criterion (BIC) is more suitable for which of the following purposes?",
+        "Options": "A. Estimating the variance of model parameters.\nB. Selecting the true model under certain regularity conditions.\nC. Determining the relevance of predictor variables.\nD. Assessing goodness of fit.",
+        "Model_Llama_Answer": "B",
+        "GPT_answer": "B",
+        "Claude_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Bayesian inference and Posterior updating",
+        "Question": "A researcher is conducting a study to estimate the average daily particulate matter (PM2.5) in a city, which is crucial for assessing the air quality. They use a Bayesian approach with a normal distribution as the likelihood function, and an inverse-gamma distribution as the prior distribution for the mean (\u03bc) and variance (\u03c3\u00b2). After collecting the initial data, the posterior distribution for the variance is updated. If the researcher decides to update the prior for the mean by using the posterior from the first round of data collection as the new prior, what is the most appropriate choice of distribution?",
+        "Options": "A. Inverse-gamma distribution\nB. Normal distribution\nC. Gamma distribution\nD. Beta distribution",
+        "Model_Llama_Answer": "B",
+        "GPT_answer": "B",
+        "Claude_answer": "B",
+        "Gemeni_answer": "**B**"
+    },
+    {
+        "subject": "Non-parametric methods and Bootstrap methods",
+        "Question": "Under what condition is the bootstrap distribution of the sample median approximated by a normal distribution when the underlying population distribution is asymmetric and has no known parametric form?",
+        "Options": "A. As the number of bootstrap samples approaches the sample size\nB. As the number of bootstrap iterations increases to infinity\nC. As the sample size of the original data increases to infinity\nD. When the resampling is performed with replacement and the number of bootstrap samples is fixed",
+        "Model_Llama_Answer": "C",
+        "GPT_answer": "C",
+        "Claude_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Non-parametric methods and Bootstrap methods",
+        "Question": "When a researcher uses bootstrapping to estimate a 95% confidence interval for a median, assuming the original sample size of 50 is relatively small and the population distribution is skewed, which of the following methods should be avoided due to its inaccuracy when dealing with skewed data, despite its simplicity?",
+        "Options": "A. Standard percentile method\nB. Bias-corrected andaccelerated (BCa) method\nC. Normal approximation method\nD. Bootstrap-t method",
+        "Model_Llama_Answer": "C",
+        "GPT_answer": "C",
+        "Claude_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Time series analysis and ARIMA models",
+        "Question": "In an ARIMA(p, d, q) model for a time series process, the value of d represents:",
+        "Options": "A. The number of autoregressive parameters.\nB. The number of differencing operations needed to make the time series stationary.\nC. The number of moving average parameters.\nD. The order of seasonal differencing.",
+        "Model_Llama_Answer": "B",
+        "GPT_answer": "B",
+        "Claude_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Regression analysis and Generalized linear models",
+        "Question": "Consider a logistic regression model where the odds ratio for a binary predictor is estimated to be 0.8. Which of the following statements about the relationship between the predictor and the outcome is incorrect?",
+        "Options": "A. The predictor is negatively associated with the outcome.\nB. The predictor is positively associated with the outcome.\nC. The odds of the outcome decrease by 20% for a one-unit increase in the predictor.\nD. The predictor is statistically insignificant.",
+        "Model_Llama_Answer": "B",
+        "GPT_answer": "B",
+        "Claude_answer": "B",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Hypothesis testing and Multiple comparisons correction",
+        "Question": "A researcher conducts a large-scale genome-wide association study involving 100,000 genetic variants, with the aim of identifying genetic variants associated with a particular disease. The study uses a Bonferroni correction to account for multiple comparisons. If a null hypothesis is rejected at a significance level of 0.05, what is the actual Type I error rate per comparison after applying the Bonferroni correction?",
+        "Options": "A. alpha/100,000\nB. 1 - (1 - 0.05)^100,000\nC. 0.05/100,000\nD. 1 - (1 - 0.05/100,000)^100,000",
+        "Model_Llama_Answer": "A",
+        "GPT_answer": "C",
+        "Claude_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Experimental design and Factorial designs",
+        "Question": "In a general 3(k-1) factorial design, when k = 4 levels, what is the rank of the information matrix for the linear model that combines up to two-way interactions if complete replication is not feasible.",
+        "Options": "A. (k+1)^2 + (k-3) \nB. (k^2 + k + 2)/2 \nC. 2(k+1)(k-1) \nD. 2(k+1) + k(k-1)/2",
+        "Model_Llama_Answer": "B",
+        "GPT_answer": "C",
+        "Claude_answer": "D",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Non-parametric methods and Spline regression",
+        "Question": "A researcher conducts a spline regression using a cubic spline with 3 knots to model the relationship between X and Y, and finds that the residual sum of squares is 100. If the same data is then modeled using a linear spline with 3 knots, the researcher observes that the residual sum of squares increases to 120. If the same data is then modeled using a cubic spline with 5 knots, the residual sum of squares further decreases to 90. \n\nWhen considering a cubic spline with 4 knots, which of the following statements can be made about its residual sum of squares.",
+        "Options": "A. It will be less than 90\nB. It will be between 90 and 100\nC. It will be between 100 and 120\nD. It will be more than 120",
+        "Model_Llama_Answer": "B",
+        "GPT_answer": "B",
+        "Claude_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Experimental design and Blocking and confounding",
+        "Question": "In a randomized controlled trial, two factors,.Actor A (age) and  Actor B (treatment), are both deemed  potentially influential covariates with respect to experimental outcomes.  Which of following actor \u2013 experimental design combination confounds the one containing the confounding between the Actor A and experimental group assignment if actor B is a moderating\u2013variable?",
+        "Options": "A. Actor A blocked and controlled for, actor B as-is\nB. Actor B blocked and controlled for, actor A as-is\nC. Actor A fully distributed, actor.Actor B fully randomized\nD. Actor A fully randomized, actor B fully distributed",
+        "Model_Llama_Answer": "B",
+        "GPT_answer": "B",
+        "Claude_answer": "B",
+        "Gemeni_answer": "A."
+    },
+    {
+        "subject": "Experimental design and Blocking and confounding",
+        "Question": "In a randomized experiment to study the effect of a new fertilizer on crop yield, the experimenter decides to block by soil type due to its potential confounding effect. If soil type is not controlled but there is evidence of interaction between fertilizer and soil type, which of the following is a consequence of ignoring soil type in the analysis?",
+        "Options": "A. The main effect of fertilizer on crop yield will not be biased, but the estimate of error variance will be inflated.\nB. The main effect of fertilizer on crop yield will be biased, but the estimate of error variance will not be affected.\nC. Both the main effect of fertilizer on crop yield and the estimate of error variance will be biased.\nD. Neither the main effect of fertilizer on crop yield nor the estimate of error variance will be biased.",
+        "Model_Llama_Answer": "B",
+        "GPT_answer": "A",
+        "Claude_answer": "C",
+        "Gemeni_answer": "**A**"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Metropolis-Hastings algorithm",
+        "Question": "In a Bayesian inference study using the Metropolis-Hastings algorithm to estimate the posterior distribution of a climate model's parameters, the researcher observes that the acceptance rate of proposed states is very low (\u2248 0.01), severely impacting the convergence of the Markov chain. To address this issue, the researcher decides to modify the proposal distribution to better capture the target distribution's features. Which of the following modifications to the proposal distribution is most likely to improve the acceptance rate and convergence of the Markov chain in this scenario?",
+        "Options": "A. Decreasing the proposal distribution's variance to reduce the step size of proposed states.\nB. Increasing the proposal distribution's variance to explore the state space more efficiently.\nC. Switching from a symmetric to an asymmetric proposal distribution tailored to the problem's specific geometry.\nD. Using a uniformly distributed proposal over a large state space region to more thoroughly explore possible models.",
+        "Model_Llama_Answer": "C",
+        "GPT_answer": "A",
+        "Claude_answer": "C",
+        "Gemeni_answer": "**B**"
+    },
+    {
+        "subject": "Time series analysis and ARIMA models",
+        "Question": "In an ARIMA(p, d, q) model for a time series process, the value of d represents:",
+        "Options": "A. The number of autoregressive parameters.\nB. The number of differencing operations needed to make the time series stationary.\nC. The number of moving average parameters.\nD. The order of seasonal differencing.",
+        "Model_Llama_Answer": "B",
+        "GPT_answer": "B",
+        "Claude_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Survival analysis and Kaplan-Meier estimator",
+        "Question": "In a survival analysis study, suppose we are interested in estimating the survival function for a population, and we consider using the Kaplan-Meier (KM) estimator. If there are tied event times (i.e., two or more individuals have the same time of event occurrence), which of the following statements about the KM estimator is correct?",
+        "Options": "A. The KM estimator handles tied event times by assigning a single event at a given time point, thus not accounting for ties in the computation.\nB. The KM estimator uses a randomization procedure to break ties in the event times.\nC. The KM estimator employs a modified calculation for tied event times to distribute the risk set across the tied individuals to avoid incorrect estimates.\nD. The KM estimator does not account for tied event times, leading to biased estimates.",
+        "Model_Llama_Answer": "C",
+        "GPT_answer": "C",
+        "Claude_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Survival analysis and Hazard functions",
+        "Question": "In a survival analysis context, if the hazard function \u03bb(t) is constant over time, the implied probability distribution for the time-to-event outcome is best described as:",
+        "Options": "A. Exponential distribution\nB. Weibull distribution with a shape parameter less than one\nC. Log-logistic distribution\nD. Log-normal distribution",
+        "Model_Llama_Answer": "A",
+        "GPT_answer": "A",
+        "Claude_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Hypothesis testing and Non-parametric tests",
+        "Question": "A researcher analyzing the effectiveness of a new pain relief medication for patients with chronic arthritis collects a sample of 15 patients and finds significantly reduced pain levels after administering the medication. However, the data set reveals severe skewness in pain level measurements due to extreme outliers from a few patients with unusually low pain sensitivity. Which non-parametric test would be most suitable to determine if the true population median pain level is lower after treatment, assuming no normality in pain level measurements exists.",
+        "Options": "A. Kruskal-Wallis H-test\nB. Friedman test\nC. Wilcoxon Signed Rank test\nD. Mann Whitney U-test",
+        "Model_Llama_Answer": "C",
+        "GPT_answer": "C",
+        "Claude_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Time series analysis and ARIMA models",
+        "Question": "What is the condition required for an ARIMA model to be weakly stationary, specifically for an autoregressive term in the presence of differencing?",
+        "Options": "A. The autoregressive parameter must be zero.\n    B. The absolute value of the autoregressive parameter is less than one.\n    C. The differencing parameter must be equal to the autoregressive order.\n    D. The absolute value of the autoregressive parameter equals exactly one.",
+        "Model_Llama_Answer": "B",
+        "GPT_answer": "B",
+        "Claude_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Non-parametric methods and Spline regression",
+        "Question": "A researcher fits a cubic spline model with two interior knots to a one-way ANOVA data set with three different treatment groups. Which of the following statements about the degrees of freedom associated with the spline model is correct?",
+        "Options": "A. The spline model has three degrees of freedom, matching the degrees of freedom for the treatment effect in the corresponding parametric ANOVA model.\nB. The degrees of freedom for the spline model are determined by the number of coefficients used to fit the spline, which in this case would be seven (three for the cubic basis functions plus four for the knot locations and intercept).\nC. The spline model has more than three degrees of freedom, since each of the knots can be adjusted to fit the data.\nD. The spline model is overly simplistic for this data set, since a cubic spline with only two interior knots would require at least six groups to be adequately represented.",
+        "Model_Llama_Answer": "C",
+        "GPT_answer": "B",
+        "Claude_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Time series analysis and Spectral analysis",
+        "Question": "In a spectral analysis of a time series dataset of annual global temperature anomalies, a researcher observes a spectral peak at a frequency corresponding to a 10-year cycle, but fails to reject the null hypothesis of white noise, suggesting that the apparent periodicity may be spurious. Which of the following conclusions can be drawn about the observed peak, given that the dataset includes sampling at monthly intervals but analysis is being performed on annual averages, effectively subsampling the data.",
+        "Options": "A. The observed peak is likely an alias of a higher frequency component that was removed during the subsampling process.\nB. The annual averaging would not affect the ability to detect the 10-year cycle, given it is a very low-frequency phenomenon.\nC. There is not enough information to determine the cause of the failure to reject the null hypothesis.\nD. The 10-year cycle is likely a true periodic component of the global temperature data.",
+        "Model_Llama_Answer": "A",
+        "GPT_answer": "A",
+        "Claude_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Gibbs sampling",
+        "Question": "In a Gibbs sampling algorithm for a bivariate probability distribution with parameters \u03b81 and \u03b82, if the full conditional distribution of \u03b81 given \u03b82 is a beta distribution, and the full conditional distribution of \u03b82 given \u03b81 is a normal distribution, which of the following conditions is required for convergence of the Markov chain to the target joint distribution?",
+        "Options": "A. The normal distribution must have a mean that is a linear function of \u03b81.\nB. The beta distribution must have shape parameters that are integers.\nC. The support of the normal distribution must be the entire real line.\nD. The support of the beta distribution must be [0, 1].",
+        "Model_Llama_Answer": "A",
+        "GPT_answer": "D",
+        "Claude_answer": "A",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Hypothesis testing and Non-parametric tests",
+        "Question": "A researcher analyzing the effectiveness of a new pain relief medication for patients with chronic arthritis collects a sample of 15 patients and finds significantly reduced pain levels after administering the medication. However, the data set reveals severe skewness in pain level measurements due to extreme outliers from a few patients with unusually low pain sensitivity. Which non-parametric test would be most suitable to determine if the true population median pain level is lower after treatment, assuming no normality in pain level measurements exists.",
+        "Options": "A. Kruskal-Wallis H-test\nB. Friedman test\nC. Wilcoxon Signed Rank test\nD. Mann Whitney U-test",
+        "Model_Llama_Answer": "C",
+        "GPT_answer": "C",
+        "Claude_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Hypothesis testing and Non-parametric tests",
+        "Question": "A distribution-free test of the equality of k medians of independent samples is achieved by the Kruskall-Wallis H test. Which of the following is an assumption for this test?",
+        "Options": "A. The observations are randomly sampled from k populations each of which has a continuous distribution with median m.\nB. The observations are randomly sampled from k populations each of which has a normal distribution.\nC. The observations are randomly sampled from k populations each of which has the same distributional shape and differ only by a shift in location.\nD. The observations are randomly sampled from k independent and identically distributed random variables.",
+        "Model_Llama_Answer": "C",
+        "GPT_answer": "C",
+        "Claude_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Multivariate statistics and Factor analysis",
+        "Question": "In a factor analysis study on customer satisfaction in the banking industry, the variable set includes measures of responsiveness, empathy, tangible aspects, assurance, and reliability. If the results yield a 5-factor model explaining 70% of the total variance, but factor interpretability requires a rotation, the kind of rotation that would retain the initial 5-factor solution, while enhancing the distinctness and identifiability of the extracted factors would be",
+        "Options": "A. Varimax rotation\nB. Oblique promax rotation\nC. Orthogonal quartimax rotation\nD. Procrustes rotation",
+        "Model_Llama_Answer": "A",
+        "GPT_answer": "A",
+        "Claude_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Experimental design and Blocking and confounding",
+        "Question": "In a randomized experiment, a researcher wants to control for the effect of gender on the response variable, but has limited resources to collect data. To minimize the impact of confounding due to gender while also maximizing the precision of the treatment effect estimate, the researcher should:",
+        "Options": "A. Use gender as a blocking factor, with two blocks (male and female), and allocate equal numbers of participants within each block to the treatment and control groups.\nB. Use gender as a covariate in the analysis to adjust for its effect on the response variable, but do not use blocking.\nC. Use stratified random sampling to ensure roughly equal numbers of males and females in the sample, but do not use blocking.\nD. Ignore the potential confounding effect of gender, as randomization should eliminate its impact.",
+        "Model_Llama_Answer": "A",
+        "GPT_answer": "A",
+        "Claude_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Hypothesis testing and Power analysis",
+        "Question": "For a two-sample z-test with equal variances, if the sample sizes in both groups are increased by a factor of 4 while keeping all other parameters constant, what is the impact on the detectable effect size that can be detected with 80% power?",
+        "Options": "A. Decreased by a factor of 4\n    B. Decreased by a factor of 2\n    C. Decreased by a factor of 16\n    D. Decreased by a factor of 8",
+        "Model_Llama_Answer": "B",
+        "GPT_answer": "B",
+        "Claude_answer": "B",
+        "Gemeni_answer": "**B**"
+    },
+    {
+        "subject": "Survival analysis and Cox proportional hazards model",
+        "Question": "Under the Cox proportional hazards model, if the Schoenfeld residual plot displays a non-random pattern against time, what does it suggest about the model's assumption of proportionality of hazards?",
+        "Options": "A. The assumption of proportionality holds across all levels of the covariates.\nB. The model's estimates of coefficients will be unaffected by non-proportional hazards.\nC. The partial likelihood ratio test for covariates will be valid regardless of non-proportional hazards.\nD. The assumption of proportionality does not hold, suggesting time-dependent effects.",
+        "Model_Llama_Answer": "D",
+        "GPT_answer": "D",
+        "Claude_answer": "D",
+        "Gemeni_answer": "D"
+    },
+    {
+        "subject": "Survival analysis and Cox proportional hazards model",
+        "Question": "In a Cox proportional hazards model for survival analysis with a non-time-varying covariate, what is the correct interpretation of the exponentiated regression coefficient?",
+        "Options": "A. The expected change in the number of events per unit change in the covariate.\nB. The relative change in the risk of an event per unit change in the covariate.\nC. The time ratio required for the treated group to reach the same probability of survival as the control group.\nD. The increased/decreased probability of an event occurring at the end of a specified time period.",
+        "Model_Llama_Answer": "B",
+        "GPT_answer": "B",
+        "Claude_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Experimental design and Response surface methodology",
+        "Question": "In a Box-Behnken design, when there are three input variables each at three levels, the number of unique design points, including the central point, can be determined by the expression:",
+        "Options": "A. (3-1)*3 + 1\nB. (3 + 1) * 3 - 1\nC. 3 * (3-1) + C0\nD. ((3+1) * (3-1) + C0) / 3",
+        "Model_Llama_Answer": "C",
+        "GPT_answer": "A",
+        "Claude_answer": "C",
+        "Gemeni_answer": "**A**"
+    },
+    {
+        "subject": "Experimental design and Blocking and confounding",
+        "Question": "In an experimental design to assess the effect of a new exercise regimen on blood pressure, age is identified as a confounding variable.Blocks are formed based on age groups to control for its effect. Suppose there are three age groups and three exercise regimens being investigated.Whereas it is desired to have exactly 10 participants per block, inadvertently resulting in varying numbers of participants per treatment combination within the blocks.State which of the following statements regarding such a design is true.",
+        "Options": "A. This design results in perfect confounding of the treatment effect with age, and there is no statistical solution to estimate the treatment effect.\nB. An analysis using generalized linear mixed models can still provide unbiased estimates of treatment effects in the presence of such an uneven distribution of participants.\nC. The design cannot be considered a randomized complete block design due to the unique combination of treatment and blocks.\nD. Controlling for age results in a loss of 2 degrees of freedom for each block used in the analysis.",
+        "Model_Llama_Answer": "C",
+        "GPT_answer": "B",
+        "Claude_answer": "B",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Non-parametric methods and Kernel density estimation",
+        "Question": "Under what conditions will a kernel density estimate consistently converge to the true underlying probability density function for a given random sample, assuming the chosen kernel function satisfies the standard regularity conditions?",
+        "Options": "A. The bandwidth converges to 0 at a rate slower than 1 / (n^(1/5)), and the sample size n tends to infinity.\nB. The bandwidth is held constant, and the sample size n tends to infinity.\nC. The bandwidth converges to infinity at a rate faster than 1 / (n^(1/5)), and the sample size n tends to infinity.\nD. The sample size n is fixed and arbitrarily large.",
+        "Model_Llama_Answer": "A",
+        "GPT_answer": "A",
+        "Claude_answer": "A",
+        "Gemeni_answer": "A."
+    },
+    {
+        "subject": "Survival analysis and Kaplan-Meier estimator",
+        "Question": "Under the assumption of independent and identically distributed observations, the Kaplan-Meier estimator is a maximum likelihood estimator for the survival function S(t) when the data is subject to right-censoring and tied observations are present, if and only if which of the following conditions holds?",
+        "Options": "A. The censoring distribution is known and estimable from the data.\nB. Tied observations are handled using the Breslow approximation.\nC. Tied observations are handled using the Efron approximation, and the censoring distribution is completely independent of the event times.\nD. Tied observations are handled using the exact method, and the censoring distribution is not estimable from the data.",
+        "Model_Llama_Answer": "C",
+        "GPT_answer": "C",
+        "Claude_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Non-parametric methods and Spline regression",
+        "Question": "In the context of non-parametric methods, spline regression is used as a smoothing technique in environmental studies to analyze the relationship between atmospheric temperature and ozone concentration. If the goal is to minimize the sum of squared errors while controlling for the model's flexibility, the most suitable spline method to use would be:",
+        "Options": "A. Natural Cubic Spline with a fixed number of knots\nB. B-Spline with a variable number of knots determined by cross-validation\nC. Smoothing Spline with a fixed smoothing parameter\nD. Smoothing Spline with a smoothing parameter selected using Generalized Cross-Validation (GCV)",
+        "Model_Llama_Answer": "D",
+        "GPT_answer": "D",
+        "Claude_answer": "D",
+        "Gemeni_answer": "D"
+    },
+    {
+        "subject": "Hypothesis testing and Type I and Type II errors",
+        "Question": "In a hypothesis test, a researcher rejects a true null hypothesis at a significance level of 0.05, after collecting an unrepresentative sample. This error is most likely to occur when the sample size is small, because smaller sample sizes typically lead to p-values that are more susceptible to the effects of this type of error, rather than the other type of error that exaggerates the differences between the sample and the null hypothesis.",
+        "Options": "A. Type I error and this statement is correct.\n    B. Type II error and this statement is correct.\n    C. Type I error, but this statement is incorrect.\n    D. Type II error, but this statement is incorrect.",
+        "Model_Llama_Answer": "A",
+        "GPT_answer": "A",
+        "Claude_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Time series analysis and Spectral analysis",
+        "Question": "In analyzing a stationary time series using spectral analysis, the periodogram is used to estimate the spectral density. Suppose we observe a significant peak at a frequency of 0.25 in the periodogram of a monthly time series of industrial production. Which of the following statements about the corresponding cycle is most accurate?",
+        "Options": "A. It implies the presence of a 3-month cycle in industrial production.\nB. It implies the absence of any meaningful patterns in industrial production at lower frequencies.\nC. It suggests a cycle that repeats roughly every 4 months, which may be related to quarterly patterns in production.\nD. It indicates the presence of annual seasonality in industrial production.",
+        "Model_Llama_Answer": "D",
+        "GPT_answer": "C",
+        "Claude_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Regression analysis and Heteroscedasticity",
+        "Question": "In the presence of heteroscedasticity in a linear regression model, which of the following statements regarding the ordinary least squares (OLS) estimator is true?",
+        "Options": "A. The OLS estimator is biased.\nB. The OLS estimator remains an unbiased estimator of the true regression coefficients.\nC. The OLS estimator is no longer a consistent estimator of the true regression coefficients.\nD. The OLS estimator is only efficient when the variance of the error terms is constant across all levels of the independent variable.",
+        "Model_Llama_Answer": "B",
+        "GPT_answer": "B",
+        "Claude_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Multivariate statistics and Principal Component Analysis",
+        "Question": "In Principal Component Analysis (PCA) of a multivariate dataset with highly correlated variables, if the first principal component explains 80% of the total variance, it is likely that:",
+        "Options": "A. All variables contribute equally to the first principal component.\nB. The first principal component is not significantly affected by extreme outliers.\nC. The dataset can be adequately represented using only the first principal component for dimensionality reduction.\nD. The remaining components are inherently uncorrelated with the first principal component.",
+        "Model_Llama_Answer": "D",
+        "GPT_answer": "C",
+        "Claude_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Hypothesis testing and Power analysis",
+        "Question": "A researcher conducts a power analysis for a two-sample t-test to detect a small effect size (d = 0.2) with an \u03b1-level of 0.05 and proposes the following four study designs. Which of the designs will result in the highest statistical power?",
+        "Options": "A. A study with 100 subjects per group and \u03b1 = 0.05\nB. A study with 50 subjects per group and \u03b1 = 0.10\nC. A study with 50 subjects per group and \u03b1 = 0.05 using a one-sided test\nD. A study with 400 subjects per group and \u03b1 = 0.01",
+        "Model_Llama_Answer": "A",
+        "GPT_answer": "D",
+        "Claude_answer": "D",
+        "Gemeni_answer": "D"
+    },
+    {
+        "subject": "Experimental design and Randomization techniques",
+        "Question": "In a randomized controlled trial evaluating the effect of a new influenza vaccine on disease incidence, which randomization technique would minimize selection bias by ensuring equal distribution of patients with varying baseline risks across both the treatment and control groups?",
+        "Options": "A. Complete Randomization with Fixed Block Size\nB. Stratified Randomization with Dynamic Allocation\nC. Simple Randomization without Restriction\nD. Matched-Pair Randomization",
+        "Model_Llama_Answer": "B",
+        "GPT_answer": "B",
+        "Claude_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Convergence diagnostics",
+        "Question": "In the context of Bayesian modeling of climate change using Markov Chain Monte Carlo (MCMC) methods to estimate the posterior distribution of key parameters, which of the following convergence diagnostics is most effective in capturing the between-chain variability and within-chain autocorrelation for multiple chains initialized at dispersed starting values?",
+        "Options": "A. Gelman-Rubin statistic (R-hat)\nB. Geweke diagnostic\nC. Autocorrelation function (ACF) plot\nD. Cusum statistic",
+        "Model_Llama_Answer": "A",
+        "GPT_answer": "A",
+        "Claude_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Convergence diagnostics",
+        "Question": "A researcher is implementing Markov Chain Monte Carlo (MCMC) methods to estimate the posterior distribution of a set of model parameters. To diagnose convergence, the researcher uses the Gelman-Rubin diagnostic (R-hat) and observes that the upper 97.5% quantile of the distribution of R-hat values is 1.05 for all model parameters. Given that the researcher is using three MCMC chains with dispersed initial values, what can be most reliably concluded about the convergence of the chains?",
+        "Options": "A. The chains have most likely converged and estimates of the model parameters are reliable.\nB. The chains may have not fully converged, but the estimates of the model parameters are still reliable.\nC. The chains have most likely not converged, but may still produce reliable estimates of the model parameters' means.\nD. The chains have most likely not converged and the estimates of the model parameters are unreliable.",
+        "Model_Llama_Answer": "A",
+        "GPT_answer": "A",
+        "Claude_answer": "A",
+        "Gemeni_answer": "**D**"
+    },
+    {
+        "subject": "Bayesian inference and Conjugate priors",
+        "Question": "Consider a Bayesian model using a beta prior distribution with parameters \u03b1 and \u03b2 for the binomial likelihood of a coin toss experiment, where the model has a single parameter \u03b8 representing the probability of heads. Suppose data is collected from 100 coin tosses, resulting in 55 heads and 45 tails. If the posterior distribution is to be a proper distribution, the minimum requirement for the parameters \u03b1 and \u03b2 of the beta prior is:",
+        "Options": "A. \u03b1 > 0, \u03b2 \u2265 0\nB. \u03b1 \u2265 0, \u03b2 \u2265 0, \u03b1 + \u03b2 > 2\nC. \u03b1 > 1, \u03b2 \u2265 0, \u03b1 + \u03b2 > 100\nD. \u03b1 \u2265 0, \u03b2 > 0",
+        "Model_Llama_Answer": "D",
+        "GPT_answer": "D",
+        "Claude_answer": "D",
+        "Gemeni_answer": "**B**"
+    },
+    {
+        "subject": "Time series analysis and Spectral analysis",
+        "Question": "Given a stationary time series X(t) with a spectral density f(\u03bb) that has a pole of order 2 at \u03bb = 0, and no other poles on the unit circle, the corresponding autoregressive integrated moving average (ARIMA) process is most accurately described by which of the following?",
+        "Options": "A. ARIMA(p,d,0) with d > 1\nB. ARIMA(p,1,0) with p > 0 and a single pole of order 1 on the unit circle\nC. ARIMA(p,2,q) with p,q > 0 and no poles on the unit circle, other than \u03bb = 0\nD. ARIMA(0,d,0) with d = 2 and no poles on the unit circle.",
+        "Model_Llama_Answer": "A",
+        "GPT_answer": "D",
+        "Claude_answer": "C",
+        "Gemeni_answer": "**A**"
+    },
+    {
+        "subject": "Time series analysis and Spectral analysis",
+        "Question": "In a spectral analysis of a time series, what is the primary purpose of applying a window function to the discrete Fourier transform of a dataset of global temperature readings over the past century?",
+        "Options": "A. To reduce the variance of the spectral density estimate at the expense of spectral resolution.\nB. To increase the spectral resolution and eliminate leakage effects.\nC. To account for linear trends in the time series and focus on cyclical patterns.\nD. To convert the univariate time series into a multivariate spectral analysis.",
+        "Model_Llama_Answer": "A",
+        "GPT_answer": "A",
+        "Claude_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Hypothesis testing and Multiple comparisons correction",
+        "Question": "When conducting a large-scale hypothesis testing study involving 1000 independent tests, each testing a different gene for association with a disease at a significance level of 0.05, the Benjamin-Hochberg (BH) procedure yields an adjusted p-value of 0.03 for the test concerning gene X. Assuming a specific alternative hypothesis for gene X, this result means that the null hypothesis for gene X can be rejected at the family-wise error rate (FWER) of 0.05, but if we were to use the Holm-Bonferroni method and the same significance level, our conclusion about gene X would be different.",
+        "Options": "A. We will need more information about the distribution of p-values for the other genes.\n    B. We can reject the null hypothesis for gene X using both methods.\n    C. We can reject the null hypothesis for gene X using the BH method but not using the Holm-Bonferroni method.\n    D. We can reject the null hypothesis for gene X using the Holm-Bonferroni method but not using the BH method.",
+        "Model_Llama_Answer": "C",
+        "GPT_answer": "C",
+        "Claude_answer": "C",
+        "Gemeni_answer": "C."
+    },
+    {
+        "subject": "Multivariate statistics and Multivariate normal distribution",
+        "Question": "If X = (X1, X2, \u2026, Xp) is a multivariate normal random vector with mean \u03bc and covariance \u03a3, and A is any constant real (p \u00d7 p) matrix, then the distribution of Y = AX will be a singular multivariate normal distribution if and only if A' \u03a3 A is positive semi-definite and:",
+        "Options": "A. A'A is a positive definite matrix\nB. There exists a non-zero constant vector c such that A'c = 0 but c'A' \u03a3 c \u2260 0\nC. A'A is a positive semi-definite matrix but not positive definite\nD. det(A'A) = 0 but none of the columns of A is a linear combination of any other set of columns of A",
+        "Model_Llama_Answer": "D",
+        "GPT_answer": "C",
+        "Claude_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Experimental design and Randomization techniques",
+        "Question": "In a randomized controlled trial with a binary outcome, which of the following randomization techniques is most effective in minimizing selection bias and information bias by ensuring that the correlation between the observed treatment effects and potential unmeasured confounders is broken, even when the sample size is relatively small?",
+        "Options": "A. Blocking with a single fixed block size\nB. Stratified randomization with the number of strata equal to the number of treatment arms\nC. Covariate-constrained randomization\nD. Complete randomization",
+        "Model_Llama_Answer": "C",
+        "GPT_answer": "D",
+        "Claude_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Non-parametric methods and Spline regression",
+        "Question": "In spline regression, when two adjacent knots have identical knot values, the resulting basis functions are:",
+        "Options": "A. Spline smoothing is reduced, resulting in an over-smoothed model.\nB. The same as those obtained with a single knot at that value.\nC. The same as those obtained with a p-th degree polynomial regression.\nD. Such that they violate the linear independence property.",
+        "Model_Llama_Answer": "B",
+        "GPT_answer": "D",
+        "Claude_answer": "B",
+        "Gemeni_answer": "D"
+    },
+    {
+        "subject": "Non-parametric methods and Kernel density estimation",
+        "Question": "Consider a kernel density estimator that employs a Gaussian kernel and a bandwidth h. Assume the underlying probability density function f is infinitely differentiable and has compact support. If the bandwidth sequence h = h(n) is such that nh^d \u2192 0 and nh^(d+2) \u2192 \u221e as n \u2192 \u221e, where d is the dimension of the data, then the asymptotic mean integrated squared error (MISE) of the kernel density estimator will include a term of order:",
+        "Options": "A. nh^-(d+2)\nB. h^4\nC. n^(-2/(d+4))\nD. h^(-d)",
+        "Model_Llama_Answer": "B",
+        "GPT_answer": "C",
+        "Claude_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Survival analysis and Hazard functions",
+        "Question": "ARIGHT-censored survival data set has two hazard functions, \u03bb\u2081(t) and \u03bb\u2082(t), associated with two distinct failure modes. If \u03bb\u2081(t) is a constant hazard rate of 0.5 and \u03bb\u2082(t) is an increasing hazard rate given by 0.2t, which of the following statements is correct regarding their mixed hazard function \u03bb(t)?",
+        "Options": "A. The mixed hazard function is the sum of \u03bb\u2081(t) and \u03bb\u2082(t) such that \u03bb(t) = 0.5 + 0.2t.\nB. The mixed hazard function is the product of \u03bb\u2081(t) and \u03bb\u2082(t) such that \u03bb(t) = 0.1t.\nC. The mixed hazard function can be estimated using either \u03bb\u2081(t) or \u03bb\u2082(t) as both are equivalent.\nD. The mixed hazard function is given by \u03bb(t) = 0.2t, since \u03bb\u2081(t) is constant.",
+        "Model_Llama_Answer": "A",
+        "GPT_answer": "A",
+        "Claude_answer": "A",
+        "Gemeni_answer": "**A**"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Metropolis-Hastings algorithm",
+        "Question": "What condition must be satisfied by the proposal distribution in the Metropolis-Hastings algorithm to ensure that the resulting Markov chain will have the desired stationary distribution pi?",
+        "Options": "A. The proposal distribution must be symmetric around the current state.\nB. The proposal distribution must be a function of the current state and the desired stationary distribution.\nC. The proposal distribution must have the same support as the desired stationary distribution.\nD. The proposal distribution must be a continuous uniform distribution.",
+        "Model_Llama_Answer": "C",
+        "GPT_answer": "C",
+        "Claude_answer": "C",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Sampling efficiency",
+        "Question": "Consider a Markov Chain Monte Carlo (MCMC) algorithm with stationary distribution \u03c0, and let \u03c3\u00b2 denote the integrated autocorrelation time for an ergodic Markov chain. When comparing the sampling efficiency of two MCMC algorithms targeting the same distribution, which of the following quantities should be considered for a fair comparison of efficiency?",
+        "Options": "A. E[s\u00b2] / n, where s\u00b2 is the sample variance, and n is the sample size.\nB. Integrated autocorrelation time \u03c3\u00b2.\nC. Effective sample size per gradient evaluation.\nD. Variance of the estimator of the target parameter.",
+        "Model_Llama_Answer": "B",
+        "GPT_answer": "C",
+        "Claude_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Non-parametric methods and Spline regression",
+        "Question": "In a cubic spline regression, what is the degree of the polynomial within each knot interval, assuming a continuous second derivative at the knots?",
+        "Options": "A. Quadratic\nB. Linear\nC. Cubic\nD. Piecewise constant",
+        "Model_Llama_Answer": "C",
+        "GPT_answer": "C",
+        "Claude_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Time series analysis and ARIMA models",
+        "Question": "In the context of modeling the monthly sales of a seasonal product using an ARIMA model, which of the following statements is true when considering the inclusion of a seasonal component?",
+        "Options": "A. The order of the seasonal AR term (Ps) should always be 1 in the presence of strong seasonality.\nB. The inclusion of a seasonal differencing component can only capture seasonality with a period of 12.\nC. The parameters of an SARIMA(p, d, q)(P, D, Q) model are estimated simultaneously with the parameters of the non-seasonal part.\nD. The order of seasonal MA term (Qs) is primarily determined by visual inspection of the residuals.",
+        "Model_Llama_Answer": "C",
+        "GPT_answer": "C",
+        "Claude_answer": "C",
+        "Gemeni_answer": "C."
+    },
+    {
+        "subject": "Time series analysis and Spectral analysis",
+        "Question": "In a spectral analysis of a time series, what is the primary purpose of applying a window function to the discrete Fourier transform of a dataset of global temperature readings over the past century?",
+        "Options": "A. To reduce the variance of the spectral density estimate at the expense of spectral resolution.\nB. To increase the spectral resolution and eliminate leakage effects.\nC. To account for linear trends in the time series and focus on cyclical patterns.\nD. To convert the univariate time series into a multivariate spectral analysis.",
+        "Model_Llama_Answer": "A",
+        "GPT_answer": "A",
+        "Claude_answer": "A",
+        "Gemeni_answer": "A"
+    },
+    {
+        "subject": "Hypothesis testing and Non-parametric tests",
+        "Question": "When using the Wilcoxon signed-rank test, it is incorrect to assume that the test is testing the equality of the median of the distribution of the differences against a predefined median if:",
+        "Options": "A. The data are paired and not independent.\nB. The data distribution is bimodal and asymmetric.\nC. The data are on an ordinal scale.\nD. The differences are not normally distributed.",
+        "Model_Llama_Answer": "B",
+        "GPT_answer": "B",
+        "Claude_answer": "B",
+        "Gemeni_answer": "**D**"
+    },
+    {
+        "subject": "Non-parametric methods and Spline regression",
+        "Question": "When applying spline regression in non-parametric methods, the choice of knots directly impacts the model's flexibility and interpretability, and in the case of B-spline regression with a fixed knot sequence, the model's flexibility increases with the number of knots if the degree of the polynomial is held constant, but the model's estimation variance also increases due to the increase in the number of parameters; assuming the observed data follows a normal distribution, what does the convergence rate of the estimated spline coefficients depend on?",
+        "Options": "A. The spacing of the knots and the number of sample observations.\nB. The degree of the polynomial and the number of sample observations.\nC. The spacing of the knots, the degree of the polynomial, and the number of sample observations.\nD. The mean of the response variable and the sample size.",
+        "Model_Llama_Answer": "C",
+        "GPT_answer": "C",
+        "Claude_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Statistical learning theory and Overfitting and underfitting",
+        "Question": "Consider a learning model M that can interpolate any given training data. In terms of Vapnik-Chervonenkis (VC) dimension, which of the following statements regarding overfitting and underfitting of model M is true?",
+        "Options": "A. Model M has high VC dimension and is more likely to underfit the data.\nB. Model M has infinite VC dimension and is more likely to overfit the data.\nC. Model M has low VC dimension and is more likely to underfit the data.\nD. Model M has infinite VC dimension and is less likely to overfit the data.",
+        "Model_Llama_Answer": "B",
+        "GPT_answer": "B",
+        "Claude_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Sampling efficiency",
+        "Question": "In a Random Walk Metropolis algorithm with a multivariate target distribution, decreasing the proposal variance increases the acceptance rate but reduces the efficiency of the sampler in terms of effective sample size per iteration, especially when the number of parameters is large.",
+        "Options": "A. The resulting increase in autocorrelation of the chain partially offsets the benefits of higher acceptance rates.\nB. Decreasing the proposal variance leads to smaller step sizes and a slower exploration of the parameter space.\nC. Both A and B are correct.\nD. Acceptance rates and effective sample sizes are uncorrelated.",
+        "Model_Llama_Answer": "C",
+        "GPT_answer": "C",
+        "Claude_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Multivariate statistics and Factor analysis",
+        "Question": "In a factor analysis model assessing customer satisfaction with a new product, the following indicators are used: overall satisfaction, intention to repurchase, likelihood to recommend, and perceived quality. The correlation matrix of these indicators reveals that the first two indicators are highly correlated (0.85), while the second and third indicators have a moderate correlation (0.60). Assuming a common factor underlies the correlations among these indicators, which of the following is the most likely outcome of an exploratory factor analysis using principal axis factoring?",
+        "Options": "A. A single factor will emerge with low loadings on the fourth indicator.\n    B. Two factors will emerge with the first factor loading on indicators one and two, and the second factor loading on indicators three and four.\n    C. A single factor will emerge with high loadings on all indicators.\n    D. Three factors will emerge with indicators one, three, and four forming separate factors.",
+        "Model_Llama_Answer": "A",
+        "GPT_answer": "C",
+        "Claude_answer": "A",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Experimental design and Factorial designs",
+        "Question": "In a 3-way factorial design with two 2-level factors and one 3-level factor, if one of the 2-level factors has a significant main effect and a significant interaction with the 3-level factor, the correct interpretation of the significant interaction is:",
+        "Options": "A. The effect of the 2-level factor on the response variable is the same across all levels of the other 2-level factor.\nB. The effect of the 2-level factor on the response variable changes across all levels of the 3-level factor.\nC. The effect of the 2-level factor on the response variable is not significant when the 3-level factor is at its highest level.\nD. The effect of the 2-level factor on the response variable is constant across all combinations of the other two factors.",
+        "Model_Llama_Answer": "B",
+        "GPT_answer": "B",
+        "Claude_answer": "B",
+        "Gemeni_answer": "B"
+    },
+    {
+        "subject": "Experimental design and Response surface methodology",
+        "Question": "In a response surface methodology (RSM) study on the effect of temperature and pressure on yield, a researcher wants to estimate the axial points of the central composite design (CCD) to accommodate the naturally occurring variability in the system; which of the following statements is correct regarding the alpha (\u03b1) value?",
+        "Options": "A. Alpha (\u03b1) should be set to its highest possible value to expand the axial points farthest from the design center and explore the maximum area of the response surface.\nB. Alpha (\u03b1) can be obtained from any random number, as its magnitude doesn't significantly affect the CCD design.\nC. Alpha (\u03b1) can be calculated as the fourth root of the number of design points in the factorial portion of the CCD to maintain rotatability.\nD. Alpha (\u03b1) should be set to the smallest possible value so that the axial points can be closer to the design center, hence reducing overall cost and experimentation effort.",
+        "Model_Llama_Answer": "C",
+        "GPT_answer": "C",
+        "Claude_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Regression analysis and Model selection criteria",
+        "Question": "Consider a multiple linear regression model with 10 predictors and a sample size of 100. A researcher compares the fit of the full model to that of a reduced model with 5 predictors using the Akaike information criterion (AIC) and Bayesian information criterion (BIC). The reduced model has a lower AIC but higher BIC compared to the full model. Which of the following conclusions is correct?",
+        "Options": "A. The reduced model is preferred based on both AIC and BIC evidence.\nB. The reduced model is supported only by the BIC, suggesting it is a better approximation of the true model.\nC. There is conflicting evidence from AIC and BIC, but AIC might favour the reduced model for predictive purposes.\nD. The full model is preferred based on AIC and BIC evidence.",
+        "Model_Llama_Answer": "C",
+        "GPT_answer": "C",
+        "Claude_answer": "C",
+        "Gemeni_answer": "C"
+    },
+    {
+        "subject": "Markov Chain Monte Carlo methods and Convergence diagnostics",
+        "Question": "Which of the following statements is true about the Gelman-Rubin diagnostic for assessing convergence in Markov Chain Monte Carlo (MCMC) methods, often used in Bayesian modeling of real-world applications such as climate modeling and disease mapping?",
+        "Options": "A. It requires the calculation of the variance of the posterior distribution across all chains.\nB. It only assesses within-chain convergence and neglects between-chain variation.\nC. It requires running only one chain with multiple iterations.\nD. It is based on the ratio of the variance of the sampled values from multiple chains to the variance within each chain.",
+        "Model_Llama_Answer": "D",
+        "GPT_answer": "D",
+        "Claude_answer": "D",
+        "Gemeni_answer": "D"
+    },
+    {
+        "subject": "Experimental design and Response surface methodology",
+        "Question": "In response surface methodology, if a second-order polynomial model is fit to the experimental data from a central composite design with five levels of each predictor variable, what is the implication for the distribution of the prediction variance across the design space?",
+        "Options": "A. It will be constant throughout the design space.\nB. It will have a minimal value at the factor settings of the center point.\nC. It will have a minimal value at the factor settings corresponding to the optimal response.\nD. It will have a maximal value at the factor settings of the center point.",
+        "Model_Llama_Answer": "B",
+        "GPT_answer": "B",
+        "Claude_answer": "B",
+        "Gemeni_answer": "B"
+    }
+]
